@@ -1,0 +1,10 @@
+//Overview: scale 12.00, pos_x -8657, pos_y 9435
+
+"de_pok2019"
+{
+        "material"          "overviews/de_pok2019"
+        "pos_x"             "-8657"
+        "pos_y"             "9435"
+        "scale"             "12"
+        "zoom"              "1.3"
+}
