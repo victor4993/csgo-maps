@@ -1,0 +1,925 @@
+
+
+
+materialPath: F:\Programas\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading g:\documents\github\prasa-apagao\de_prassa_apagao.vmf
+Map revision 1
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing g:\documents\github\prasa-apagao\de_prassa_apagao.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (59850 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 361 texinfos to 319
+Reduced 19 texdatas to 18 (517 bytes to 499)
+Writing g:\documents\github\prasa-apagao\de_prassa_apagao.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'g:\documents\github\prasa-apagao\de_prassa_apagao.bsp', but we don't own that location. Allowing...
+1 second elapsed
+
+
+
+16 threads
+reading g:\documents\github\prasa-apagao\de_prassa_apagao.bsp
+reading g:\documents\github\prasa-apagao\de_prassa_apagao.prt
+1073 portalclusters
+3739 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 45739 visible clusters (0.00%)
+Total clusters visible: 840496
+Average clusters visible: 783
+Building PAS...
+Average clusters audible: 1073
+visdatasize:302005  compressed from 291856
+writing g:\documents\github\prasa-apagao\de_prassa_apagao.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'g:\documents\github\prasa-apagao\de_prassa_apagao.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading g:\documents\github\prasa-apagao\de_prassa_apagao.bsp
+4205 faces
+1769259 square feet [254773376.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+4205 patches before subdivision
+164313 patches after subdivision
+13 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 60347285, max 1742
+transfer lists: 460.4 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(7442, 7413, 6861)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(1169, 1177, 1087)
+Build Patch/Sample Hash Table(s).....Done<0.0612 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Computing static prop lighting : 00...1...2...3...4...5...6...7...8...9...10
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  15/1024          720/49152    ( 1.5%) 
+brushes                144/8192         1728/98304    ( 1.8%) 
+brushsides            1003/81920        8024/655360   ( 1.2%) 
+planes                1500/65536       30000/1310720  ( 2.3%) 
+vertexes              6239/65536       74868/786432   ( 9.5%) 
+nodes                 2236/65536       71552/2097152  ( 3.4%) 
+texinfos               319/12288       22968/884736   ( 2.6%) 
+texdata                 18/4096          576/131072   ( 0.4%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 4205/65536      235480/3670016  ( 6.4%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              631/65536       35336/3670016  ( 1.0%) 
+facebrushes             18/0              36/0        ( 0.0%) 
+facebrushlists        4205/0           16820/0        ( 0.0%) 
+leaves                2252/65536       72064/2097152  ( 3.4%) 
+leaffaces             5554/65536       11108/131072   ( 8.5%) 
+leafbrushes           1513/65536        3026/131072   ( 2.3%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges            21330/512000      85320/2048000  ( 4.2%) 
+edges                11223/256000      44892/1024000  ( 4.4%) 
+LDR worldlights         13/8192         1300/819200   ( 0.2%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            314/32768        3140/327680   ( 1.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          4500/65536        9000/131072   ( 6.9%) 
+cubemapsamples           1/1024           16/16384    ( 0.1%) 
+overlays                 6/1024         2112/360448   ( 0.6%) 
+LDR lightdata         [variable]    14166116/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]      302005/16777216 ( 1.8%) 
+entdata               [variable]       75699/393216   (19.3%) 
+LDR ambient table     2252/65536        9008/262144   ( 3.4%) 
+HDR ambient table     2252/65536        9008/262144   ( 3.4%) 
+LDR leaf ambient      3247/65536       90916/1835008  ( 5.0%) 
+HDR leaf ambient      2252/65536       63056/1835008  ( 3.4%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/3128     ( 0.0%) 
+pakfile               [variable]      740164/0        ( 0.0%) 
+physics               [variable]       59850/4194304  ( 1.4%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7d
+
+Total triangle count: 10366
+Writing g:\documents\github\prasa-apagao\de_prassa_apagao.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'g:\documents\github\prasa-apagao\de_prassa_apagao.bsp', but we don't own that location. Allowing...
+14 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading g:\documents\github\prasa-apagao\de_prassa_apagao.bsp
+
+
+
+materialPath: F:\Programas\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading g:\documents\github\prasa-apagao\de_prassa_apagao.vmf
+Map revision 2
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing g:\documents\github\prasa-apagao\de_prassa_apagao.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (59850 bytes)
+Error! To use model "models/props/de_nuke/car_nuke_animation.mdl"
+      with prop_static, it must be compiled with $staticprop!
+Error loading studio model "models/props/de_nuke/car_nuke_animation.mdl"!
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 361 texinfos to 319
+Reduced 19 texdatas to 18 (517 bytes to 499)
+Writing g:\documents\github\prasa-apagao\de_prassa_apagao.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'g:\documents\github\prasa-apagao\de_prassa_apagao.bsp', but we don't own that location. Allowing...
+2 seconds elapsed
+
+
+
+16 threads
+reading g:\documents\github\prasa-apagao\de_prassa_apagao.bsp
+reading g:\documents\github\prasa-apagao\de_prassa_apagao.prt
+1073 portalclusters
+3739 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 45739 visible clusters (0.00%)
+Total clusters visible: 840496
+Average clusters visible: 783
+Building PAS...
+Average clusters audible: 1073
+visdatasize:302005  compressed from 291856
+writing g:\documents\github\prasa-apagao\de_prassa_apagao.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'g:\documents\github\prasa-apagao\de_prassa_apagao.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading g:\documents\github\prasa-apagao\de_prassa_apagao.bsp
+4205 faces
+1769259 square feet [254773376.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+4205 patches before subdivision
+164313 patches after subdivision
+13 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 60141232, max 1739
+transfer lists: 458.8 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(7437, 7408, 6857)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(1168, 1176, 1086)
+Build Patch/Sample Hash Table(s).....Done<0.0612 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Computing static prop lighting : 00...1...2...3...4...5...6...7...8...9...10
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  15/1024          720/49152    ( 1.5%) 
+brushes                144/8192         1728/98304    ( 1.8%) 
+brushsides            1003/81920        8024/655360   ( 1.2%) 
+planes                1500/65536       30000/1310720  ( 2.3%) 
+vertexes              6239/65536       74868/786432   ( 9.5%) 
+nodes                 2236/65536       71552/2097152  ( 3.4%) 
+texinfos               319/12288       22968/884736   ( 2.6%) 
+texdata                 18/4096          576/131072   ( 0.4%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 4205/65536      235480/3670016  ( 6.4%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              631/65536       35336/3670016  ( 1.0%) 
+facebrushes             18/0              36/0        ( 0.0%) 
+facebrushlists        4205/0           16820/0        ( 0.0%) 
+leaves                2252/65536       72064/2097152  ( 3.4%) 
+leaffaces             5554/65536       11108/131072   ( 8.5%) 
+leafbrushes           1513/65536        3026/131072   ( 2.3%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges            21330/512000      85320/2048000  ( 4.2%) 
+edges                11223/256000      44892/1024000  ( 4.4%) 
+LDR worldlights         13/8192         1300/819200   ( 0.2%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            314/32768        3140/327680   ( 1.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          4500/65536        9000/131072   ( 6.9%) 
+cubemapsamples           1/1024           16/16384    ( 0.1%) 
+overlays                 6/1024         2112/360448   ( 0.6%) 
+LDR lightdata         [variable]    14166116/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]      302005/16777216 ( 1.8%) 
+entdata               [variable]       74837/393216   (19.0%) 
+LDR ambient table     2252/65536        9008/262144   ( 3.4%) 
+HDR ambient table     2252/65536        9008/262144   ( 3.4%) 
+LDR leaf ambient      3249/65536       90972/1835008  ( 5.0%) 
+HDR leaf ambient      2252/65536       63056/1835008  ( 3.4%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/3348     ( 0.0%) 
+pakfile               [variable]     1079714/0        ( 0.0%) 
+physics               [variable]       59850/4194304  ( 1.4%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7d
+
+Total triangle count: 10366
+Writing g:\documents\github\prasa-apagao\de_prassa_apagao.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'g:\documents\github\prasa-apagao\de_prassa_apagao.bsp', but we don't own that location. Allowing...
+17 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading g:\documents\github\prasa-apagao\de_prassa_apagao.bsp
+
+
+
+materialPath: F:\Programas\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading g:\documents\github\prasa-apagao\de_prassa_apagao.vmf
+Map revision 4
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing g:\documents\github\prasa-apagao\de_prassa_apagao.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (57809 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 369 texinfos to 319
+Reduced 20 texdatas to 19 (544 bytes to 526)
+Writing g:\documents\github\prasa-apagao\de_prassa_apagao.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'g:\documents\github\prasa-apagao\de_prassa_apagao.bsp', but we don't own that location. Allowing...
+2 seconds elapsed
+
+
+
+16 threads
+reading g:\documents\github\prasa-apagao\de_prassa_apagao.bsp
+reading g:\documents\github\prasa-apagao\de_prassa_apagao.prt
+1073 portalclusters
+3739 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 45739 visible clusters (0.00%)
+Total clusters visible: 840496
+Average clusters visible: 783
+Building PAS...
+Average clusters audible: 1073
+visdatasize:302005  compressed from 291856
+writing g:\documents\github\prasa-apagao\de_prassa_apagao.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'g:\documents\github\prasa-apagao\de_prassa_apagao.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading g:\documents\github\prasa-apagao\de_prassa_apagao.bsp
+4205 faces
+1769259 square feet [254773376.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+4205 patches before subdivision
+164313 patches after subdivision
+13 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 58353105, max 1697
+transfer lists: 445.2 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(7365, 7341, 6800)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(1157, 1166, 1078)
+Build Patch/Sample Hash Table(s).....Done<0.0644 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Computing static prop lighting : 00...1...2...3...4...5...6...7...8...9...10
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   9/1024          432/49152    ( 0.9%) 
+brushes                141/8192         1692/98304    ( 1.7%) 
+brushsides             954/81920        7632/655360   ( 1.2%) 
+planes                1408/65536       28160/1310720  ( 2.1%) 
+vertexes              6215/65536       74580/786432   ( 9.5%) 
+nodes                 2200/65536       70400/2097152  ( 3.4%) 
+texinfos               319/12288       22968/884736   ( 2.6%) 
+texdata                 19/4096          608/131072   ( 0.5%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 4205/65536      235480/3670016  ( 6.4%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              631/65536       35336/3670016  ( 1.0%) 
+facebrushes             18/0              36/0        ( 0.0%) 
+facebrushlists        4205/0           16820/0        ( 0.0%) 
+leaves                2210/65536       70720/2097152  ( 3.4%) 
+leaffaces             5554/65536       11108/131072   ( 8.5%) 
+leafbrushes           1512/65536        3024/131072   ( 2.3%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges            21330/512000      85320/2048000  ( 4.2%) 
+edges                11223/256000      44892/1024000  ( 4.4%) 
+LDR worldlights         13/8192         1300/819200   ( 0.2%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            314/32768        3140/327680   ( 1.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          4500/65536        9000/131072   ( 6.9%) 
+cubemapsamples           1/1024           16/16384    ( 0.1%) 
+overlays                 6/1024         2112/360448   ( 0.6%) 
+LDR lightdata         [variable]    14166116/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]      302005/16777216 ( 1.8%) 
+entdata               [variable]       64617/393216   (16.4%) 
+LDR ambient table     2210/65536        8840/262144   ( 3.4%) 
+HDR ambient table     2210/65536        8840/262144   ( 3.4%) 
+LDR leaf ambient      3185/65536       89180/1835008  ( 4.9%) 
+HDR leaf ambient      2210/65536       61880/1835008  ( 3.4%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/7290     ( 0.0%) 
+pakfile               [variable]     3468830/0        ( 0.0%) 
+physics               [variable]       57809/4194304  ( 1.4%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7d
+
+Total triangle count: 10366
+Writing g:\documents\github\prasa-apagao\de_prassa_apagao.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'g:\documents\github\prasa-apagao\de_prassa_apagao.bsp', but we don't own that location. Allowing...
+21 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading g:\documents\github\prasa-apagao\de_prassa_apagao.bsp
+4205 faces
+1769259 square feet [254773376.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+4205 patches before subdivision
+164313 patches after subdivision
+13 direct lights
+0...1...2...3...4...5
+
+
+materialPath: F:\Programas\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading g:\documents\github\prasa-apagao\de_prassa_apagao.vmf
+Map revision 7
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing g:\documents\github\prasa-apagao\de_prassa_apagao.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (57957 bytes)
+Static prop models/props/de_nuke/hr_nuke/metal_ladder_001/metal_ladder_001_256.mdl outside the map (2059.00, 509.26, 505.00)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 390 texinfos to 320
+Reduced 21 texdatas to 20 (565 bytes to 547)
+Writing g:\documents\github\prasa-apagao\de_prassa_apagao.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'g:\documents\github\prasa-apagao\de_prassa_apagao.bsp', but we don't own that location. Allowing...
+2 seconds elapsed
+
+
+
+16 threads
+reading g:\documents\github\prasa-apagao\de_prassa_apagao.bsp
+reading g:\documents\github\prasa-apagao\de_prassa_apagao.prt
+1091 portalclusters
+3835 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 48470 visible clusters (0.00%)
+Total clusters visible: 874231
+Average clusters visible: 801
+Building PAS...
+Average clusters audible: 1091
+visdatasize:310490  compressed from 314208
+writing g:\documents\github\prasa-apagao\de_prassa_apagao.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'g:\documents\github\prasa-apagao\de_prassa_apagao.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading g:\documents\github\prasa-apagao\de_prassa_apagao.bsp
+4201 faces
+1769260 square feet [254773440.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+4201 patches before subdivision
+164335 patches after subdivision
+13 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 56778963, max 1658
+transfer lists: 433.2 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(7084, 7060, 6561)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(1122, 1132, 1051)
+Build Patch/Sample Hash Table(s).....Done<0.0586 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Computing static prop lighting : 00...1...2...3...4...5...6...7...8...9...10
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   5/1024          240/49152    ( 0.5%) 
+brushes                143/8192         1716/98304    ( 1.7%) 
+brushsides            1007/81920        8056/655360   ( 1.2%) 
+planes                1516/65536       30320/1310720  ( 2.3%) 
+vertexes              6232/65536       74784/786432   ( 9.5%) 
+nodes                 2192/65536       70144/2097152  ( 3.3%) 
+texinfos               320/12288       23040/884736   ( 2.6%) 
+texdata                 20/4096          640/131072   ( 0.5%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 4201/65536      235256/3670016  ( 6.4%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              632/65536       35392/3670016  ( 1.0%) 
+facebrushes             16/0              32/0        ( 0.0%) 
+facebrushlists        4201/0           16804/0        ( 0.0%) 
+leaves                2198/65536       70336/2097152  ( 3.4%) 
+leaffaces             5566/65536       11132/131072   ( 8.5%) 
+leafbrushes           1535/65536        3070/131072   ( 2.3%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges            21321/512000      85284/2048000  ( 4.2%) 
+edges                11224/256000      44896/1024000  ( 4.4%) 
+LDR worldlights         13/8192         1300/819200   ( 0.2%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            317/32768        3170/327680   ( 1.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          4533/65536        9066/131072   ( 6.9%) 
+cubemapsamples           1/1024           16/16384    ( 0.1%) 
+overlays                 6/1024         2112/360448   ( 0.6%) 
+LDR lightdata         [variable]    14163880/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]      310490/16777216 ( 1.9%) 
+entdata               [variable]       44933/393216   (11.4%) 
+LDR ambient table     2198/65536        8792/262144   ( 3.4%) 
+HDR ambient table     2198/65536        8792/262144   ( 3.4%) 
+LDR leaf ambient      3063/65536       85764/1835008  ( 4.7%) 
+HDR leaf ambient      2198/65536       61544/1835008  ( 3.4%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12926    ( 0.0%) 
+pakfile               [variable]     4934250/0        ( 0.0%) 
+physics               [variable]       57957/4194304  ( 1.4%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7d
+
+Total triangle count: 10361
+Writing g:\documents\github\prasa-apagao\de_prassa_apagao.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'g:\documents\github\prasa-apagao\de_prassa_apagao.bsp', but we don't own that location. Allowing...
+24 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading g:\documents\github\prasa-apagao\de_prassa_apagao.bsp
+
+
+
+materialPath: F:\Programas\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading g:\documents\github\prasa-apagao\de_prassa_apagao.vmf
+Map revision 10
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing g:\documents\github\prasa-apagao\de_prassa_apagao.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (57957 bytes)
+Static prop models/props/de_nuke/hr_nuke/metal_ladder_001/metal_ladder_001_256.mdl outside the map (2059.00, 509.26, 505.00)
+Error! To use model "models/props/de_nuke/car_nuke_animation.mdl"
+      with prop_static, it must be compiled with $staticprop!
+Error loading studio model "models/props/de_nuke/car_nuke_animation.mdl"!
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 390 texinfos to 320
+Reduced 21 texdatas to 20 (565 bytes to 547)
+Writing g:\documents\github\prasa-apagao\de_prassa_apagao.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'g:\documents\github\prasa-apagao\de_prassa_apagao.bsp', but we don't own that location. Allowing...
+2 seconds elapsed
+
+
+
+16 threads
+reading g:\documents\github\prasa-apagao\de_prassa_apagao.bsp
+reading g:\documents\github\prasa-apagao\de_prassa_apagao.prt
+1091 portalclusters
+3835 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 48470 visible clusters (0.00%)
+Total clusters visible: 874231
+Average clusters visible: 801
+Building PAS...
+Average clusters audible: 1091
+visdatasize:310490  compressed from 314208
+writing g:\documents\github\prasa-apagao\de_prassa_apagao.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'g:\documents\github\prasa-apagao\de_prassa_apagao.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading g:\documents\github\prasa-apagao\de_prassa_apagao.bsp
+4201 faces
+1769260 square feet [254773440.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+4201 patches before subdivision
+164335 patches after subdivision
+13 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 56451691, max 1653
+transfer lists: 430.7 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(6055, 6018, 5535)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(832, 835, 762)
+Build Patch/Sample Hash Table(s).....Done<0.0630 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Computing static prop lighting : 00...1...2...3...4...5...6...7...8...9...10
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   5/1024          240/49152    ( 0.5%) 
+brushes                143/8192         1716/98304    ( 1.7%) 
+brushsides            1007/81920        8056/655360   ( 1.2%) 
+planes                1516/65536       30320/1310720  ( 2.3%) 
+vertexes              6232/65536       74784/786432   ( 9.5%) 
+nodes                 2192/65536       70144/2097152  ( 3.3%) 
+texinfos               320/12288       23040/884736   ( 2.6%) 
+texdata                 20/4096          640/131072   ( 0.5%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 4201/65536      235256/3670016  ( 6.4%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              632/65536       35392/3670016  ( 1.0%) 
+facebrushes             16/0              32/0        ( 0.0%) 
+facebrushlists        4201/0           16804/0        ( 0.0%) 
+leaves                2198/65536       70336/2097152  ( 3.4%) 
+leaffaces             5566/65536       11132/131072   ( 8.5%) 
+leafbrushes           1535/65536        3070/131072   ( 2.3%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges            21321/512000      85284/2048000  ( 4.2%) 
+edges                11224/256000      44896/1024000  ( 4.4%) 
+LDR worldlights         13/8192         1300/819200   ( 0.2%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            317/32768        3170/327680   ( 1.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          4533/65536        9066/131072   ( 6.9%) 
+cubemapsamples           1/1024           16/16384    ( 0.1%) 
+overlays                 6/1024         2112/360448   ( 0.6%) 
+LDR lightdata         [variable]    14163880/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]      310490/16777216 ( 1.9%) 
+entdata               [variable]       35448/393216   ( 9.0%) 
+LDR ambient table     2198/65536        8792/262144   ( 3.4%) 
+HDR ambient table     2198/65536        8792/262144   ( 3.4%) 
+LDR leaf ambient      3031/65536       84868/1835008  ( 4.6%) 
+HDR leaf ambient      2198/65536       61544/1835008  ( 3.4%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/14762    ( 0.0%) 
+pakfile               [variable]     5360330/0        ( 0.0%) 
+physics               [variable]       57957/4194304  ( 1.4%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7d
+
+Total triangle count: 10361
+Writing g:\documents\github\prasa-apagao\de_prassa_apagao.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'g:\documents\github\prasa-apagao\de_prassa_apagao.bsp', but we don't own that location. Allowing...
+25 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading g:\documents\github\prasa-apagao\de_prassa_apagao.bsp
+4201 faces
+1769260 square feet [254773440.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+4201 patches before subdivision
+164335 patches after subdivision
+13 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 55925872, max 1640
+transfer lists: 426.7 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(5929, 5901, 5441)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(811, 814, 744)
+Build Patch/Sample Hash Table(s).....Done<0.0600 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Computing static prop lighting : 00...1...2...3...4...5...6...7...8...9...
+
+
+materialPath: F:\Programas\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading g:\documents\github\prasa-apagao\de_prassa_apagao.vmf
+Map revision 11
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing g:\documents\github\prasa-apagao\de_prassa_apagao.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (57957 bytes)
+Static prop models/props/de_nuke/hr_nuke/metal_ladder_001/metal_ladder_001_256.mdl outside the map (2059.00, 509.26, 505.00)
+Error! To use model "models/props/de_nuke/car_nuke_animation.mdl"
+      with prop_static, it must be compiled with $staticprop!
+Error loading studio model "models/props/de_nuke/car_nuke_animation.mdl"!
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 390 texinfos to 320
+Reduced 21 texdatas to 20 (565 bytes to 547)
+Writing g:\documents\github\prasa-apagao\de_prassa_apagao.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'g:\documents\github\prasa-apagao\de_prassa_apagao.bsp', but we don't own that location. Allowing...
+2 seconds elapsed
+
+
+
+16 threads
+reading g:\documents\github\prasa-apagao\de_prassa_apagao.bsp
+reading g:\documents\github\prasa-apagao\de_prassa_apagao.prt
+1091 portalclusters
+3835 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 48470 visible clusters (0.00%)
+Total clusters visible: 874231
+Average clusters visible: 801
+Building PAS...
+Average clusters audible: 1091
+visdatasize:310490  compressed from 314208
+writing g:\documents\github\prasa-apagao\de_prassa_apagao.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'g:\documents\github\prasa-apagao\de_prassa_apagao.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading g:\documents\github\prasa-apagao\de_prassa_apagao.bsp
+4201 faces
+1769260 square feet [254773440.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+4201 patches before subdivision
+164335 patches after subdivision
+13 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 56451691, max 1653
+transfer lists: 430.7 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(6055, 6018, 5535)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(832, 835, 762)
+Build Patch/Sample Hash Table(s).....Done<0.0639 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Computing static prop lighting : 00...1...2...3...4...5...6...7...8...9...10
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   5/1024          240/49152    ( 0.5%) 
+brushes                143/8192         1716/98304    ( 1.7%) 
+brushsides            1007/81920        8056/655360   ( 1.2%) 
+planes                1516/65536       30320/1310720  ( 2.3%) 
+vertexes              6232/65536       74784/786432   ( 9.5%) 
+nodes                 2192/65536       70144/2097152  ( 3.3%) 
+texinfos               320/12288       23040/884736   ( 2.6%) 
+texdata                 20/4096          640/131072   ( 0.5%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 4201/65536      235256/3670016  ( 6.4%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              632/65536       35392/3670016  ( 1.0%) 
+facebrushes             16/0              32/0        ( 0.0%) 
+facebrushlists        4201/0           16804/0        ( 0.0%) 
+leaves                2198/65536       70336/2097152  ( 3.4%) 
+leaffaces             5566/65536       11132/131072   ( 8.5%) 
+leafbrushes           1535/65536        3070/131072   ( 2.3%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges            21321/512000      85284/2048000  ( 4.2%) 
+edges                11224/256000      44896/1024000  ( 4.4%) 
+LDR worldlights         13/8192         1300/819200   ( 0.2%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            317/32768        3170/327680   ( 1.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          4533/65536        9066/131072   ( 6.9%) 
+cubemapsamples           1/1024           16/16384    ( 0.1%) 
+overlays                 6/1024         2112/360448   ( 0.6%) 
+LDR lightdata         [variable]    14163880/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]      310490/16777216 ( 1.9%) 
+entdata               [variable]       35314/393216   ( 9.0%) 
+LDR ambient table     2198/65536        8792/262144   ( 3.4%) 
+HDR ambient table     2198/65536        8792/262144   ( 3.4%) 
+LDR leaf ambient      3031/65536       84868/1835008  ( 4.6%) 
+HDR leaf ambient      2198/65536       61544/1835008  ( 3.4%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/14762    ( 0.0%) 
+pakfile               [variable]     5360330/0        ( 0.0%) 
+physics               [variable]       57957/4194304  ( 1.4%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7d
+
+Total triangle count: 10361
+Writing g:\documents\github\prasa-apagao\de_prassa_apagao.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'g:\documents\github\prasa-apagao\de_prassa_apagao.bsp', but we don't own that location. Allowing...
+24 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading g:\documents\github\prasa-apagao\de_prassa_apagao.bsp
+4201 faces
+1769260 square feet [254773440.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+4201 patches before subdivision
+164335 patches after subdivision
+13 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 55925872, max 1640
+transfer lists: 426.7 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(5929, 5901, 5441)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(811, 814, 744)
+Build Patch/Sample Hash Table(s).....Done<0.0599 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Computing static prop lighting : 00...1...2...3...4...5...6...7...8...9...10
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   5/1024          240/49152    ( 0.5%) 
+brushes                143/8192         1716/98304    ( 1.7%) 
+brushsides            1007/81920        8056/655360   ( 1.2%) 
+planes                1516/65536       30320/1310720  ( 2.3%) 
+vertexes              6232/65536       74784/786432   ( 9.5%) 
+nodes                 2192/65536       70144/2097152  ( 3.3%) 
+texinfos               320/12288       23040/884736   ( 2.6%) 
+texdata                 20/4096          640/131072   ( 0.5%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 4201/65536      235256/3670016  ( 6.4%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              632/65536       35392/3670016  ( 1.0%) 
+facebrushes             16/0              32/0        ( 0.0%) 
+facebrushlists        4201/0           16804/0        ( 0.0%) 
+leaves                2198/65536       70336/2097152  ( 3.4%) 
+leaffaces             5566/65536       11132/131072   ( 8.5%) 
+leafbrushes           1535/65536        3070/131072   ( 2.3%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges            21321/512000      85284/2048000  ( 4.2%) 
+edges                11224/256000      44896/1024000  ( 4.4%) 
+LDR worldlights         13/8192         1300/819200   ( 0.2%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            317/32768        3170/327680   ( 1.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          4533/65536        9066/131072   ( 6.9%) 
+cubemapsamples           1/1024           16/16384    ( 0.1%) 
+overlays                 6/1024         2112/360448   ( 0.6%) 
+LDR lightdata         [variable]    14163880/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]      310490/16777216 ( 1.9%) 
+entdata               [variable]       35314/393216   ( 9.0%) 
+LDR ambient table     2198/65536        8792/262144   ( 3.4%) 
+HDR ambient table     2198/65536        8792/262144   ( 3.4%) 
+LDR leaf ambient      3040/65536       85120/1835008  ( 4.6%) 
+HDR leaf ambient      2198/65536       61544/1835008  ( 3.4%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/14762    ( 0.0%) 
+pakfile               [variable]     5360330/0        ( 0.0%) 
+physics               [variable]       57957/4194304  ( 1.4%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7d
+
+Total triangle count: 10361
+Writing g:\documents\github\prasa-apagao\de_prassa_apagao.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'g:\documents\github\prasa-apagao\de_prassa_apagao.bsp', but we don't own that location. Allowing...
+58 seconds elapsed

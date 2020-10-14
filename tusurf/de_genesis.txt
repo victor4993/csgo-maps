@@ -1,0 +1,9 @@
+//Overview: scale 26.00, pos_x -17948, pos_y 12844
+
+"de_genesis"
+{
+        "material"          "overviews/de_genesis"
+        "pos_x"             "-17948"
+        "pos_y"             "12844"
+        "scale"             "26"
+}

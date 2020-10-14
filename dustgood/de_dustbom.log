@@ -1,0 +1,286 @@
+
+
+
+materialPath: F:\Programas\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading g:\documents\github\dustbom\de_dustbom.vmf
+Map revision 3
+Patching WVT material: maps/de_dustbom/concrete/blend_blacktopsand_01_wvt_patch
+Patching WVT material: maps/de_dustbom/nature/blend_sandhighway_01_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing g:\documents\github\dustbom\de_dustbom.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Found a displacement edge abutting multiple other edges.
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (387549 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 2304 texinfos to 1083
+Reduced 187 texdatas to 164 (6267 bytes to 4982)
+Writing g:\documents\github\dustbom\de_dustbom.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'g:\documents\github\dustbom\de_dustbom.bsp', but we don't own that location. Allowing...
+2 seconds elapsed
+
+
+
+16 threads
+reading g:\documents\github\dustbom\de_dustbom.bsp
+reading g:\documents\github\dustbom\de_dustbom.prt
+1496 portalclusters
+4695 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 126325 visible clusters (0.00%)
+Total clusters visible: 1497566
+Average clusters visible: 1001
+Building PAS...
+Average clusters audible: 1494
+visdatasize:550776  compressed from 574464
+writing g:\documents\github\dustbom\de_dustbom.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'g:\documents\github\dustbom\de_dustbom.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading g:\documents\github\dustbom\de_dustbom.bsp
+Error! Invalid VTX file checksum: -173798803, expected -843880738 "models/props_junk/trashdumpster02a.dx90.vtx"
+5137 faces
+4 degenerate faces
+2490427 square feet [358621568.00 square inches]
+490 Displacements
+90140 Square Feet [12980234.00 Square Inches]
+5133 patches before subdivision
+304655 patches after subdivision
+21 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 9386055, max 1014
+transfer lists:  71.6 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(724036, 639472, 503533)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(132072, 102282, 62107)
+Build Patch/Sample Hash Table(s).....Done<0.0703 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Computing static prop lighting : 00...1...2...3...4...5...6...7...8...9...10
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  14/1024          672/49152    ( 1.4%) 
+brushes               1126/8192        13512/98304    (13.7%) 
+brushsides            7205/81920       57640/655360   ( 8.8%) 
+planes                4414/65536       88280/1310720  ( 6.7%) 
+vertexes              9681/65536      116172/786432   (14.8%) 
+nodes                 3516/65536      112512/2097152  ( 5.4%) 
+texinfos              1083/12288       77976/884736   ( 8.8%) 
+texdata                164/4096         5248/131072   ( 4.0%) 
+dispinfos              490/0           86240/0        ( 0.0%) 
+disp_verts           26026/0          520520/0        ( 0.0%) 
+disp_tris            39296/0           78592/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples     1145588/0         1145588/0        ( 0.0%) 
+faces                 5137/65536      287672/3670016  ( 7.8%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             2409/65536      134904/3670016  ( 3.7%) 
+facebrushes           1164/0            2328/0        ( 0.0%) 
+facebrushlists        5137/0           20548/0        ( 0.0%) 
+leaves                3531/65536      112992/2097152  ( 5.4%) 
+leaffaces             5217/65536       10434/131072   ( 8.0%) 
+leafbrushes           3440/65536        6880/131072   ( 5.2%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges            33569/512000     134276/2048000  ( 6.6%) 
+edges                20374/256000      81496/1024000  ( 8.0%) 
+LDR worldlights         21/8192         2100/819200   ( 0.3%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            7/32768          84/393216   ( 0.0%) 
+waterstrips            500/32768        5000/327680   ( 1.5%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          7713/65536       15426/131072   (11.8%) 
+cubemapsamples          20/1024          320/16384    ( 2.0%) 
+overlays               294/1024       103488/360448   (28.7%) 
+LDR lightdata         [variable]    24275216/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]      550776/16777216 ( 3.3%) 
+entdata               [variable]      131485/393216   (33.4%) 
+LDR ambient table     3531/65536       14124/262144   ( 5.4%) 
+HDR ambient table     3531/65536       14124/262144   ( 5.4%) 
+LDR leaf ambient     15336/65536      429408/1835008  (23.4%) 
+HDR leaf ambient      3531/65536       98868/1835008  ( 5.4%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/63180    ( 0.0%) 
+pakfile               [variable]     8017902/0        ( 0.0%) 
+physics               [variable]      387549/4194304  ( 9.2%) 
+physics terrain       [variable]       70786/1048576  ( 6.8%) 
+
+Level flags = 7d
+
+Total triangle count: 13701
+Writing g:\documents\github\dustbom\de_dustbom.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'g:\documents\github\dustbom\de_dustbom.bsp', but we don't own that location. Allowing...
+43 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading g:\documents\github\dustbom\de_dustbom.bsp
+Error! Invalid VTX file checksum: -173798803, expected -843880738 "models/props_junk/trashdumpster02a.dx90.vtx"
+
+
+
+materialPath: F:\Programas\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading g:\documents\github\dustbom\de_dustbom.vmf
+Map revision 5
+Patching WVT material: maps/de_dustbom/concrete/blend_blacktopsand_01_wvt_patch
+Patching WVT material: maps/de_dustbom/nature/blend_sandhighway_01_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing g:\documents\github\dustbom\de_dustbom.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Found a displacement edge abutting multiple other edges.
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (387549 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 2304 texinfos to 1083
+Reduced 187 texdatas to 164 (6267 bytes to 4982)
+Writing g:\documents\github\dustbom\de_dustbom.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'g:\documents\github\dustbom\de_dustbom.bsp', but we don't own that location. Allowing...
+2 seconds elapsed
+
+
+
+16 threads
+reading g:\documents\github\dustbom\de_dustbom.bsp
+reading g:\documents\github\dustbom\de_dustbom.prt
+1496 portalclusters
+4695 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 126325 visible clusters (0.00%)
+Total clusters visible: 1497566
+Average clusters visible: 1001
+Building PAS...
+Average clusters audible: 1494
+visdatasize:550776  compressed from 574464
+writing g:\documents\github\dustbom\de_dustbom.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'g:\documents\github\dustbom\de_dustbom.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading g:\documents\github\dustbom\de_dustbom.bsp
+Error! Invalid VTX file checksum: -173798803, expected -843880738 "models/props_junk/trashdumpster02a.dx90.vtx"
+5137 faces
+4 degenerate faces
+2490427 square feet [358621568.00 square inches]
+490 Displacements
+90140 Square Feet [12980234.00 Square Inches]
+5133 patches before subdivision
+304655 patches after subdivision
+21 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 9386055, max 1014
+transfer lists:  71.6 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(724036, 639472, 503533)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(132072, 102282, 62107)
+Build Patch/Sample Hash Table(s).....Done<0.0724 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Computing static prop lighting : 00...1...2...3...4...5...6...7...8...9...10
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  14/1024          672/49152    ( 1.4%) 
+brushes               1126/8192        13512/98304    (13.7%) 
+brushsides            7205/81920       57640/655360   ( 8.8%) 
+planes                4414/65536       88280/1310720  ( 6.7%) 
+vertexes              9681/65536      116172/786432   (14.8%) 
+nodes                 3516/65536      112512/2097152  ( 5.4%) 
+texinfos              1083/12288       77976/884736   ( 8.8%) 
+texdata                164/4096         5248/131072   ( 4.0%) 
+dispinfos              490/0           86240/0        ( 0.0%) 
+disp_verts           26026/0          520520/0        ( 0.0%) 
+disp_tris            39296/0           78592/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples     1145588/0         1145588/0        ( 0.0%) 
+faces                 5137/65536      287672/3670016  ( 7.8%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             2409/65536      134904/3670016  ( 3.7%) 
+facebrushes           1164/0            2328/0        ( 0.0%) 
+facebrushlists        5137/0           20548/0        ( 0.0%) 
+leaves                3531/65536      112992/2097152  ( 5.4%) 
+leaffaces             5217/65536       10434/131072   ( 8.0%) 
+leafbrushes           3440/65536        6880/131072   ( 5.2%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges            33569/512000     134276/2048000  ( 6.6%) 
+edges                20374/256000      81496/1024000  ( 8.0%) 
+LDR worldlights         21/8192         2100/819200   ( 0.3%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            7/32768          84/393216   ( 0.0%) 
+waterstrips            500/32768        5000/327680   ( 1.5%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          7713/65536       15426/131072   (11.8%) 
+cubemapsamples          20/1024          320/16384    ( 2.0%) 
+overlays               294/1024       103488/360448   (28.7%) 
+LDR lightdata         [variable]    24275216/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]      550776/16777216 ( 3.3%) 
+entdata               [variable]      131970/393216   (33.6%) 
+LDR ambient table     3531/65536       14124/262144   ( 5.4%) 
+HDR ambient table     3531/65536       14124/262144   ( 5.4%) 
+LDR leaf ambient     15336/65536      429408/1835008  (23.4%) 
+HDR leaf ambient      3531/65536       98868/1835008  ( 5.4%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/63180    ( 0.0%) 
+pakfile               [variable]     8017902/0        ( 0.0%) 
+physics               [variable]      387549/4194304  ( 9.2%) 
+physics terrain       [variable]       70786/1048576  ( 6.8%) 
+
+Level flags = 7d
+
+Total triangle count: 13701
+Writing g:\documents\github\dustbom\de_dustbom.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'g:\documents\github\dustbom\de_dustbom.bsp', but we don't own that location. Allowing...
+43 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading g:\documents\github\dustbom\de_dustbom.bsp
+Error! Invalid VTX file checksum: -173798803, expected -843880738 "models/props_junk/trashdumpster02a.dx90.vtx"

@@ -1,0 +1,220 @@
+
+
+
+materialPath: F:\Programas\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading g:\documents\github\dz_reto\dz_reto.vmf
+Map revision 42
+Material not found!: DEV/DEV_MEASUREGENERIC13
+Material not found!: DEV/DEV_MEASUREGRIDDARK
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing g:\documents\github\dz_reto\dz_reto.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (8686 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 50 texinfos to 25
+Reduced 9 texdatas to 9 (210 bytes to 210)
+Writing g:\documents\github\dz_reto\dz_reto.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'g:\documents\github\dz_reto\dz_reto.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+16 threads
+reading g:\documents\github\dz_reto\dz_reto.bsp
+reading g:\documents\github\dz_reto\dz_reto.prt
+ 324 portalclusters
+ 610 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 108 visible clusters (0.00%)
+Total clusters visible: 44658
+Average clusters visible: 137
+Building PAS...
+Average clusters audible: 295
+visdatasize:25821  compressed from 31104
+writing g:\documents\github\dz_reto\dz_reto.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'g:\documents\github\dz_reto\dz_reto.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading g:\documents\github\dz_reto\dz_reto.bsp
+929 faces
+12721584 square feet [1831908096.00 square inches]
+1 Displacements
+120149 Square Feet [17301504.00 Square Inches]
+929 patches before subdivision
+2597 patches after subdivision
+2 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 93887, max 246
+transfer lists:   0.7 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(6249, 3066, 1463)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(55, 24, 10)
+Build Patch/Sample Hash Table(s).....Done<0.0025 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+Computing detail prop lighting : 0...1...2...3...4...5...6...7...8...9...10
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Computing static prop lighting : 00...1...2...3...4...5...6...7...8...9...10
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   3/1024          144/49152    ( 0.3%) 
+brushes                 23/8192          276/98304    ( 0.3%) 
+brushsides             140/81920        1120/655360   ( 0.2%) 
+planes                 212/65536        4240/1310720  ( 0.3%) 
+vertexes              1040/65536       12480/786432   ( 1.6%) 
+nodes                 1283/65536       41056/2097152  ( 2.0%) 
+texinfos                25/12288        1800/884736   ( 0.2%) 
+texdata                  9/4096          288/131072   ( 0.2%) 
+dispinfos                1/0             176/0        ( 0.0%) 
+disp_verts              81/0            1620/0        ( 0.0%) 
+disp_tris              128/0             256/0        ( 0.0%) 
+disp_multiblend         81/0            6480/0        ( 0.0%) 
+disp_lmsamples        4536/0            4536/0        ( 0.0%) 
+faces                  929/65536       52024/3670016  ( 1.4%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces               45/65536        2520/3670016  ( 0.1%) 
+facebrushes              0/0               0/0        ( 0.0%) 
+facebrushlists         929/0            3716/0        ( 0.0%) 
+leaves                1287/65536       41184/2097152  ( 2.0%) 
+leaffaces              984/65536        1968/131072   ( 1.5%) 
+leafbrushes            957/65536        1914/131072   ( 1.5%) 
+areas                    3/1024           24/8192     ( 0.3%) 
+surfedges             3974/512000      15896/2048000  ( 0.8%) 
+edges                 2044/256000       8176/1024000  ( 0.8%) 
+LDR worldlights          2/8192          200/819200   ( 0.0%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             15/32768         150/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices           264/65536         528/131072   ( 0.4%) 
+cubemapsamples           1/1024           16/16384    ( 0.1%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]      174152/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       25821/16777216 ( 0.2%) 
+entdata               [variable]       83635/393216   (21.3%) 
+LDR ambient table     1287/65536        5148/262144   ( 2.0%) 
+HDR ambient table     1287/65536        5148/262144   ( 2.0%) 
+LDR leaf ambient      5303/65536      148484/1835008  ( 8.1%) 
+HDR leaf ambient      1287/65536       36036/1835008  ( 2.0%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/4318712  ( 0.0%) 
+dtl prp lght          [variable]           1/4        (25.0%) 
+HDR dtl prp lght      [variable]           1/4        (25.0%) 
+static props          [variable]           1/386      ( 0.3%) 
+pakfile               [variable]      281162/0        ( 0.0%) 
+physics               [variable]        8686/4194304  ( 0.2%) 
+physics terrain       [variable]          69/1048576  ( 0.0%) 
+
+Level flags = 7d
+
+Total triangle count: 1936
+Writing g:\documents\github\dz_reto\dz_reto.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'g:\documents\github\dz_reto\dz_reto.bsp', but we don't own that location. Allowing...
+32 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading g:\documents\github\dz_reto\dz_reto.bsp
+929 faces
+12721584 square feet [1831908096.00 square inches]
+1 Displacements
+120149 Square Feet [17301504.00 Square Inches]
+929 patches before subdivision
+2597 patches after subdivision
+2 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 93884, max 246
+transfer lists:   0.7 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(6249, 3065, 1462)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(55, 24, 10)
+Build Patch/Sample Hash Table(s).....Done<0.0117 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+Computing detail prop lighting : 0...1...2...3...4...5...6...7...8...9...10
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Computing static prop lighting : 00...1...2...3...4...5...6...7...8...9...10
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   3/1024          144/49152    ( 0.3%) 
+brushes                 23/8192          276/98304    ( 0.3%) 
+brushsides             140/81920        1120/655360   ( 0.2%) 
+planes                 212/65536        4240/1310720  ( 0.3%) 
+vertexes              1040/65536       12480/786432   ( 1.6%) 
+nodes                 1283/65536       41056/2097152  ( 2.0%) 
+texinfos                25/12288        1800/884736   ( 0.2%) 
+texdata                  9/4096          288/131072   ( 0.2%) 
+dispinfos                1/0             176/0        ( 0.0%) 
+disp_verts              81/0            1620/0        ( 0.0%) 
+disp_tris              128/0             256/0        ( 0.0%) 
+disp_multiblend         81/0            6480/0        ( 0.0%) 
+disp_lmsamples        4536/0            4536/0        ( 0.0%) 
+faces                  929/65536       52024/3670016  ( 1.4%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces               45/65536        2520/3670016  ( 0.1%) 
+facebrushes              0/0               0/0        ( 0.0%) 
+facebrushlists         929/0            3716/0        ( 0.0%) 
+leaves                1287/65536       41184/2097152  ( 2.0%) 
+leaffaces              984/65536        1968/131072   ( 1.5%) 
+leafbrushes            957/65536        1914/131072   ( 1.5%) 
+areas                    3/1024           24/8192     ( 0.3%) 
+surfedges             3974/512000      15896/2048000  ( 0.8%) 
+edges                 2044/256000       8176/1024000  ( 0.8%) 
+LDR worldlights          2/8192          200/819200   ( 0.0%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             15/32768         150/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices           264/65536         528/131072   ( 0.4%) 
+cubemapsamples           1/1024           16/16384    ( 0.1%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]      174152/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       25821/16777216 ( 0.2%) 
+entdata               [variable]       83635/393216   (21.3%) 
+LDR ambient table     1287/65536        5148/262144   ( 2.0%) 
+HDR ambient table     1287/65536        5148/262144   ( 2.0%) 
+LDR leaf ambient      5303/65536      148484/1835008  ( 8.1%) 
+HDR leaf ambient      1287/65536       36036/1835008  ( 2.0%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/4318712  ( 0.0%) 
+dtl prp lght          [variable]           1/4        (25.0%) 
+HDR dtl prp lght      [variable]           1/4        (25.0%) 
+static props          [variable]           1/386      ( 0.3%) 
+pakfile               [variable]      281162/0        ( 0.0%) 
+physics               [variable]        8686/4194304  ( 0.2%) 
+physics terrain       [variable]          69/1048576  ( 0.0%) 
+
+Level flags = 7d
+
+Total triangle count: 1936
+Writing g:\documents\github\dz_reto\dz_reto.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'g:\documents\github\dz_reto\dz_reto.bsp', but we don't own that location. Allowing...
+1 minute, 13 seconds elapsed
