@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8456"
-	"mapversion" "73"
+	"mapversion" "75"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -38,7 +38,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "1"
+	"mapversion" "75"
 	"classname" "worldspawn"
 	"comment" "Decompiled by BSPSource v1.3.24 from de_vinny"
 	"detailmaterial" "detail/detailsprites"
@@ -202,9 +202,9 @@ world
 		"id" "33563"
 		side
 		{
-			"id" "2881"
+			"id" "2929"
 			"plane" "(3198 -88 783) (3198 -88 256) (3198 -669 256)"
-			"material" "TOOLS/TOOLSNODRAW"
+			"material" "TOOLS/TOOLSPLAYERCLIP"
 			"uaxis" "[0 -1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -213,9 +213,9 @@ world
 		}
 		side
 		{
-			"id" "2880"
+			"id" "2928"
 			"plane" "(2859 -669 783) (2859 -669 256) (2859 -88 256)"
-			"material" "TOOLS/TOOLSINVISIBLE"
+			"material" "TOOLS/TOOLSPLAYERCLIP"
 			"uaxis" "[0 -1 0 -20] 0.25"
 			"vaxis" "[0 0 -1 59] 0.25"
 			"rotation" "0"
@@ -224,9 +224,9 @@ world
 		}
 		side
 		{
-			"id" "2879"
+			"id" "2927"
 			"plane" "(2859 -88 783) (2859 -88 256) (3198 -88 256)"
-			"material" "TOOLS/TOOLSINVISIBLE"
+			"material" "TOOLS/TOOLSPLAYERCLIP"
 			"uaxis" "[1 0 0 -12] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -235,9 +235,9 @@ world
 		}
 		side
 		{
-			"id" "2878"
+			"id" "2926"
 			"plane" "(3198 -669 783) (3198 -669 256) (2859 -669 256)"
-			"material" "TOOLS/TOOLSINVISIBLE"
+			"material" "TOOLS/TOOLSPLAYERCLIP"
 			"uaxis" "[-1 0 0 12] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -246,9 +246,9 @@ world
 		}
 		side
 		{
-			"id" "2877"
+			"id" "2925"
 			"plane" "(3198 -669 256) (3198 -88 256) (2859 -88 256)"
-			"material" "TOOLS/TOOLSINVISIBLE"
+			"material" "TOOLS/TOOLSPLAYERCLIP"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[1 0 0 -12] 0.25"
 			"rotation" "0"
@@ -257,9 +257,9 @@ world
 		}
 		side
 		{
-			"id" "2876"
+			"id" "2924"
 			"plane" "(3198 -88 783) (3198 -669 783) (2859 -669 783)"
-			"material" "TOOLS/TOOLSINVISIBLE"
+			"material" "TOOLS/TOOLSPLAYERCLIP"
 			"uaxis" "[0 -1 0 0] 0.25"
 			"vaxis" "[1 0 0 -12] 0.25"
 			"rotation" "0"
@@ -278,9 +278,9 @@ world
 		"id" "33571"
 		side
 		{
-			"id" "2893"
+			"id" "2923"
 			"plane" "(3216 -1220 783) (3216 -1220 256) (3216 -1477.65 256)"
-			"material" "TOOLS/TOOLSNODRAW"
+			"material" "TOOLS/TOOLSPLAYERCLIP"
 			"uaxis" "[0 -1 0 -34.6013] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -289,9 +289,9 @@ world
 		}
 		side
 		{
-			"id" "2892"
+			"id" "2922"
 			"plane" "(2863 -1477.65 783) (2863 -1477.65 256) (2863 -1220 256)"
-			"material" "TOOLS/TOOLSINVISIBLE"
+			"material" "TOOLS/TOOLSPLAYERCLIP"
 			"uaxis" "[0 -1 0 9.39868] 0.25"
 			"vaxis" "[0 0 -1 59] 0.25"
 			"rotation" "0"
@@ -300,9 +300,9 @@ world
 		}
 		side
 		{
-			"id" "2891"
+			"id" "2921"
 			"plane" "(2863 -1220 783) (2863 -1220 256) (3216 -1220 256)"
-			"material" "TOOLS/TOOLSINVISIBLE"
+			"material" "TOOLS/TOOLSPLAYERCLIP"
 			"uaxis" "[1 0 0 -28] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -311,9 +311,9 @@ world
 		}
 		side
 		{
-			"id" "2890"
+			"id" "2920"
 			"plane" "(3216 -1477.65 783) (3216 -1477.65 256) (2863 -1477.65 256)"
-			"material" "TOOLS/TOOLSINVISIBLE"
+			"material" "TOOLS/TOOLSPLAYERCLIP"
 			"uaxis" "[-1 0 0 28] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -322,9 +322,9 @@ world
 		}
 		side
 		{
-			"id" "2889"
+			"id" "2919"
 			"plane" "(3216 -1477.65 256) (3216 -1220 256) (2863 -1220 256)"
-			"material" "TOOLS/TOOLSINVISIBLE"
+			"material" "TOOLS/TOOLSPLAYERCLIP"
 			"uaxis" "[0 1 0 34.6016] 0.25"
 			"vaxis" "[1 0 0 -28] 0.25"
 			"rotation" "0"
@@ -333,9 +333,9 @@ world
 		}
 		side
 		{
-			"id" "2888"
+			"id" "2918"
 			"plane" "(3216 -1220 783) (3216 -1477.65 783) (2863 -1477.65 783)"
-			"material" "TOOLS/TOOLSINVISIBLE"
+			"material" "TOOLS/TOOLSPLAYERCLIP"
 			"uaxis" "[0 -1 0 -34.6016] 0.25"
 			"vaxis" "[1 0 0 -28] 0.25"
 			"rotation" "0"
@@ -356,7 +356,7 @@ world
 		{
 			"id" "2905"
 			"plane" "(3484 -667.35 783) (3484 -667.35 256) (3484 -1249 256)"
-			"material" "TOOLS/TOOLSNODRAW"
+			"material" "TOOLS/TOOLSPLAYERCLIP"
 			"uaxis" "[0 -1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -367,7 +367,7 @@ world
 		{
 			"id" "2904"
 			"plane" "(3131 -1249 783) (3131 -1249 256) (3131 -667.35 256)"
-			"material" "TOOLS/TOOLSINVISIBLE"
+			"material" "TOOLS/TOOLSPLAYERCLIP"
 			"uaxis" "[0 -1 0 44] 0.25"
 			"vaxis" "[0 0 -1 59] 0.25"
 			"rotation" "0"
@@ -378,7 +378,7 @@ world
 		{
 			"id" "2903"
 			"plane" "(3131 -667.35 783) (3131 -667.35 256) (3484 -667.35 256)"
-			"material" "TOOLS/TOOLSINVISIBLE"
+			"material" "TOOLS/TOOLSPLAYERCLIP"
 			"uaxis" "[1 0 0 -11.996] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -389,7 +389,7 @@ world
 		{
 			"id" "2902"
 			"plane" "(3484 -1249 783) (3484 -1249 256) (3131 -1249 256)"
-			"material" "TOOLS/TOOLSINVISIBLE"
+			"material" "TOOLS/TOOLSPLAYERCLIP"
 			"uaxis" "[-1 0 0 11.996] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -400,7 +400,7 @@ world
 		{
 			"id" "2901"
 			"plane" "(3484 -1249 256) (3484 -667.35 256) (3131 -667.35 256)"
-			"material" "TOOLS/TOOLSINVISIBLE"
+			"material" "TOOLS/TOOLSPLAYERCLIP"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[1 0 0 -11.996] 0.25"
 			"rotation" "0"
@@ -411,7 +411,7 @@ world
 		{
 			"id" "2900"
 			"plane" "(3484 -667.35 783) (3484 -1249 783) (3131 -1249 783)"
-			"material" "TOOLS/TOOLSINVISIBLE"
+			"material" "TOOLS/TOOLSPLAYERCLIP"
 			"uaxis" "[0 -1 0 0] 0.25"
 			"vaxis" "[1 0 0 -11.996] 0.25"
 			"rotation" "0"
@@ -3277,7 +3277,7 @@ world
 		side
 		{
 			"id" "2519"
-			"plane" "(2311 -1116 260) (2311 -1116 242.007) (2311 -522 242.007)"
+			"plane" "(2311 -1124 260) (2311 -1124 242) (2311 -522 242)"
 			"material" "DE_CBBLE/WOODCEILING01"
 			"uaxis" "[0 1 0 -328] 0.25"
 			"vaxis" "[0 0 -1 384] 0.25"
@@ -3288,7 +3288,7 @@ world
 		side
 		{
 			"id" "2518"
-			"plane" "(2670 -522 260) (2670 -522 242.007) (2670 -1116 242.007)"
+			"plane" "(2670 -522 260) (2670 -522 242) (2670 -1124 242)"
 			"material" "DE_CBBLE/WOODCEILING01"
 			"uaxis" "[0 1 0 -328] 0.25"
 			"vaxis" "[0 0 -1 384] 0.25"
@@ -3299,7 +3299,7 @@ world
 		side
 		{
 			"id" "2517"
-			"plane" "(2670 -1116 260) (2670 -1116 242.007) (2311 -1116 242.007)"
+			"plane" "(2670 -1124 260) (2670 -1124 242) (2311 -1124 242)"
 			"material" "DE_CBBLE/WOODCEILING01"
 			"uaxis" "[1 0 0 -405.519] 0.25"
 			"vaxis" "[0 0 -1 384] 0.25"
@@ -3310,7 +3310,7 @@ world
 		side
 		{
 			"id" "2516"
-			"plane" "(2311 -522 260) (2311 -522 242.007) (2670 -522 242.007)"
+			"plane" "(2311 -522 260) (2311 -522 242) (2670 -522 242)"
 			"material" "DE_CBBLE/WOODCEILING01"
 			"uaxis" "[1 0 0 -405.519] 0.25"
 			"vaxis" "[0 0 -1 384] 0.25"
@@ -3321,7 +3321,7 @@ world
 		side
 		{
 			"id" "2515"
-			"plane" "(2311 -522 242.007) (2311 -1116 242.007) (2670 -1116 242.007)"
+			"plane" "(2311 -522 242) (2311 -1124 242) (2670 -1124 242)"
 			"material" "CS_HAVANA/WOODM"
 			"uaxis" "[1 0 0 -406] 0.25"
 			"vaxis" "[0 -1 0 328] 0.25"
@@ -3332,7 +3332,7 @@ world
 		side
 		{
 			"id" "2514"
-			"plane" "(2311 -1116 260) (2311 -522 260) (2670 -522 260)"
+			"plane" "(2311 -1124 260) (2311 -522 260) (2670 -522 260)"
 			"material" "DE_CBBLE/WOODCEILING01"
 			"uaxis" "[1 0 0 -469.519] 0.25"
 			"vaxis" "[0 -1 0 328] 0.25"
@@ -3354,7 +3354,7 @@ world
 		side
 		{
 			"id" "2543"
-			"plane" "(2432 -720 242) (2432 -720 108.202) (2432 -255 108.202)"
+			"plane" "(2431 -720 242) (2431 -720 108.203) (2431 -255 108.207)"
 			"material" "BRICK/HR_BRICK/BRICK_D"
 			"uaxis" "[0 1 0 -725.083] 0.25"
 			"vaxis" "[0 0 -1 -128] 0.25"
@@ -3365,7 +3365,7 @@ world
 		side
 		{
 			"id" "2542"
-			"plane" "(2451 -255 242) (2451 -255 108.202) (2451 -720 108.202)"
+			"plane" "(2451 -255 242) (2451 -255 108.203) (2451 -720 108.207)"
 			"material" "BRICK/HR_BRICK/BRICK_D"
 			"uaxis" "[0 1 0 -725.083] 0.25"
 			"vaxis" "[0 0 -1 -64] 0.25"
@@ -3376,7 +3376,7 @@ world
 		side
 		{
 			"id" "2541"
-			"plane" "(2451 -720 242) (2451 -720 108.202) (2432 -720 108.202)"
+			"plane" "(2451 -720 242) (2451 -720 108.203) (2431 -720 108.207)"
 			"material" "BRICK/HR_BRICK/BRICK_D"
 			"uaxis" "[1 0 0 -432] 0.25"
 			"vaxis" "[0 0 -1 -64] 0.25"
@@ -3387,7 +3387,7 @@ world
 		side
 		{
 			"id" "2540"
-			"plane" "(2432 -255 242) (2432 -255 108.202) (2451 -255 108.202)"
+			"plane" "(2431 -255 242) (2431 -255 108.203) (2451 -255 108.207)"
 			"material" "BRICK/HR_BRICK/BRICK_D"
 			"uaxis" "[1 0 0 -496] 0.25"
 			"vaxis" "[0 0 -1 -128] 0.25"
@@ -3398,7 +3398,7 @@ world
 		side
 		{
 			"id" "2539"
-			"plane" "(2432 -255 108.202) (2432 -720 108.202) (2451 -720 108.202)"
+			"plane" "(2431 -255 108.202) (2431 -720 108.202) (2451 -720 108.202)"
 			"material" "BRICK/HR_BRICK/BRICK_D"
 			"uaxis" "[1 0 0 -432] 0.25"
 			"vaxis" "[0 -1 0 725.083] 0.25"
@@ -3409,7 +3409,7 @@ world
 		side
 		{
 			"id" "2538"
-			"plane" "(2432 -720 242) (2432 -255 242) (2451 -255 242)"
+			"plane" "(2431 -720 242) (2431 -255 242) (2451 -255 242)"
 			"material" "BRICK/HR_BRICK/BRICK_B_FS"
 			"uaxis" "[1 0 0 -444] 0.25"
 			"vaxis" "[0 -1 0 721.083] 0.25"
@@ -3583,7 +3583,7 @@ world
 		side
 		{
 			"id" "2591"
-			"plane" "(2354 -1248 260) (2354 -1248 242.007) (2354 -1211 242.007)"
+			"plane" "(2354 -1248 260) (2354 -1248 242) (2354 -1212 242)"
 			"material" "DE_CBBLE/WOODCEILING01"
 			"uaxis" "[0 1 0 -68] 0.25"
 			"vaxis" "[0 0 -1 384] 0.25"
@@ -3594,7 +3594,7 @@ world
 		side
 		{
 			"id" "2590"
-			"plane" "(2647 -1211 260) (2647 -1211 242.007) (2647 -1248 242.007)"
+			"plane" "(2647 -1212 260) (2647 -1212 242) (2647 -1248 242)"
 			"material" "DE_CBBLE/WOODCEILING01"
 			"uaxis" "[0 1 0 -68] 0.25"
 			"vaxis" "[0 0 -1 384] 0.25"
@@ -3605,7 +3605,7 @@ world
 		side
 		{
 			"id" "2589"
-			"plane" "(2647 -1248 260) (2647 -1248 242.007) (2354 -1248 242.007)"
+			"plane" "(2647 -1248 260) (2647 -1248 242) (2354 -1248 242)"
 			"material" "DE_CBBLE/WOODCEILING01"
 			"uaxis" "[1 0 0 114.481] 0.25"
 			"vaxis" "[0 0 -1 384] 0.25"
@@ -3616,7 +3616,7 @@ world
 		side
 		{
 			"id" "2588"
-			"plane" "(2354 -1211 260) (2354 -1211 242.007) (2647 -1211 242.007)"
+			"plane" "(2354 -1212 260) (2354 -1212 242) (2647 -1212 242)"
 			"material" "DE_CBBLE/WOODCEILING01"
 			"uaxis" "[1 0 0 114.481] 0.25"
 			"vaxis" "[0 0 -1 384] 0.25"
@@ -3627,7 +3627,7 @@ world
 		side
 		{
 			"id" "2587"
-			"plane" "(2354 -1211 242.007) (2354 -1248 242.007) (2647 -1248 242.007)"
+			"plane" "(2354 -1212 242) (2354 -1248 242) (2647 -1248 242)"
 			"material" "DE_CBBLE/WOODCEILING01"
 			"uaxis" "[1 0 0 114.481] 0.25"
 			"vaxis" "[0 -1 0 68] 0.25"
@@ -3638,7 +3638,7 @@ world
 		side
 		{
 			"id" "2586"
-			"plane" "(2354 -1248 260) (2354 -1211 260) (2647 -1211 260)"
+			"plane" "(2354 -1248 260) (2354 -1212 260) (2647 -1212 260)"
 			"material" "DE_CBBLE/WOODCEILING01"
 			"uaxis" "[1 0 0 50.4814] 0.25"
 			"vaxis" "[0 -1 0 68] 0.25"
@@ -3660,7 +3660,7 @@ world
 		side
 		{
 			"id" "2603"
-			"plane" "(2296 -523 242) (2296 -523 108.202) (2296 -255 108.202)"
+			"plane" "(2296 -523 240) (2296 -523 108.203) (2296 -255 108.207)"
 			"material" "BRICK/HR_BRICK/BRICK_D"
 			"uaxis" "[0 1 0 -725.083] 0.25"
 			"vaxis" "[0 0 -1 -128] 0.25"
@@ -3671,7 +3671,7 @@ world
 		side
 		{
 			"id" "2602"
-			"plane" "(2315 -255 242) (2315 -255 108.202) (2315 -523 108.202)"
+			"plane" "(2320 -255 240) (2320 -255 108.203) (2320 -523 108.207)"
 			"material" "BRICK/HR_BRICK/BRICK_D"
 			"uaxis" "[0 1 0 -725.083] 0.25"
 			"vaxis" "[0 0 -1 -64] 0.25"
@@ -3682,7 +3682,7 @@ world
 		side
 		{
 			"id" "2601"
-			"plane" "(2315 -523 242) (2315 -523 108.202) (2296 -523 108.202)"
+			"plane" "(2320 -523 240) (2320 -523 108.203) (2296 -523 108.207)"
 			"material" "BRICK/HR_BRICK/BRICK_D"
 			"uaxis" "[1 0 0 112] 0.25"
 			"vaxis" "[0 0 -1 -64] 0.25"
@@ -3693,7 +3693,7 @@ world
 		side
 		{
 			"id" "2600"
-			"plane" "(2296 -255 242) (2296 -255 108.202) (2315 -255 108.202)"
+			"plane" "(2296 -255 240) (2296 -255 108.203) (2320 -255 108.207)"
 			"material" "BRICK/HR_BRICK/BRICK_D"
 			"uaxis" "[1 0 0 48] 0.25"
 			"vaxis" "[0 0 -1 -128] 0.25"
@@ -3704,7 +3704,7 @@ world
 		side
 		{
 			"id" "2599"
-			"plane" "(2296 -255 108.202) (2296 -523 108.202) (2315 -523 108.202)"
+			"plane" "(2296 -255 108.202) (2296 -523 108.202) (2320 -523 108.202)"
 			"material" "BRICK/HR_BRICK/BRICK_D"
 			"uaxis" "[1 0 0 112] 0.25"
 			"vaxis" "[0 -1 0 725.083] 0.25"
@@ -3715,7 +3715,7 @@ world
 		side
 		{
 			"id" "2598"
-			"plane" "(2296 -523 242) (2296 -255 242) (2315 -255 242)"
+			"plane" "(2296 -523 240) (2296 -255 240) (2320 -255 240)"
 			"material" "BRICK/HR_BRICK/BRICK_B_FS"
 			"uaxis" "[1 0 0 100] 0.25"
 			"vaxis" "[0 -1 0 721.083] 0.25"
@@ -3736,9 +3736,9 @@ world
 		side
 		{
 			"id" "2615"
-			"plane" "(2085 -731.171 242) (2085 -731.171 108.202) (2288.5 -510.69 108.202)"
+			"plane" "(2085 -731.072 242) (2085 -731.072 108.203) (2302.56 -509.001 108.207)"
 			"material" "BRICK/HR_BRICK/BRICK_D"
-			"uaxis" "[0.678251 0.73483 0 881.711] 0.25"
+			"uaxis" "[0.699831 0.714308 0 881.711] 0.25"
 			"vaxis" "[0 0 -1 -128] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -3747,9 +3747,9 @@ world
 		side
 		{
 			"id" "2614"
-			"plane" "(2304.81 -524.519 242) (2304.81 -524.519 108.202) (2101.31 -745 108.202)"
+			"plane" "(2320 -522.932 242) (2320 -522.932 108.203) (2102.44 -745 108.207)"
 			"material" "BRICK/HR_BRICK/BRICK_D"
-			"uaxis" "[0.678251 0.73483 0 881.711] 0.25"
+			"uaxis" "[0.699831 0.714308 0 881.711] 0.25"
 			"vaxis" "[0 0 -1 -64] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -3758,9 +3758,9 @@ world
 		side
 		{
 			"id" "2613"
-			"plane" "(2101.31 -745 242) (2101.31 -745 108.202) (2085 -731.171 108.202)"
+			"plane" "(2102.44 -745 242) (2102.44 -745 108.203) (2085 -731.072 108.207)"
 			"material" "BRICK/HR_BRICK/BRICK_D"
-			"uaxis" "[0.762678 -0.646778 0 56.2487] 0.25"
+			"uaxis" "[0.781275 -0.624186 0 56.2487] 0.25"
 			"vaxis" "[0 0 -1 -64] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -3769,9 +3769,9 @@ world
 		side
 		{
 			"id" "2612"
-			"plane" "(2288.5 -510.69 242) (2288.5 -510.69 108.202) (2304.81 -524.519 108.202)"
+			"plane" "(2302.56 -509.004 242) (2302.56 -509.004 108.203) (2320 -522.935 108.207)"
 			"material" "BRICK/HR_BRICK/BRICK_D"
-			"uaxis" "[0.762678 -0.646778 0 -7.75114] 0.25"
+			"uaxis" "[0.781275 -0.624186 0 -7.75114] 0.25"
 			"vaxis" "[0 0 -1 -128] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -3780,7 +3780,7 @@ world
 		side
 		{
 			"id" "2611"
-			"plane" "(2288.5 -510.69 108.202) (2085 -731.171 108.202) (2101.31 -745 108.202)"
+			"plane" "(2302.56 -509 108.202) (2085 -731.068 108.202) (2102.44 -745 108.202)"
 			"material" "BRICK/HR_BRICK/BRICK_D"
 			"uaxis" "[0.748956 -0.66262 0 56.2487] 0.25"
 			"vaxis" "[-0.66262 -0.748956 0 -881.711] 0.25"
@@ -3791,7 +3791,7 @@ world
 		side
 		{
 			"id" "2610"
-			"plane" "(2085 -731.171 242) (2288.5 -510.69 242) (2304.81 -524.519 242)"
+			"plane" "(2085 -731.08 242) (2302.57 -509.006 242) (2320 -522.932 242)"
 			"material" "BRICK/HR_BRICK/BRICK_B_FS"
 			"uaxis" "[0.748956 -0.66262 0 44.2487] 0.25"
 			"vaxis" "[-0.66262 -0.748956 0 -885.711] 0.25"
@@ -18324,7 +18324,7 @@ world
 		{
 			"id" "1301"
 			"plane" "(-547 -80 256) (2984 -80 256) (2984 -80 638)"
-			"material" "TOOLS/TOOLSNODRAW"
+			"material" "TOOLS/TOOLSPLAYERCLIP"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -18335,7 +18335,7 @@ world
 		{
 			"id" "1302"
 			"plane" "(2984 -80 256) (-547 -80 256) (-547 -101 256)"
-			"material" "TOOLS/TOOLSINVISIBLE"
+			"material" "TOOLS/TOOLSPLAYERCLIP"
 			"uaxis" "[0 -1 0 0] 0.25"
 			"vaxis" "[-1 0 0 0] 0.25"
 			"rotation" "0"
@@ -18346,7 +18346,7 @@ world
 		{
 			"id" "1303"
 			"plane" "(-547 -101 638) (-547 -80 638) (2984 -80 638)"
-			"material" "TOOLS/TOOLSINVISIBLE"
+			"material" "TOOLS/TOOLSPLAYERCLIP"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[-1 0 0 0] 0.25"
 			"rotation" "0"
@@ -18357,7 +18357,7 @@ world
 		{
 			"id" "1304"
 			"plane" "(-547 -101 256) (-547 -80 256) (-547 -80 638)"
-			"material" "TOOLS/TOOLSINVISIBLE"
+			"material" "TOOLS/TOOLSPLAYERCLIP"
 			"uaxis" "[0 1 0 44] 0.25"
 			"vaxis" "[0 0 -1 59] 0.25"
 			"rotation" "0"
@@ -18368,7 +18368,7 @@ world
 		{
 			"id" "1305"
 			"plane" "(2984 -80 638) (2984 -80 256) (2984 -101 256)"
-			"material" "TOOLS/TOOLSINVISIBLE"
+			"material" "TOOLS/TOOLSPLAYERCLIP"
 			"uaxis" "[0 1 0 44] 0.25"
 			"vaxis" "[0 0 -1 59] 0.25"
 			"rotation" "0"
@@ -18379,7 +18379,7 @@ world
 		{
 			"id" "1306"
 			"plane" "(2984 -101 256) (-547 -101 256) (-547 -101 638)"
-			"material" "TOOLS/TOOLSINVISIBLE"
+			"material" "TOOLS/TOOLSPLAYERCLIP"
 			"uaxis" "[-1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -18400,7 +18400,7 @@ world
 		{
 			"id" "1308"
 			"plane" "(-561 -1414 661) (-561 -1414 256) (-561 -1393 256)"
-			"material" "TOOLS/TOOLSINVISIBLE"
+			"material" "TOOLS/TOOLSPLAYERCLIP"
 			"uaxis" "[0 1 0 44] 0.25"
 			"vaxis" "[0 0 -1 59] 0.25"
 			"rotation" "0"
@@ -18411,7 +18411,7 @@ world
 		{
 			"id" "1309"
 			"plane" "(2970 -1393 661) (2970 -1393 256) (2970 -1414 256)"
-			"material" "TOOLS/TOOLSINVISIBLE"
+			"material" "TOOLS/TOOLSPLAYERCLIP"
 			"uaxis" "[0 1 0 44] 0.25"
 			"vaxis" "[0 0 -1 59] 0.25"
 			"rotation" "0"
@@ -18422,7 +18422,7 @@ world
 		{
 			"id" "1310"
 			"plane" "(2970 -1414 661) (2970 -1414 256) (-561 -1414 256)"
-			"material" "TOOLS/TOOLSNODRAW"
+			"material" "TOOLS/TOOLSPLAYERCLIP"
 			"uaxis" "[-1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -18433,7 +18433,7 @@ world
 		{
 			"id" "1311"
 			"plane" "(-561 -1393 661) (-561 -1393 256) (2970 -1393 256)"
-			"material" "TOOLS/TOOLSINVISIBLE"
+			"material" "TOOLS/TOOLSPLAYERCLIP"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -18444,7 +18444,7 @@ world
 		{
 			"id" "1312"
 			"plane" "(-561 -1393 256) (-561 -1414 256) (2970 -1414 256)"
-			"material" "TOOLS/TOOLSINVISIBLE"
+			"material" "TOOLS/TOOLSPLAYERCLIP"
 			"uaxis" "[0 -1 0 0] 0.25"
 			"vaxis" "[-1 0 0 0] 0.25"
 			"rotation" "0"
@@ -18455,7 +18455,7 @@ world
 		{
 			"id" "1313"
 			"plane" "(-561 -1414 661) (-561 -1393 661) (2970 -1393 661)"
-			"material" "TOOLS/TOOLSINVISIBLE"
+			"material" "TOOLS/TOOLSPLAYERCLIP"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[-1 0 0 0] 0.25"
 			"rotation" "0"
@@ -18476,7 +18476,7 @@ world
 		{
 			"id" "1315"
 			"plane" "(-499 -1416 661) (-499 -1416 256) (-499 -64 256)"
-			"material" "TOOLS/TOOLSNODRAW"
+			"material" "TOOLS/TOOLSPLAYERCLIP"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -18487,7 +18487,7 @@ world
 		{
 			"id" "1316"
 			"plane" "(-472 -64 661) (-472 -64 256) (-472 -1416 256)"
-			"material" "TOOLS/TOOLSINVISIBLE"
+			"material" "TOOLS/TOOLSPLAYERCLIP"
 			"uaxis" "[0 1 0 44] 0.25"
 			"vaxis" "[0 0 -1 59] 0.25"
 			"rotation" "0"
@@ -18498,7 +18498,7 @@ world
 		{
 			"id" "1317"
 			"plane" "(-472 -1416 661) (-472 -1416 256) (-499 -1416 256)"
-			"material" "TOOLS/TOOLSINVISIBLE"
+			"material" "TOOLS/TOOLSPLAYERCLIP"
 			"uaxis" "[-1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -18509,7 +18509,7 @@ world
 		{
 			"id" "1318"
 			"plane" "(-499 -64 661) (-499 -64 256) (-472 -64 256)"
-			"material" "TOOLS/TOOLSINVISIBLE"
+			"material" "TOOLS/TOOLSPLAYERCLIP"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -18520,7 +18520,7 @@ world
 		{
 			"id" "1319"
 			"plane" "(-499 -64 256) (-499 -1416 256) (-472 -1416 256)"
-			"material" "TOOLS/TOOLSINVISIBLE"
+			"material" "TOOLS/TOOLSPLAYERCLIP"
 			"uaxis" "[0 -1 0 0] 0.25"
 			"vaxis" "[-1 0 0 0] 0.25"
 			"rotation" "0"
@@ -18531,7 +18531,7 @@ world
 		{
 			"id" "1320"
 			"plane" "(-499 -1416 661) (-499 -64 661) (-472 -64 661)"
-			"material" "TOOLS/TOOLSINVISIBLE"
+			"material" "TOOLS/TOOLSPLAYERCLIP"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[-1 0 0 0] 0.25"
 			"rotation" "0"
@@ -19631,7 +19631,7 @@ world
 		side
 		{
 			"id" "1432"
-			"plane" "(2321 -95 256) (2321 -95 240) (2321 -816 240)"
+			"plane" "(2320 -95 256) (2320 -95 240) (2320 -816 240)"
 			"material" "DE_CBBLE/WOODCEILING01"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -19642,7 +19642,7 @@ world
 		side
 		{
 			"id" "1433"
-			"plane" "(2321 -816 256) (2321 -816 240) (441 -816 240)"
+			"plane" "(2320 -816 256) (2320 -816 240) (441 -816 240)"
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[-1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -19653,7 +19653,7 @@ world
 		side
 		{
 			"id" "1434"
-			"plane" "(441 -95 256) (441 -95 240) (2321 -95 240)"
+			"plane" "(441 -95 256) (441 -95 240) (2320 -95 240)"
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -19664,7 +19664,7 @@ world
 		side
 		{
 			"id" "1435"
-			"plane" "(441 -95 240) (441 -816 240) (2321 -816 240)"
+			"plane" "(441 -95 240) (441 -816 240) (2320 -816 240)"
 			"material" "CS_HAVANA/WOODM"
 			"uaxis" "[0 -1 0 0] 0.25"
 			"vaxis" "[-1 0 0 0] 0.25"
@@ -19675,7 +19675,7 @@ world
 		side
 		{
 			"id" "1436"
-			"plane" "(441 -816 256) (441 -95 256) (2321 -95 256)"
+			"plane" "(441 -816 256) (441 -95 256) (2320 -95 256)"
 			"material" "DE_CBBLE/GRASSFLOOR01"
 			"uaxis" "[1 0 0 312] 0.25"
 			"vaxis" "[0 -1 0 -164] 0.25"
@@ -34975,8 +34975,8 @@ cameras
 	"activecamera" "0"
 	camera
 	{
-		"position" "[2703.62 -928.675 360.724]"
-		"look" "[2844.43 -718.758 276.642]"
+		"position" "[-24.0842 -438.683 636.043]"
+		"look" "[60.2545 -205.082 539.713]"
 	}
 	camera
 	{

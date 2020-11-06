@@ -4195,3 +4195,542 @@ Total triangle count: 13953
 Writing g:\documents\github\de_vinny\de_vinny.bsp
 MSG_FILEWRITE - Filesystem was asked to write to 'g:\documents\github\de_vinny\de_vinny.bsp', but we don't own that location. Allowing...
 1 minute, 38 seconds elapsed
+
+
+
+materialPath: D:\Programas\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading g:\documents\github\csgomaps2\vinny\de_vinny.vmf
+Map revision 74
+Patching WVT material: maps/de_vinny/de_train/blendgraveldirt001a_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing g:\documents\github\csgomaps2\vinny\de_vinny.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (128916 bytes)
+Error! To use model "models/props_junk/propanecanister001a.mdl"
+      with prop_static, it must be compiled with $staticprop!
+Error loading studio model "models/props_junk/propanecanister001a.mdl"!
+Error! To use model "models/props_interiors/trashcankitchen01.mdl"
+      with prop_static, it must be compiled with $staticprop!
+Error loading studio model "models/props_interiors/trashcankitchen01.mdl"!
+Error loading studio model ""!
+Error! prop_static using model "models/props_interiors/tv.mdl", which must be used on a dynamic entity (i.e. prop_physics). Deleted.
+Error loading studio model "models/props_interiors/tv.mdl"!
+Encountered obsolete static prop option to do its fade in screen space @ 2508.00 -776.33 260.00
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 1652 texinfos to 892
+Reduced 42 texdatas to 30 (1288 bytes to 943)
+Writing g:\documents\github\csgomaps2\vinny\de_vinny.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'g:\documents\github\csgomaps2\vinny\de_vinny.bsp', but we don't own that location. Allowing...
+1 second elapsed
+
+
+
+16 threads
+reading g:\documents\github\csgomaps2\vinny\de_vinny.bsp
+reading g:\documents\github\csgomaps2\vinny\de_vinny.prt
+1405 portalclusters
+4415 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 130677 visible clusters (0.00%)
+Total clusters visible: 1468632
+Average clusters visible: 1045
+Building PAS...
+Average clusters audible: 1404
+visdatasize:494371  compressed from 494560
+writing g:\documents\github\csgomaps2\vinny\de_vinny.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'g:\documents\github\csgomaps2\vinny\de_vinny.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading g:\documents\github\csgomaps2\vinny\de_vinny.bsp
+4765 faces
+1117401 square feet [160905760.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+4765 patches before subdivision
+72135 patches after subdivision
+43 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 4352749, max 801
+transfer lists:  33.2 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(153387, 139662, 113540)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(47907, 40701, 28380)
+Build Patch/Sample Hash Table(s).....Done<0.0180 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  11/1024          528/49152    ( 1.1%) 
+brushes                321/8192         3852/98304    ( 3.9%) 
+brushsides            2191/81920       17528/655360   ( 2.7%) 
+planes                2720/65536       54400/1310720  ( 4.2%) 
+vertexes              8613/65536      103356/786432   (13.1%) 
+nodes                 3173/65536      101536/2097152  ( 4.8%) 
+texinfos               892/12288       64224/884736   ( 7.3%) 
+texdata                 30/4096          960/131072   ( 0.7%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 4765/65536      266840/3670016  ( 7.3%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             1277/65536       71512/3670016  ( 1.9%) 
+facebrushes              4/0               8/0        ( 0.0%) 
+facebrushlists        4765/0           19060/0        ( 0.0%) 
+leaves                3185/65536      101920/2097152  ( 4.9%) 
+leaffaces             5457/65536       10914/131072   ( 8.3%) 
+leafbrushes           2897/65536        5794/131072   ( 4.4%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges            28172/512000     112688/2048000  ( 5.5%) 
+edges                15197/256000      60788/1024000  ( 5.9%) 
+LDR worldlights         43/8192         4300/819200   ( 0.5%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            2/32768          24/393216   ( 0.0%) 
+waterstrips            588/32768        5880/327680   ( 1.8%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          8688/65536       17376/131072   (13.3%) 
+cubemapsamples           1/1024           16/16384    ( 0.1%) 
+overlays                16/1024         5632/360448   ( 1.6%) 
+LDR lightdata         [variable]     7015256/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]      494371/16777216 ( 2.9%) 
+entdata               [variable]       54740/393216   (13.9%) 
+LDR ambient table     3185/65536       12740/262144   ( 4.9%) 
+HDR ambient table     3185/65536       12740/262144   ( 4.9%) 
+LDR leaf ambient     12381/65536      346668/1835008  (18.9%) 
+HDR leaf ambient      3185/65536       89180/1835008  ( 4.9%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/20250    ( 0.0%) 
+pakfile               [variable]      152871/0        ( 0.0%) 
+physics               [variable]      128916/4194304  ( 3.1%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7c
+
+Total triangle count: 13518
+Writing g:\documents\github\csgomaps2\vinny\de_vinny.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'g:\documents\github\csgomaps2\vinny\de_vinny.bsp', but we don't own that location. Allowing...
+17 seconds elapsed
+
+
+
+materialPath: D:\Programas\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading g:\documents\github\csgomaps2\vinny\de_vinny.vmf
+Map revision 75
+Patching WVT material: maps/de_vinny/de_train/blendgraveldirt001a_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing g:\documents\github\csgomaps2\vinny\de_vinny.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (128916 bytes)
+Error! To use model "models/props_junk/propanecanister001a.mdl"
+      with prop_static, it must be compiled with $staticprop!
+Error loading studio model "models/props_junk/propanecanister001a.mdl"!
+Error! To use model "models/props_interiors/trashcankitchen01.mdl"
+      with prop_static, it must be compiled with $staticprop!
+Error loading studio model "models/props_interiors/trashcankitchen01.mdl"!
+Error loading studio model ""!
+Error! prop_static using model "models/props_interiors/tv.mdl", which must be used on a dynamic entity (i.e. prop_physics). Deleted.
+Error loading studio model "models/props_interiors/tv.mdl"!
+Encountered obsolete static prop option to do its fade in screen space @ 2508.00 -776.33 260.00
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 1652 texinfos to 889
+Reduced 42 texdatas to 30 (1288 bytes to 943)
+Writing g:\documents\github\csgomaps2\vinny\de_vinny.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'g:\documents\github\csgomaps2\vinny\de_vinny.bsp', but we don't own that location. Allowing...
+1 second elapsed
+
+
+
+16 threads
+reading g:\documents\github\csgomaps2\vinny\de_vinny.bsp
+reading g:\documents\github\csgomaps2\vinny\de_vinny.prt
+1402 portalclusters
+4416 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 127421 visible clusters (0.00%)
+Total clusters visible: 1473843
+Average clusters visible: 1051
+Building PAS...
+Average clusters audible: 1401
+visdatasize:493843  compressed from 493504
+writing g:\documents\github\csgomaps2\vinny\de_vinny.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'g:\documents\github\csgomaps2\vinny\de_vinny.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading g:\documents\github\csgomaps2\vinny\de_vinny.bsp
+4743 faces
+1117348 square feet [160898240.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+4743 patches before subdivision
+72347 patches after subdivision
+43 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 4364972, max 801
+transfer lists:  33.3 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(154162, 140052, 113853)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(48034, 40727, 28396)
+Build Patch/Sample Hash Table(s).....Done<0.0190 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  11/1024          528/49152    ( 1.1%) 
+brushes                321/8192         3852/98304    ( 3.9%) 
+brushsides            2192/81920       17536/655360   ( 2.7%) 
+planes                2716/65536       54320/1310720  ( 4.1%) 
+vertexes              8570/65536      102840/786432   (13.1%) 
+nodes                 3170/65536      101440/2097152  ( 4.8%) 
+texinfos               889/12288       64008/884736   ( 7.2%) 
+texdata                 30/4096          960/131072   ( 0.7%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 4743/65536      265608/3670016  ( 7.2%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             1274/65536       71344/3670016  ( 1.9%) 
+facebrushes              4/0               8/0        ( 0.0%) 
+facebrushlists        4743/0           18972/0        ( 0.0%) 
+leaves                3182/65536      101824/2097152  ( 4.9%) 
+leaffaces             5424/65536       10848/131072   ( 8.3%) 
+leafbrushes           2906/65536        5812/131072   ( 4.4%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges            28042/512000     112168/2048000  ( 5.5%) 
+edges                15128/256000      60512/1024000  ( 5.9%) 
+LDR worldlights         43/8192         4300/819200   ( 0.5%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            2/32768          24/393216   ( 0.0%) 
+waterstrips            587/32768        5870/327680   ( 1.8%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          8706/65536       17412/131072   (13.3%) 
+cubemapsamples           1/1024           16/16384    ( 0.1%) 
+overlays                16/1024         5632/360448   ( 1.6%) 
+LDR lightdata         [variable]     7008124/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]      493843/16777216 ( 2.9%) 
+entdata               [variable]       54740/393216   (13.9%) 
+LDR ambient table     3182/65536       12728/262144   ( 4.9%) 
+HDR ambient table     3182/65536       12728/262144   ( 4.9%) 
+LDR leaf ambient     12467/65536      349076/1835008  (19.0%) 
+HDR leaf ambient      3182/65536       89096/1835008  ( 4.9%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/20250    ( 0.0%) 
+pakfile               [variable]      152871/0        ( 0.0%) 
+physics               [variable]      128916/4194304  ( 3.1%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7c
+
+Total triangle count: 13444
+Writing g:\documents\github\csgomaps2\vinny\de_vinny.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'g:\documents\github\csgomaps2\vinny\de_vinny.bsp', but we don't own that location. Allowing...
+16 seconds elapsed
+
+
+
+materialPath: D:\Programas\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading g:\documents\github\csgomaps2\vinny\de_vinny.vmf
+Map revision 75
+Patching WVT material: maps/de_vinny/de_train/blendgraveldirt001a_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing g:\documents\github\csgomaps2\vinny\de_vinny.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (128916 bytes)
+Error! To use model "models/props_junk/propanecanister001a.mdl"
+      with prop_static, it must be compiled with $staticprop!
+Error loading studio model "models/props_junk/propanecanister001a.mdl"!
+Error! To use model "models/props_interiors/trashcankitchen01.mdl"
+      with prop_static, it must be compiled with $staticprop!
+Error loading studio model "models/props_interiors/trashcankitchen01.mdl"!
+Error loading studio model ""!
+Error! prop_static using model "models/props_interiors/tv.mdl", which must be used on a dynamic entity (i.e. prop_physics). Deleted.
+Error loading studio model "models/props_interiors/tv.mdl"!
+Encountered obsolete static prop option to do its fade in screen space @ 2508.00 -776.33 260.00
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 1652 texinfos to 889
+Reduced 42 texdatas to 30 (1288 bytes to 943)
+Writing g:\documents\github\csgomaps2\vinny\de_vinny.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'g:\documents\github\csgomaps2\vinny\de_vinny.bsp', but we don't own that location. Allowing...
+1 second elapsed
+
+
+
+16 threads
+reading g:\documents\github\csgomaps2\vinny\de_vinny.bsp
+reading g:\documents\github\csgomaps2\vinny\de_vinny.prt
+1402 portalclusters
+4416 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 127421 visible clusters (0.00%)
+Total clusters visible: 1473843
+Average clusters visible: 1051
+Building PAS...
+Average clusters audible: 1401
+visdatasize:493843  compressed from 493504
+writing g:\documents\github\csgomaps2\vinny\de_vinny.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'g:\documents\github\csgomaps2\vinny\de_vinny.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+materialPath: D:\Programas\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading g:\documents\github\csgomaps2\vinny\de_vinny.vmf
+Map revision 75
+Patching WVT material: maps/de_vinny/de_train/blendgraveldirt001a_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing g:\documents\github\csgomaps2\vinny\de_vinny.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (128916 bytes)
+Error! To use model "models/props_junk/propanecanister001a.mdl"
+      with prop_static, it must be compiled with $staticprop!
+Error loading studio model "models/props_junk/propanecanister001a.mdl"!
+Error! To use model "models/props_interiors/trashcankitchen01.mdl"
+      with prop_static, it must be compiled with $staticprop!
+Error loading studio model "models/props_interiors/trashcankitchen01.mdl"!
+Error loading studio model ""!
+Error! prop_static using model "models/props_interiors/tv.mdl", which must be used on a dynamic entity (i.e. prop_physics). Deleted.
+Error loading studio model "models/props_interiors/tv.mdl"!
+Encountered obsolete static prop option to do its fade in screen space @ 2508.00 -776.33 260.00
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 1652 texinfos to 889
+Reduced 42 texdatas to 30 (1288 bytes to 943)
+Writing g:\documents\github\csgomaps2\vinny\de_vinny.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'g:\documents\github\csgomaps2\vinny\de_vinny.bsp', but we don't own that location. Allowing...
+1 second elapsed
+
+
+
+16 threads
+reading g:\documents\github\csgomaps2\vinny\de_vinny.bsp
+reading g:\documents\github\csgomaps2\vinny\de_vinny.prt
+1402 portalclusters
+4416 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 127421 visible clusters (0.00%)
+Total clusters visible: 1473843
+Average clusters visible: 1051
+Building PAS...
+Average clusters audible: 1401
+visdatasize:493843  compressed from 493504
+writing g:\documents\github\csgomaps2\vinny\de_vinny.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'g:\documents\github\csgomaps2\vinny\de_vinny.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+materialPath: D:\Programas\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading g:\documents\github\csgomaps2\vinny\de_vinny.vmf
+Map revision 75
+Patching WVT material: maps/de_vinny/de_train/blendgraveldirt001a_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing g:\documents\github\csgomaps2\vinny\de_vinny.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (128916 bytes)
+Error! To use model "models/props_junk/propanecanister001a.mdl"
+      with prop_static, it must be compiled with $staticprop!
+Error loading studio model "models/props_junk/propanecanister001a.mdl"!
+Error! To use model "models/props_interiors/trashcankitchen01.mdl"
+      with prop_static, it must be compiled with $staticprop!
+Error loading studio model "models/props_interiors/trashcankitchen01.mdl"!
+Error loading studio model ""!
+Error! prop_static using model "models/props_interiors/tv.mdl", which must be used on a dynamic entity (i.e. prop_physics). Deleted.
+Error loading studio model "models/props_interiors/tv.mdl"!
+Encountered obsolete static prop option to do its fade in screen space @ 2508.00 -776.33 260.00
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 1652 texinfos to 889
+Reduced 42 texdatas to 30 (1288 bytes to 943)
+Writing g:\documents\github\csgomaps2\vinny\de_vinny.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'g:\documents\github\csgomaps2\vinny\de_vinny.bsp', but we don't own that location. Allowing...
+1 second elapsed
+
+
+
+16 threads
+reading g:\documents\github\csgomaps2\vinny\de_vinny.bsp
+reading g:\documents\github\csgomaps2\vinny\de_vinny.prt
+1402 portalclusters
+4416 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 127421 visible clusters (0.00%)
+Total clusters visible: 1473843
+Average clusters visible: 1051
+Building PAS...
+Average clusters audible: 1401
+visdatasize:493843  compressed from 493504
+writing g:\documents\github\csgomaps2\vinny\de_vinny.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'g:\documents\github\csgomaps2\vinny\de_vinny.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading g:\documents\github\csgomaps2\vinny\de_vinny.bsp
+4743 faces
+1117348 square feet [160898240.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+4743 patches before subdivision
+72347 patches after subdivision
+43 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 4364972, max 801
+transfer lists:  33.3 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(154162, 140052, 113853)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(48034, 40727, 28396)
+Build Patch/Sample Hash Table(s).....Done<0.0202 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Computing static prop lighting : 00...1...2...3...4...5...6...7...8...9...10
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  11/1024          528/49152    ( 1.1%) 
+brushes                321/8192         3852/98304    ( 3.9%) 
+brushsides            2192/81920       17536/655360   ( 2.7%) 
+planes                2716/65536       54320/1310720  ( 4.1%) 
+vertexes              8570/65536      102840/786432   (13.1%) 
+nodes                 3170/65536      101440/2097152  ( 4.8%) 
+texinfos               889/12288       64008/884736   ( 7.2%) 
+texdata                 30/4096          960/131072   ( 0.7%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 4743/65536      265608/3670016  ( 7.2%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             1274/65536       71344/3670016  ( 1.9%) 
+facebrushes              4/0               8/0        ( 0.0%) 
+facebrushlists        4743/0           18972/0        ( 0.0%) 
+leaves                3182/65536      101824/2097152  ( 4.9%) 
+leaffaces             5424/65536       10848/131072   ( 8.3%) 
+leafbrushes           2906/65536        5812/131072   ( 4.4%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges            28042/512000     112168/2048000  ( 5.5%) 
+edges                15128/256000      60512/1024000  ( 5.9%) 
+LDR worldlights         43/8192         4300/819200   ( 0.5%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            2/32768          24/393216   ( 0.0%) 
+waterstrips            587/32768        5870/327680   ( 1.8%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          8706/65536       17412/131072   (13.3%) 
+cubemapsamples           1/1024           16/16384    ( 0.1%) 
+overlays                16/1024         5632/360448   ( 1.6%) 
+LDR lightdata         [variable]     7008124/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]      493843/16777216 ( 2.9%) 
+entdata               [variable]       54740/393216   (13.9%) 
+LDR ambient table     3182/65536       12728/262144   ( 4.9%) 
+HDR ambient table     3182/65536       12728/262144   ( 4.9%) 
+LDR leaf ambient     12467/65536      349076/1835008  (19.0%) 
+HDR leaf ambient      3182/65536       89096/1835008  ( 4.9%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/20250    ( 0.0%) 
+pakfile               [variable]     7121771/0        ( 0.0%) 
+physics               [variable]      128916/4194304  ( 3.1%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7d
+
+Total triangle count: 13444
+Writing g:\documents\github\csgomaps2\vinny\de_vinny.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'g:\documents\github\csgomaps2\vinny\de_vinny.bsp', but we don't own that location. Allowing...
+40 seconds elapsed
