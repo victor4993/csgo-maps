@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8456"
-	"mapversion" "76"
+	"mapversion" "77"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -38,7 +38,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "76"
+	"mapversion" "77"
 	"classname" "worldspawn"
 	"comment" "Decompiled by BSPSource v1.3.24 from de_vinny"
 	"detailmaterial" "detail/detailsprites"
@@ -34975,8 +34975,8 @@ cameras
 	"activecamera" "0"
 	camera
 	{
-		"position" "[443.843 -320.481 407.379]"
-		"look" "[392.708 -387.23 154.611]"
+		"position" "[-539.552 37.1393 725.179]"
+		"look" "[-364.07 -131.468 616.829]"
 	}
 	camera
 	{
