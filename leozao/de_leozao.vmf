@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8456"
-	"mapversion" "32"
+	"mapversion" "33"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -38,7 +38,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "32"
+	"mapversion" "33"
 	"classname" "worldspawn"
 	"comment" "Decompiled by BSPSource v1.3.24 from de_leozao"
 	"detailmaterial" "detail/detailsprites"
@@ -9334,7 +9334,7 @@ world
 		{
 			"id" "608"
 			"plane" "(-1794 -3930 912) (-1794 -3930 884.019) (-1794 -2687 427)"
-			"material" "TOOLS/TOOLSINVISIBLE"
+			"material" "TOOLS/TOOLSPLAYERCLIP"
 			"uaxis" "[0 1 0 -24] 0.25"
 			"vaxis" "[0 0 -1 -40] 0.25"
 			"rotation" "0"
@@ -9345,7 +9345,7 @@ world
 		{
 			"id" "609"
 			"plane" "(-1768 -2687 454.981) (-1768 -2687 427) (-1768 -3930 884.019)"
-			"material" "TOOLS/TOOLSINVISIBLE"
+			"material" "TOOLS/TOOLSPLAYERCLIP"
 			"uaxis" "[0 1 0 -24] 0.25"
 			"vaxis" "[0 0 -1 -40] 0.25"
 			"rotation" "0"
@@ -9356,7 +9356,7 @@ world
 		{
 			"id" "610"
 			"plane" "(-1768 -3930 912) (-1768 -3930 884.019) (-1794 -3930 884.019)"
-			"material" "TOOLS/TOOLSINVISIBLE"
+			"material" "TOOLS/TOOLSPLAYERCLIP"
 			"uaxis" "[-1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -9367,7 +9367,7 @@ world
 		{
 			"id" "611"
 			"plane" "(-1794 -2687 454.981) (-1794 -2687 427) (-1768 -2687 427)"
-			"material" "TOOLS/TOOLSINVISIBLE"
+			"material" "TOOLS/TOOLSPLAYERCLIP"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -9378,7 +9378,7 @@ world
 		{
 			"id" "612"
 			"plane" "(-1794 -2687 427) (-1794 -3930 884.019) (-1768 -3930 884.019)"
-			"material" "TOOLS/TOOLSINVISIBLE"
+			"material" "TOOLS/TOOLSPLAYERCLIP"
 			"uaxis" "[0 -0.938565 0.345082 0] 0.25"
 			"vaxis" "[-1 0 0 0] 0.25"
 			"rotation" "0"
@@ -9389,7 +9389,7 @@ world
 		{
 			"id" "613"
 			"plane" "(-1794 -3930 912) (-1794 -2687 454.981) (-1768 -2687 454.981)"
-			"material" "TOOLS/TOOLSINVISIBLE"
+			"material" "TOOLS/TOOLSPLAYERCLIP"
 			"uaxis" "[0 0.938565 -0.345082 0] 0.25"
 			"vaxis" "[-1 0 0 0] 0.25"
 			"rotation" "0"
@@ -40803,8 +40803,8 @@ cameras
 	"activecamera" "0"
 	camera
 	{
-		"position" "[-1502.31 -1930.9 608.075]"
-		"look" "[-1559.07 -1896.38 350.104]"
+		"position" "[-1677.21 -2336.99 630.209]"
+		"look" "[-1714.62 -2599.61 654.543]"
 	}
 	camera
 	{
