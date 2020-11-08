@@ -879,3 +879,892 @@ Total triangle count: 2458
 Writing g:\documents\github\csgomaps2\bounce\de_bounce.bsp
 MSG_FILEWRITE - Filesystem was asked to write to 'g:\documents\github\csgomaps2\bounce\de_bounce.bsp', but we don't own that location. Allowing...
 3 seconds elapsed
+
+
+
+materialPath: D:\Programas\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading g:\documents\github\csgomaps2\bounce\de_bounce.vmf
+Map revision 16
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing g:\documents\github\csgomaps2\bounce\de_bounce.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (32748 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 342 texinfos to 218
+Reduced 9 texdatas to 7 (228 bytes to 195)
+Writing g:\documents\github\csgomaps2\bounce\de_bounce.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'g:\documents\github\csgomaps2\bounce\de_bounce.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+16 threads
+reading g:\documents\github\csgomaps2\bounce\de_bounce.bsp
+reading g:\documents\github\csgomaps2\bounce\de_bounce.prt
+ 281 portalclusters
+ 946 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 2247 visible clusters (0.00%)
+Total clusters visible: 67622
+Average clusters visible: 240
+Building PAS...
+Average clusters audible: 280
+visdatasize:22499  compressed from 22480
+writing g:\documents\github\csgomaps2\bounce\de_bounce.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'g:\documents\github\csgomaps2\bounce\de_bounce.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading g:\documents\github\csgomaps2\bounce\de_bounce.bsp
+870 faces
+669843 square feet [96457520.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+870 patches before subdivision
+12976 patches after subdivision
+3 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 493242, max 297
+transfer lists:   3.8 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(31567, 12731, 5625)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(11352, 1406, 58)
+Build Patch/Sample Hash Table(s).....Done<0.0032 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/1024           48/49152    ( 0.1%) 
+brushes                 87/8192         1044/98304    ( 1.1%) 
+brushsides             578/81920        4624/655360   ( 0.7%) 
+planes                 614/65536       12280/1310720  ( 0.9%) 
+vertexes              1408/65536       16896/786432   ( 2.1%) 
+nodes                  591/65536       18912/2097152  ( 0.9%) 
+texinfos               218/12288       15696/884736   ( 1.8%) 
+texdata                  7/4096          224/131072   ( 0.2%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  870/65536       48720/3670016  ( 1.3%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              328/65536       18368/3670016  ( 0.5%) 
+facebrushes             14/0              28/0        ( 0.0%) 
+facebrushlists         870/0            3480/0        ( 0.0%) 
+leaves                 593/65536       18976/2097152  ( 0.9%) 
+leaffaces              985/65536        1970/131072   ( 1.5%) 
+leafbrushes            383/65536         766/131072   ( 0.6%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges             5580/512000      22320/2048000  ( 1.1%) 
+edges                 3071/256000      12284/1024000  ( 1.2%) 
+LDR worldlights          3/8192          300/819200   ( 0.0%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            112/32768        1120/327680   ( 0.3%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          1647/65536        3294/131072   ( 2.5%) 
+cubemapsamples           1/1024           16/16384    ( 0.1%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]      716172/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       22499/16777216 ( 0.1%) 
+entdata               [variable]        1860/393216   ( 0.5%) 
+LDR ambient table      593/65536        2372/262144   ( 0.9%) 
+HDR ambient table      593/65536        2372/262144   ( 0.9%) 
+LDR leaf ambient      2829/65536       79212/1835008  ( 4.3%) 
+HDR leaf ambient       593/65536       16604/1835008  ( 0.9%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]      149423/0        ( 0.0%) 
+physics               [variable]       32748/4194304  ( 0.8%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7d
+
+Total triangle count: 2526
+Writing g:\documents\github\csgomaps2\bounce\de_bounce.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'g:\documents\github\csgomaps2\bounce\de_bounce.bsp', but we don't own that location. Allowing...
+3 seconds elapsed
+
+
+
+materialPath: D:\Programas\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading g:\documents\github\csgomaps2\bounce\de_bounce.vmf
+Map revision 18
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing g:\documents\github\csgomaps2\bounce\de_bounce.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (36052 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 398 texinfos to 251
+Reduced 9 texdatas to 7 (228 bytes to 195)
+Writing g:\documents\github\csgomaps2\bounce\de_bounce.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'g:\documents\github\csgomaps2\bounce\de_bounce.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+16 threads
+reading g:\documents\github\csgomaps2\bounce\de_bounce.bsp
+reading g:\documents\github\csgomaps2\bounce\de_bounce.prt
+ 329 portalclusters
+1100 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 3064 visible clusters (0.00%)
+Total clusters visible: 93541
+Average clusters visible: 284
+Building PAS...
+Average clusters audible: 328
+visdatasize:30311  compressed from 31584
+writing g:\documents\github\csgomaps2\bounce\de_bounce.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'g:\documents\github\csgomaps2\bounce\de_bounce.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading g:\documents\github\csgomaps2\bounce\de_bounce.bsp
+1002 faces
+1 degenerate faces
+673776 square feet [97023864.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+1001 patches before subdivision
+13645 patches after subdivision
+3 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 550621, max 326
+transfer lists:   4.2 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(32006, 13172, 6068)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(10927, 1431, 57)
+Build Patch/Sample Hash Table(s).....Done<0.0029 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/1024           48/49152    ( 0.1%) 
+brushes                 96/8192         1152/98304    ( 1.2%) 
+brushsides             654/81920        5232/655360   ( 0.8%) 
+planes                 714/65536       14280/1310720  ( 1.1%) 
+vertexes              1615/65536       19380/786432   ( 2.5%) 
+nodes                  692/65536       22144/2097152  ( 1.1%) 
+texinfos               251/12288       18072/884736   ( 2.0%) 
+texdata                  7/4096          224/131072   ( 0.2%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 1002/65536       56112/3670016  ( 1.5%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              364/65536       20384/3670016  ( 0.6%) 
+facebrushes              6/0              12/0        ( 0.0%) 
+facebrushlists        1002/0            4008/0        ( 0.0%) 
+leaves                 694/65536       22208/2097152  ( 1.1%) 
+leaffaces             1166/65536        2332/131072   ( 1.8%) 
+leafbrushes            460/65536         920/131072   ( 0.7%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges             6442/512000      25768/2048000  ( 1.3%) 
+edges                 3508/256000      14032/1024000  ( 1.4%) 
+LDR worldlights          3/8192          300/819200   ( 0.0%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            127/32768        1270/327680   ( 0.4%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          1959/65536        3918/131072   ( 3.0%) 
+cubemapsamples           1/1024           16/16384    ( 0.1%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]      769184/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       30311/16777216 ( 0.2%) 
+entdata               [variable]        1860/393216   ( 0.5%) 
+LDR ambient table      694/65536        2776/262144   ( 1.1%) 
+HDR ambient table      694/65536        2776/262144   ( 1.1%) 
+LDR leaf ambient      3272/65536       91616/1835008  ( 5.0%) 
+HDR leaf ambient       694/65536       19432/1835008  ( 1.1%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]      149423/0        ( 0.0%) 
+physics               [variable]       36052/4194304  ( 0.9%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7d
+
+Total triangle count: 2982
+Writing g:\documents\github\csgomaps2\bounce\de_bounce.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'g:\documents\github\csgomaps2\bounce\de_bounce.bsp', but we don't own that location. Allowing...
+3 seconds elapsed
+
+
+
+materialPath: D:\Programas\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading g:\documents\github\csgomaps2\bounce\de_bounce.vmf
+Map revision 21
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing g:\documents\github\csgomaps2\bounce\de_bounce.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (38764 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 438 texinfos to 282
+Reduced 10 texdatas to 8 (251 bytes to 218)
+Writing g:\documents\github\csgomaps2\bounce\de_bounce.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'g:\documents\github\csgomaps2\bounce\de_bounce.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+16 threads
+reading g:\documents\github\csgomaps2\bounce\de_bounce.bsp
+reading g:\documents\github\csgomaps2\bounce\de_bounce.prt
+ 406 portalclusters
+1363 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 6504 visible clusters (0.00%)
+Total clusters visible: 141980
+Average clusters visible: 349
+Building PAS...
+Average clusters audible: 405
+visdatasize:44492  compressed from 45472
+writing g:\documents\github\csgomaps2\bounce\de_bounce.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'g:\documents\github\csgomaps2\bounce\de_bounce.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading g:\documents\github\csgomaps2\bounce\de_bounce.bsp
+1236 faces
+705327 square feet [101567144.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+1236 patches before subdivision
+zero area child patch
+19200 patches after subdivision
+3 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 766183, max 329
+transfer lists:   5.8 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(35487, 14265, 6294)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(12655, 1586, 59)
+Build Patch/Sample Hash Table(s).....Done<0.0039 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/1024           48/49152    ( 0.1%) 
+brushes                103/8192         1236/98304    ( 1.3%) 
+brushsides             716/81920        5728/655360   ( 0.9%) 
+planes                 812/65536       16240/1310720  ( 1.2%) 
+vertexes              1984/65536       23808/786432   ( 3.0%) 
+nodes                  854/65536       27328/2097152  ( 1.3%) 
+texinfos               282/12288       20304/884736   ( 2.3%) 
+texdata                  8/4096          256/131072   ( 0.2%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 1236/65536       69216/3670016  ( 1.9%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              395/65536       22120/3670016  ( 0.6%) 
+facebrushes              4/0               8/0        ( 0.0%) 
+facebrushlists        1236/0            4944/0        ( 0.0%) 
+leaves                 856/65536       27392/2097152  ( 1.3%) 
+leaffaces             1408/65536        2816/131072   ( 2.1%) 
+leafbrushes            574/65536        1148/131072   ( 0.9%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges             7786/512000      31144/2048000  ( 1.5%) 
+edges                 4216/256000      16864/1024000  ( 1.6%) 
+LDR worldlights          3/8192          300/819200   ( 0.0%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            194/32768        1940/327680   ( 0.6%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          2865/65536        5730/131072   ( 4.4%) 
+cubemapsamples           1/1024           16/16384    ( 0.1%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]     1073596/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       44492/16777216 ( 0.3%) 
+entdata               [variable]        3313/393216   ( 0.8%) 
+LDR ambient table      856/65536        3424/262144   ( 1.3%) 
+HDR ambient table      856/65536        3424/262144   ( 1.3%) 
+LDR leaf ambient      4105/65536      114940/1835008  ( 6.3%) 
+HDR leaf ambient       856/65536       23968/1835008  ( 1.3%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]      149423/0        ( 0.0%) 
+physics               [variable]       38764/4194304  ( 0.9%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7d
+
+Total triangle count: 3734
+Writing g:\documents\github\csgomaps2\bounce\de_bounce.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'g:\documents\github\csgomaps2\bounce\de_bounce.bsp', but we don't own that location. Allowing...
+4 seconds elapsed
+
+
+
+materialPath: D:\Programas\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading g:\documents\github\csgomaps2\bounce\de_bounce.vmf
+Map revision 22
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing g:\documents\github\csgomaps2\bounce\de_bounce.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (39580 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 450 texinfos to 295
+Reduced 10 texdatas to 8 (251 bytes to 218)
+Writing g:\documents\github\csgomaps2\bounce\de_bounce.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'g:\documents\github\csgomaps2\bounce\de_bounce.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+16 threads
+reading g:\documents\github\csgomaps2\bounce\de_bounce.bsp
+reading g:\documents\github\csgomaps2\bounce\de_bounce.prt
+ 428 portalclusters
+1470 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 7087 visible clusters (0.00%)
+Total clusters visible: 157269
+Average clusters visible: 367
+Building PAS...
+Average clusters audible: 427
+visdatasize:49411  compressed from 47936
+writing g:\documents\github\csgomaps2\bounce\de_bounce.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'g:\documents\github\csgomaps2\bounce\de_bounce.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading g:\documents\github\csgomaps2\bounce\de_bounce.bsp
+1304 faces
+717742 square feet [103354912.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+1304 patches before subdivision
+zero area child patch
+20840 patches after subdivision
+3 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 850183, max 356
+transfer lists:   6.5 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(41240, 16579, 7295)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(14868, 1831, 61)
+Build Patch/Sample Hash Table(s).....Done<0.0043 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/1024           48/49152    ( 0.1%) 
+brushes                105/8192         1260/98304    ( 1.3%) 
+brushsides             732/81920        5856/655360   ( 0.9%) 
+planes                 842/65536       16840/1310720  ( 1.3%) 
+vertexes              2081/65536       24972/786432   ( 3.2%) 
+nodes                  871/65536       27872/2097152  ( 1.3%) 
+texinfos               295/12288       21240/884736   ( 2.4%) 
+texdata                  8/4096          256/131072   ( 0.2%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 1304/65536       73024/3670016  ( 2.0%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              408/65536       22848/3670016  ( 0.6%) 
+facebrushes              4/0               8/0        ( 0.0%) 
+facebrushlists        1304/0            5216/0        ( 0.0%) 
+leaves                 873/65536       27936/2097152  ( 1.3%) 
+leaffaces             1491/65536        2982/131072   ( 2.3%) 
+leafbrushes            556/65536        1112/131072   ( 0.8%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges             8183/512000      32732/2048000  ( 1.6%) 
+edges                 4412/256000      17648/1024000  ( 1.7%) 
+LDR worldlights          3/8192          300/819200   ( 0.0%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            217/32768        2170/327680   ( 0.7%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          3123/65536        6246/131072   ( 4.8%) 
+cubemapsamples           1/1024           16/16384    ( 0.1%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]     1166112/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       49411/16777216 ( 0.3%) 
+entdata               [variable]        3314/393216   ( 0.8%) 
+LDR ambient table      873/65536        3492/262144   ( 1.3%) 
+HDR ambient table      873/65536        3492/262144   ( 1.3%) 
+LDR leaf ambient      4444/65536      124432/1835008  ( 6.8%) 
+HDR leaf ambient       873/65536       24444/1835008  ( 1.3%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]      149423/0        ( 0.0%) 
+physics               [variable]       39580/4194304  ( 0.9%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7d
+
+Total triangle count: 3943
+Writing g:\documents\github\csgomaps2\bounce\de_bounce.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'g:\documents\github\csgomaps2\bounce\de_bounce.bsp', but we don't own that location. Allowing...
+5 seconds elapsed
+
+
+
+materialPath: D:\Programas\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading g:\documents\github\csgomaps2\bounce\de_bounce.vmf
+Map revision 23
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing g:\documents\github\csgomaps2\bounce\de_bounce.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (40332 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 462 texinfos to 303
+Reduced 10 texdatas to 8 (251 bytes to 218)
+Writing g:\documents\github\csgomaps2\bounce\de_bounce.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'g:\documents\github\csgomaps2\bounce\de_bounce.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+16 threads
+reading g:\documents\github\csgomaps2\bounce\de_bounce.bsp
+reading g:\documents\github\csgomaps2\bounce\de_bounce.prt
+ 432 portalclusters
+1496 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 7243 visible clusters (0.00%)
+Total clusters visible: 159729
+Average clusters visible: 369
+Building PAS...
+Average clusters audible: 431
+visdatasize:50013  compressed from 48384
+writing g:\documents\github\csgomaps2\bounce\de_bounce.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'g:\documents\github\csgomaps2\bounce\de_bounce.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading g:\documents\github\csgomaps2\bounce\de_bounce.bsp
+1318 faces
+717853 square feet [103370960.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+1318 patches before subdivision
+zero area child patch
+20872 patches after subdivision
+3 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 861518, max 356
+transfer lists:   6.6 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(40643, 16450, 7344)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(14899, 1837, 61)
+Build Patch/Sample Hash Table(s).....Done<0.0050 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/1024           48/49152    ( 0.1%) 
+brushes                107/8192         1284/98304    ( 1.3%) 
+brushsides             744/81920        5952/655360   ( 0.9%) 
+planes                 854/65536       17080/1310720  ( 1.3%) 
+vertexes              2104/65536       25248/786432   ( 3.2%) 
+nodes                  879/65536       28128/2097152  ( 1.3%) 
+texinfos               303/12288       21816/884736   ( 2.5%) 
+texdata                  8/4096          256/131072   ( 0.2%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 1318/65536       73808/3670016  ( 2.0%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              416/65536       23296/3670016  ( 0.6%) 
+facebrushes              4/0               8/0        ( 0.0%) 
+facebrushlists        1318/0            5272/0        ( 0.0%) 
+leaves                 881/65536       28192/2097152  ( 1.3%) 
+leaffaces             1497/65536        2994/131072   ( 2.3%) 
+leafbrushes            560/65536        1120/131072   ( 0.9%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges             8289/512000      33156/2048000  ( 1.6%) 
+edges                 4470/256000      17880/1024000  ( 1.7%) 
+LDR worldlights          3/8192          300/819200   ( 0.0%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            220/32768        2200/327680   ( 0.7%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          3192/65536        6384/131072   ( 4.9%) 
+cubemapsamples           1/1024           16/16384    ( 0.1%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]     1167564/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       50013/16777216 ( 0.3%) 
+entdata               [variable]        3314/393216   ( 0.8%) 
+LDR ambient table      881/65536        3524/262144   ( 1.3%) 
+HDR ambient table      881/65536        3524/262144   ( 1.3%) 
+LDR leaf ambient      4496/65536      125888/1835008  ( 6.9%) 
+HDR leaf ambient       881/65536       24668/1835008  ( 1.3%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]      149423/0        ( 0.0%) 
+physics               [variable]       40332/4194304  ( 1.0%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7d
+
+Total triangle count: 3989
+Writing g:\documents\github\csgomaps2\bounce\de_bounce.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'g:\documents\github\csgomaps2\bounce\de_bounce.bsp', but we don't own that location. Allowing...
+5 seconds elapsed
+
+
+
+materialPath: D:\Programas\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading g:\documents\github\csgomaps2\bounce\de_bounce.vmf
+Map revision 24
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing g:\documents\github\csgomaps2\bounce\de_bounce.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (38892 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 454 texinfos to 302
+Reduced 10 texdatas to 8 (251 bytes to 218)
+Writing g:\documents\github\csgomaps2\bounce\de_bounce.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'g:\documents\github\csgomaps2\bounce\de_bounce.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+16 threads
+reading g:\documents\github\csgomaps2\bounce\de_bounce.bsp
+reading g:\documents\github\csgomaps2\bounce\de_bounce.prt
+ 432 portalclusters
+1499 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 6080 visible clusters (0.00%)
+Total clusters visible: 162116
+Average clusters visible: 375
+Building PAS...
+Average clusters audible: 431
+visdatasize:50035  compressed from 48384
+writing g:\documents\github\csgomaps2\bounce\de_bounce.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'g:\documents\github\csgomaps2\bounce\de_bounce.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading g:\documents\github\csgomaps2\bounce\de_bounce.bsp
+1312 faces
+717761 square feet [103357648.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+1312 patches before subdivision
+zero area child patch
+20832 patches after subdivision
+3 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 861007, max 358
+transfer lists:   6.6 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(40729, 16484, 7360)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(15038, 1853, 62)
+Build Patch/Sample Hash Table(s).....Done<0.0054 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/1024           48/49152    ( 0.1%) 
+brushes                103/8192         1236/98304    ( 1.3%) 
+brushsides             720/81920        5760/655360   ( 0.9%) 
+planes                 842/65536       16840/1310720  ( 1.3%) 
+vertexes              2085/65536       25020/786432   ( 3.2%) 
+nodes                  877/65536       28064/2097152  ( 1.3%) 
+texinfos               302/12288       21744/884736   ( 2.5%) 
+texdata                  8/4096          256/131072   ( 0.2%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 1312/65536       73472/3670016  ( 2.0%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              409/65536       22904/3670016  ( 0.6%) 
+facebrushes              4/0               8/0        ( 0.0%) 
+facebrushlists        1312/0            5248/0        ( 0.0%) 
+leaves                 879/65536       28128/2097152  ( 1.3%) 
+leaffaces             1496/65536        2992/131072   ( 2.3%) 
+leafbrushes            556/65536        1112/131072   ( 0.8%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges             8230/512000      32920/2048000  ( 1.6%) 
+edges                 4423/256000      17692/1024000  ( 1.7%) 
+LDR worldlights          3/8192          300/819200   ( 0.0%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            214/32768        2140/327680   ( 0.7%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          3123/65536        6246/131072   ( 4.8%) 
+cubemapsamples           1/1024           16/16384    ( 0.1%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]     1166300/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       50035/16777216 ( 0.3%) 
+entdata               [variable]        3314/393216   ( 0.8%) 
+LDR ambient table      879/65536        3516/262144   ( 1.3%) 
+HDR ambient table      879/65536        3516/262144   ( 1.3%) 
+LDR leaf ambient      4482/65536      125496/1835008  ( 6.8%) 
+HDR leaf ambient       879/65536       24612/1835008  ( 1.3%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]      149423/0        ( 0.0%) 
+physics               [variable]       38892/4194304  ( 0.9%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7d
+
+Total triangle count: 3970
+Writing g:\documents\github\csgomaps2\bounce\de_bounce.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'g:\documents\github\csgomaps2\bounce\de_bounce.bsp', but we don't own that location. Allowing...
+5 seconds elapsed
+
+
+
+materialPath: D:\Programas\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading g:\documents\github\csgomaps2\bounce\de_bounce.vmf
+Map revision 25
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing g:\documents\github\csgomaps2\bounce\de_bounce.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (40457 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 437 texinfos to 314
+Reduced 8 texdatas to 7 (185 bytes to 172)
+Writing g:\documents\github\csgomaps2\bounce\de_bounce.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'g:\documents\github\csgomaps2\bounce\de_bounce.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+16 threads
+reading g:\documents\github\csgomaps2\bounce\de_bounce.bsp
+reading g:\documents\github\csgomaps2\bounce\de_bounce.prt
+ 424 portalclusters
+1422 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 6465 visible clusters (0.00%)
+Total clusters visible: 152555
+Average clusters visible: 359
+Building PAS...
+Average clusters audible: 423
+visdatasize:48028  compressed from 47488
+writing g:\documents\github\csgomaps2\bounce\de_bounce.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'g:\documents\github\csgomaps2\bounce\de_bounce.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading g:\documents\github\csgomaps2\bounce\de_bounce.bsp
+1326 faces
+719318 square feet [103581872.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+1326 patches before subdivision
+zero area child patch
+zero area child patch
+21232 patches after subdivision
+3 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 906305, max 354
+transfer lists:   6.9 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(44785, 18024, 7974)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(16093, 1986, 61)
+Build Patch/Sample Hash Table(s).....Done<0.0052 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/1024           48/49152    ( 0.1%) 
+brushes                108/8192         1296/98304    ( 1.3%) 
+brushsides             750/81920        6000/655360   ( 0.9%) 
+planes                 844/65536       16880/1310720  ( 1.3%) 
+vertexes              2123/65536       25476/786432   ( 3.2%) 
+nodes                  888/65536       28416/2097152  ( 1.4%) 
+texinfos               314/12288       22608/884736   ( 2.6%) 
+texdata                  7/4096          224/131072   ( 0.2%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 1326/65536       74256/3670016  ( 2.0%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              417/65536       23352/3670016  ( 0.6%) 
+facebrushes              2/0               4/0        ( 0.0%) 
+facebrushlists        1326/0            5304/0        ( 0.0%) 
+leaves                 890/65536       28480/2097152  ( 1.4%) 
+leaffaces             1498/65536        2996/131072   ( 2.3%) 
+leafbrushes            603/65536        1206/131072   ( 0.9%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges             8297/512000      33188/2048000  ( 1.6%) 
+edges                 4469/256000      17876/1024000  ( 1.7%) 
+LDR worldlights          3/8192          300/819200   ( 0.0%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            208/32768        2080/327680   ( 0.6%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          3042/65536        6084/131072   ( 4.6%) 
+cubemapsamples           1/1024           16/16384    ( 0.1%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]     1158460/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       48028/16777216 ( 0.3%) 
+entdata               [variable]        3315/393216   ( 0.8%) 
+LDR ambient table      890/65536        3560/262144   ( 1.4%) 
+HDR ambient table      890/65536        3560/262144   ( 1.4%) 
+LDR leaf ambient      4453/65536      124684/1835008  ( 6.8%) 
+HDR leaf ambient       890/65536       24920/1835008  ( 1.4%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]      149102/0        ( 0.0%) 
+physics               [variable]       40457/4194304  ( 1.0%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7d
+
+Total triangle count: 3977
+Writing g:\documents\github\csgomaps2\bounce\de_bounce.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'g:\documents\github\csgomaps2\bounce\de_bounce.bsp', but we don't own that location. Allowing...
+5 seconds elapsed
