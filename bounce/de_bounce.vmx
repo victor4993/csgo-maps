@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8456"
-	"mapversion" "215"
+	"mapversion" "218"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -44,7 +44,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "215"
+	"mapversion" "218"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -3328,7 +3328,7 @@ world
 		{
 			"id" "3555"
 			"plane" "(124 -260 163) (-657.988 -260 163) (-656.274 -260 163.401)"
-			"material" "DE_CBBLE/ROOFTILE02"
+			"material" "REALWORLDTEXTURES/NEWER/0/ROOF_0_01"
 			"uaxis" "[-1 0 0 8.95898] 0.25"
 			"vaxis" "[0 0 -1 45.66] 0.25"
 			"rotation" "0"
@@ -3339,7 +3339,7 @@ world
 		{
 			"id" "3554"
 			"plane" "(-658 528 163) (-658 -260 163) (124 -260 163)"
-			"material" "DE_CBBLE/ROOFTILE02"
+			"material" "REALWORLDTEXTURES/NEWER/0/ROOF_0_01"
 			"uaxis" "[0 -1 0 -0.214966] 0.25"
 			"vaxis" "[-1 0 0 72.96] 0.25"
 			"rotation" "0"
@@ -3350,7 +3350,7 @@ world
 		{
 			"id" "3553"
 			"plane" "(-656.279 -260 163.401) (-658 -260 163) (-658 528 163)"
-			"material" "DE_CBBLE/ROOFTILE02"
+			"material" "REALWORLDTEXTURES/NEWER/0/ROOF_0_01"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 -4] 0.25"
 			"rotation" "0"
@@ -3361,7 +3361,7 @@ world
 		{
 			"id" "3552"
 			"plane" "(124 -260 163) (122.274 -260 163.401) (-267.162 132.513 253.888)"
-			"material" "DE_CBBLE/ROOFTILE02"
+			"material" "REALWORLDTEXTURES/NEWER/0/ROOF_0_01"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 -4] 0.25"
 			"rotation" "0"
@@ -3372,7 +3372,7 @@ world
 		{
 			"id" "3551"
 			"plane" "(122.279 -260 163.401) (-656.279 -260 163.401) (-267.491 132.515 253.888)"
-			"material" "DE_CBBLE/ROOFTILE02"
+			"material" "REALWORLDTEXTURES/NEWER/0/ROOF_0_01"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 -4] 0.25"
 			"rotation" "0"
@@ -3383,7 +3383,7 @@ world
 		{
 			"id" "3550"
 			"plane" "(-267.491 132.514 253.888) (-658 528 163) (122.256 528 163)"
-			"material" "DE_CBBLE/ROOFTILE02"
+			"material" "REALWORLDTEXTURES/NEWER/0/ROOF_0_01"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 -4] 0.25"
 			"rotation" "0"
@@ -3711,7 +3711,7 @@ world
 		{
 			"id" "3698"
 			"plane" "(-481 467 43.8359) (-481 467 5) (-481 635 5)"
-			"material" "DE_CBBLE/ROOFTILE02"
+			"material" "REALWORLDTEXTURES/NEWER/0/ROOF_0_01"
 			"uaxis" "[0 1 0 464.215] 0.25"
 			"vaxis" "[0 0 -1 53.66] 0.25"
 			"rotation" "0"
@@ -3722,7 +3722,7 @@ world
 		{
 			"id" "3697"
 			"plane" "(83 635 6.22266) (83 635 5) (83 467 5)"
-			"material" "DE_CBBLE/ROOFTILE02"
+			"material" "REALWORLDTEXTURES/NEWER/0/ROOF_0_01"
 			"uaxis" "[0 1 0 488.215] 0.25"
 			"vaxis" "[0 0 -1 117.66] 0.25"
 			"rotation" "0"
@@ -3733,7 +3733,7 @@ world
 		{
 			"id" "3696"
 			"plane" "(83 467 43.8359) (83 467 5) (-481 467 5)"
-			"material" "DE_CBBLE/ROOFTILE02"
+			"material" "REALWORLDTEXTURES/NEWER/0/ROOF_0_01"
 			"uaxis" "[-1 0 0 9] 0.25"
 			"vaxis" "[0 0 -1 53.66] 0.25"
 			"rotation" "0"
@@ -3744,7 +3744,7 @@ world
 		{
 			"id" "3695"
 			"plane" "(-481 635 6.22266) (-481 635 5) (83 635 5)"
-			"material" "DE_CBBLE/ROOFTILE02"
+			"material" "REALWORLDTEXTURES/NEWER/0/ROOF_0_01"
 			"uaxis" "[1 0 0 55] 0.25"
 			"vaxis" "[0 0 -1 117.66] 0.25"
 			"rotation" "0"
@@ -3755,7 +3755,7 @@ world
 		{
 			"id" "3694"
 			"plane" "(-481 635 5) (-481 467 5) (83 467 5)"
-			"material" "DE_CBBLE/ROOFTILE02"
+			"material" "REALWORLDTEXTURES/NEWER/0/ROOF_0_01"
 			"uaxis" "[0 -1 0 -464.215] 0.25"
 			"vaxis" "[-1 0 0 -54.9985] 0.25"
 			"rotation" "0"
@@ -3766,7 +3766,7 @@ world
 		{
 			"id" "3693"
 			"plane" "(-481 467 43.835) (-481 635 6.22306) (83 635 6.22461)"
-			"material" "DE_CBBLE/ROOFTILE02"
+			"material" "REALWORLDTEXTURES/NEWER/0/ROOF_0_01"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 -4] 0.25"
 			"rotation" "0"
@@ -3788,7 +3788,7 @@ world
 		{
 			"id" "3705"
 			"plane" "(83 67 44) (83 67 5) (83 635 5)"
-			"material" "DE_CBBLE/ROOFTILE02"
+			"material" "REALWORLDTEXTURES/NEWER/0/ROOF_0_01"
 			"uaxis" "[0 1 0 452.215] 0.25"
 			"vaxis" "[0 0 -1 53.66] 0.25"
 			"rotation" "0"
@@ -3799,7 +3799,7 @@ world
 		{
 			"id" "3704"
 			"plane" "(162.586 67 6.55078) (162.586 67 5) (83 67 5)"
-			"material" "DE_CBBLE/ROOFTILE02"
+			"material" "REALWORLDTEXTURES/NEWER/0/ROOF_0_01"
 			"uaxis" "[-1 0 0 13] 0.25"
 			"vaxis" "[0 0 -1 53.66] 0.25"
 			"rotation" "0"
@@ -3810,7 +3810,7 @@ world
 		{
 			"id" "3703"
 			"plane" "(83 635 5.22744) (83 635 5) (165 635 5)"
-			"material" "DE_CBBLE/ROOFTILE02"
+			"material" "REALWORLDTEXTURES/NEWER/0/ROOF_0_01"
 			"uaxis" "[1 0 0 -77] 0.25"
 			"vaxis" "[0 0 -1 117.66] 0.25"
 			"rotation" "0"
@@ -3821,7 +3821,7 @@ world
 		{
 			"id" "3702"
 			"plane" "(165 635 5) (83 635 5) (83 67 5)"
-			"material" "DE_CBBLE/ROOFTILE02"
+			"material" "REALWORLDTEXTURES/NEWER/0/ROOF_0_01"
 			"uaxis" "[0 -1 0 -452.215] 0.25"
 			"vaxis" "[-1 0 0 77] 0.25"
 			"rotation" "0"
@@ -3832,7 +3832,7 @@ world
 		{
 			"id" "3701"
 			"plane" "(165 635 5.22744) (165 635 5) (162.583 67 5)"
-			"material" "DE_CBBLE/ROOFTILE02"
+			"material" "REALWORLDTEXTURES/NEWER/0/ROOF_0_01"
 			"uaxis" "[0 1 0 460] 0.25"
 			"vaxis" "[0 0 -1 12] 0.25"
 			"rotation" "0"
@@ -3843,7 +3843,7 @@ world
 		{
 			"id" "3700"
 			"plane" "(162.583 67 6.54917) (83 67 44) (83 464.405 44)"
-			"material" "DE_CBBLE/ROOFTILE02"
+			"material" "REALWORLDTEXTURES/NEWER/0/ROOF_0_01"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 -4] 0.25"
 			"rotation" "0"
@@ -3854,7 +3854,7 @@ world
 		{
 			"id" "3699"
 			"plane" "(83 464.408 44) (83 635 5.2271) (165 635 5.2271)"
-			"material" "DE_CBBLE/ROOFTILE02"
+			"material" "REALWORLDTEXTURES/NEWER/0/ROOF_0_01"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 -4] 0.25"
 			"rotation" "0"
@@ -5218,9 +5218,9 @@ world
 		{
 			"id" "1470"
 			"plane" "(-103 462 2) (-103 243 2) (82 243 2)"
-			"material" "DE_CBBLE/WOODCEILING01"
-			"uaxis" "[0 -1 0 -448.215] 0.25"
-			"vaxis" "[-1 0 0 165.001] 0.25"
+			"material" "REALWORLDTEXTURES/CEILING/CEILING_03"
+			"uaxis" "[0 -1 0 -4] 0.1"
+			"vaxis" "[-1 0 0 -4] 0.1"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -9451,9 +9451,9 @@ world
 		{
 			"id" "2299"
 			"plane" "(-594 148 2) (-709 148 2) (-709 -300 2)"
-			"material" "DE_CBBLE/WOODCEILING01"
-			"uaxis" "[0 -1 0 -252.215] 0.25"
-			"vaxis" "[-1 0 0 -218.999] 0.25"
+			"material" "REALWORLDTEXTURES/CEILING/CEILING_03"
+			"uaxis" "[0 -1 0 -252] 0.1"
+			"vaxis" "[-1 0 0 -4] 0.1"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -9538,9 +9538,9 @@ world
 		{
 			"id" "2328"
 			"plane" "(-600 -209 2) (-600 -300 2) (-137 -300 2)"
-			"material" "DE_CBBLE/WOODCEILING01"
-			"uaxis" "[0 -1 0 -0.214966] 0.25"
-			"vaxis" "[-1 0 0 217.001] 0.25"
+			"material" "REALWORLDTEXTURES/CEILING/CEILING_03"
+			"uaxis" "[0 -1 0 0] 0.1"
+			"vaxis" "[-1 0 0 -4] 0.1"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -11570,7 +11570,7 @@ world
 		{
 			"id" "3436"
 			"plane" "(-600 -300 5) (-600 -211 5) (-600 -211 38)"
-			"material" "DE_CBBLE/ROOFTILE02"
+			"material" "REALWORLDTEXTURES/NEWER/0/ROOF_0_01"
 			"uaxis" "[0 1 0 0.214966] 0.25"
 			"vaxis" "[0 0 -1 53.66] 0.25"
 			"rotation" "0"
@@ -11581,7 +11581,7 @@ world
 		{
 			"id" "3435"
 			"plane" "(-137 -211 38) (-137 -211 5) (-137 -300 5)"
-			"material" "DE_CBBLE/ROOFTILE02"
+			"material" "REALWORLDTEXTURES/NEWER/0/ROOF_0_01"
 			"uaxis" "[0 1 0 24.2148] 0.25"
 			"vaxis" "[0 0 -1 117.66] 0.25"
 			"rotation" "0"
@@ -11592,7 +11592,7 @@ world
 		{
 			"id" "3434"
 			"plane" "(-600 -211 38) (-600 -211 5) (-137 -211 5)"
-			"material" "DE_CBBLE/ROOFTILE02"
+			"material" "REALWORLDTEXTURES/NEWER/0/ROOF_0_01"
 			"uaxis" "[1 0 0 -89] 0.25"
 			"vaxis" "[0 0 -1 117.66] 0.25"
 			"rotation" "0"
@@ -11603,7 +11603,7 @@ world
 		{
 			"id" "3433"
 			"plane" "(-600 -211 5) (-600 -300 5) (-137 -300 5)"
-			"material" "DE_CBBLE/ROOFTILE02"
+			"material" "REALWORLDTEXTURES/NEWER/0/ROOF_0_01"
 			"uaxis" "[0 -1 0 -0.214966] 0.25"
 			"vaxis" "[-1 0 0 89] 0.25"
 			"rotation" "0"
@@ -11614,7 +11614,7 @@ world
 		{
 			"id" "3432"
 			"plane" "(-600 -300 5) (-600 -211 38) (-137 -211 38)"
-			"material" "DE_CBBLE/ROOFTILE02"
+			"material" "REALWORLDTEXTURES/NEWER/0/ROOF_0_01"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 -4] 0.25"
 			"rotation" "0"
@@ -11636,7 +11636,7 @@ world
 		{
 			"id" "3460"
 			"plane" "(-709 148 5) (-597 148 5) (-597 148 39)"
-			"material" "DE_CBBLE/ROOFTILE02"
+			"material" "REALWORLDTEXTURES/NEWER/0/ROOF_0_01"
 			"uaxis" "[1 0 0 91] 0.25"
 			"vaxis" "[0 0 -1 117.66] 0.25"
 			"rotation" "0"
@@ -11647,7 +11647,7 @@ world
 		{
 			"id" "3459"
 			"plane" "(-597 148 5) (-709 148 5) (-709 -300 5)"
-			"material" "DE_CBBLE/ROOFTILE02"
+			"material" "REALWORLDTEXTURES/NEWER/0/ROOF_0_01"
 			"uaxis" "[0 -1 0 -124.215] 0.25"
 			"vaxis" "[-1 0 0 -91] 0.25"
 			"rotation" "0"
@@ -11658,7 +11658,7 @@ world
 		{
 			"id" "3458"
 			"plane" "(-600.703 148 39) (-597 148 39) (-599.63 -209 39)"
-			"material" "DE_CBBLE/ROOFTILE02"
+			"material" "REALWORLDTEXTURES/NEWER/0/ROOF_0_01"
 			"uaxis" "[1 0 0 27] 0.25"
 			"vaxis" "[0 -1 0 -20.2148] 0.25"
 			"rotation" "0"
@@ -11669,7 +11669,7 @@ world
 		{
 			"id" "3457"
 			"plane" "(-597 148 39) (-597 148 5) (-600.301 -300 5)"
-			"material" "DE_CBBLE/ROOFTILE02"
+			"material" "REALWORLDTEXTURES/NEWER/0/ROOF_0_01"
 			"uaxis" "[0 1 0 4] 0.25"
 			"vaxis" "[0 0 -1 12] 0.25"
 			"rotation" "0"
@@ -11680,7 +11680,7 @@ world
 		{
 			"id" "3456"
 			"plane" "(-709 -300 5) (-709 148 5) (-600.703 148 39)"
-			"material" "DE_CBBLE/ROOFTILE02"
+			"material" "REALWORLDTEXTURES/NEWER/0/ROOF_0_01"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 -4] 0.25"
 			"rotation" "0"
@@ -11691,7 +11691,7 @@ world
 		{
 			"id" "3455"
 			"plane" "(-600.305 -300 5) (-709 -300 5) (-600.699 -209 39)"
-			"material" "DE_CBBLE/ROOFTILE02"
+			"material" "REALWORLDTEXTURES/NEWER/0/ROOF_0_01"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 -4] 0.25"
 			"rotation" "0"
@@ -11757,9 +11757,9 @@ world
 		{
 			"id" "3480"
 			"plane" "(-600 463 162) (-600 -204 162) (81 -204 162)"
-			"material" "DE_CBBLE/WOODCEILING01"
-			"uaxis" "[0 -1 0 -0.214966] 0.25"
-			"vaxis" "[-1 0 0 72.96] 0.25"
+			"material" "REALWORLDTEXTURES/CEILING/CEILING_03"
+			"uaxis" "[0 -1 0 0] 0.1"
+			"vaxis" "[-1 0 0 73] 0.1"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -11789,7 +11789,7 @@ world
 		{
 			"id" "1146"
 			"plane" "(-597 -209 5) (-597 -209 2) (-597 243 2)"
-			"material" "DE_CBBLE/WOODCEILING01"
+			"material" "RAISTLINS/WOOD02"
 			"uaxis" "[0 1 0 404.215] 0.25"
 			"vaxis" "[0 0 -1 169.66] 0.25"
 			"rotation" "0"
@@ -11800,7 +11800,7 @@ world
 		{
 			"id" "1145"
 			"plane" "(82 243 5) (82 243 2) (82 -209 2)"
-			"material" "DE_CBBLE/WOODCEILING01"
+			"material" "RAISTLINS/WOOD02"
 			"uaxis" "[0 1 0 428.215] 0.25"
 			"vaxis" "[0 0 -1 233.66] 0.25"
 			"rotation" "0"
@@ -11811,7 +11811,7 @@ world
 		{
 			"id" "1144"
 			"plane" "(82 -209 5) (82 -209 2) (-597 -209 2)"
-			"material" "DE_CBBLE/WOODCEILING01"
+			"material" "RAISTLINS/WOOD02"
 			"uaxis" "[-1 0 0 9] 0.25"
 			"vaxis" "[0 0 -1 169.66] 0.25"
 			"rotation" "0"
@@ -11822,7 +11822,7 @@ world
 		{
 			"id" "1143"
 			"plane" "(-597 243 5) (-597 243 2) (82 243 2)"
-			"material" "DE_CBBLE/WOODCEILING01"
+			"material" "REALWORLDTEXTURES/CEILING/CEILING_03"
 			"uaxis" "[1 0 0 -201.001] 0.25"
 			"vaxis" "[0 0 -1 233.66] 0.25"
 			"rotation" "0"
@@ -11833,9 +11833,9 @@ world
 		{
 			"id" "1142"
 			"plane" "(-597 243 2) (-597 -209 2) (82 -209 2)"
-			"material" "DE_CBBLE/WOODCEILING01"
-			"uaxis" "[0 -1 0 -404.215] 0.25"
-			"vaxis" "[-1 0 0 201.001] 0.25"
+			"material" "REALWORLDTEXTURES/CEILING/CEILING_03"
+			"uaxis" "[0 -1 0 -148] 0.1"
+			"vaxis" "[-1 0 0 -4] 0.1"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -11844,7 +11844,7 @@ world
 		{
 			"id" "1141"
 			"plane" "(-597 -209 5) (-597 243 5) (82 243 5)"
-			"material" "DE_CBBLE/WOODCEILING01"
+			"material" "RAISTLINS/WOOD02"
 			"uaxis" "[1 0 0 -9] 0.25"
 			"vaxis" "[0 -1 0 -428.215] 0.25"
 			"rotation" "0"
@@ -11953,8 +11953,8 @@ world
 		{
 			"id" "1335"
 			"plane" "(-229 365 5) (-229 365 2) (-229 243 2)"
-			"material" "DE_CBBLE/WOODCEILING01"
-			"uaxis" "[0 1 0 468.215] 0.25"
+			"material" "REALWORLDTEXTURES/CEILING/CEILING_03"
+			"uaxis" "[0 1 0 212.215] 0.25"
 			"vaxis" "[0 0 -1 233.66] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -11986,9 +11986,9 @@ world
 		{
 			"id" "1332"
 			"plane" "(-599 365 2) (-599 243 2) (-229 243 2)"
-			"material" "DE_CBBLE/WOODCEILING01"
-			"uaxis" "[0 -1 0 -444.215] 0.25"
-			"vaxis" "[-1 0 0 -46.9985] 0.25"
+			"material" "REALWORLDTEXTURES/CEILING/CEILING_03"
+			"uaxis" "[0 -1 0 -188] 0.1"
+			"vaxis" "[-1 0 0 -4] 0.1"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -12062,9 +12062,9 @@ world
 		{
 			"id" "1344"
 			"plane" "(-599 466 2) (-599 361 2) (-390 361 2)"
-			"material" "DE_CBBLE/WOODCEILING01"
-			"uaxis" "[0 -1 0 -484.215] 0.25"
-			"vaxis" "[-1 0 0 -174.998] 0.25"
+			"material" "REALWORLDTEXTURES/CEILING/CEILING_03"
+			"uaxis" "[0 -1 0 -228] 0.1"
+			"vaxis" "[-1 0 0 -4] 0.1"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -14666,8 +14666,8 @@ world
 		{
 			"id" "1127"
 			"plane" "(-390 361 -1.25) (-390 465 -1.25) (-390 465 8)"
-			"material" "DE_CBBLE/WOODCEILING01"
-			"uaxis" "[0 1 0 468] 0.25"
+			"material" "REALWORLDTEXTURES/CEILING/CEILING_03"
+			"uaxis" "[0 1 0 212] 0.25"
 			"vaxis" "[0 0 -1 8] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -14677,9 +14677,9 @@ world
 		{
 			"id" "1126"
 			"plane" "(-390 465 -1.25016) (-390 361 -1.25016) (-347 361 -1.25016)"
-			"material" "DE_CBBLE/WOODCEILING01"
-			"uaxis" "[0 1 0 468] 0.25"
-			"vaxis" "[1 0 0 82] 0.25"
+			"material" "REALWORLDTEXTURES/CEILING/CEILING_03"
+			"uaxis" "[0 1 0 212] 0.1"
+			"vaxis" "[1 0 0 -4] 0.1"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -14699,9 +14699,9 @@ world
 		{
 			"id" "1124"
 			"plane" "(-347 361 8) (-347 361 -1.25) (-390 361 -1.25)"
-			"material" "DE_CBBLE/WOODCEILING01"
-			"uaxis" "[-1 0 0 -36] 0.25"
-			"vaxis" "[0 0 -1 -4] 0.25"
+			"material" "REALWORLDTEXTURES/CEILING/CEILING_03"
+			"uaxis" "[-1 0 0 -39] 0.1"
+			"vaxis" "[0 0 -1 -23] 0.1"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -21325,9 +21325,9 @@ entity
 		{
 			"id" "5620"
 			"plane" "(-402.323 -2185.42 -161.585) (-1127.77 -2179.18 -161.585) (-1127.78 -2179.18 139.852)"
-			"material" "TOOLS/TOOLSNODRAW"
-			"uaxis" "[-1 0.00858995 0 40.5857] 0.25"
-			"vaxis" "[0 0 -1 -30.34] 0.25"
+			"material" "REALWORLDTEXTURES/CEILING/CEILING_03"
+			"uaxis" "[-1 0.00858995 0 41] 0.25"
+			"vaxis" "[0 0 -1 -30] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -22602,7 +22602,7 @@ entity
 		{
 			"id" "6724"
 			"plane" "(204 -670 1) (200.078 -670 1) (90.2221 -565.775 38.2899)"
-			"material" "DE_CBBLE/ROOFTILE02"
+			"material" "REALWORLDTEXTURES/CEILING/CEILING_1_04"
 			"uaxis" "[0 1 0 8] 0.25"
 			"vaxis" "[1 0 0 -20.5493] 0.25"
 			"rotation" "0"
@@ -22613,7 +22613,7 @@ entity
 		{
 			"id" "6723"
 			"plane" "(200.084 -670 1) (200.084 -670 -1) (-2 -478.279 -1)"
-			"material" "DE_CBBLE/ROOFTILE02"
+			"material" "REALWORLDTEXTURES/CEILING/CEILING_1_04"
 			"uaxis" "[1 0 0 -0.546875] 0.25"
 			"vaxis" "[0 0 -1 32] 0.25"
 			"rotation" "0"
@@ -22646,7 +22646,7 @@ entity
 		{
 			"id" "6720"
 			"plane" "(-2 -478.281 -1) (-2 -474 -1) (141.964 -474 60.3336)"
-			"material" "DE_CBBLE/ROOFTILE02"
+			"material" "REALWORLDTEXTURES/CEILING/CEILING_1_04"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
@@ -22711,7 +22711,7 @@ entity
 		{
 			"id" "6732"
 			"plane" "(202.066 -473.645 71) (167 -473.645 71) (82.5884 -373.136 35.0377)"
-			"material" "DE_CBBLE/ROOFTILE02"
+			"material" "REALWORLDTEXTURES/CEILING/CEILING_1_04"
 			"uaxis" "[0 -1 0 -72] 0.25"
 			"vaxis" "[-1 0 0 -107.456] 0.25"
 			"rotation" "0"
@@ -22722,7 +22722,7 @@ entity
 		{
 			"id" "6731"
 			"plane" "(-2 -469.598 -1) (166.016 -278 -1) (166.016 -278 1)"
-			"material" "DE_CBBLE/ROOFTILE02"
+			"material" "REALWORLDTEXTURES/CEILING/CEILING_1_04"
 			"uaxis" "[0 1 0 4] 0.25"
 			"vaxis" "[0 0 -1 32] 0.25"
 			"rotation" "0"
@@ -22744,7 +22744,7 @@ entity
 		{
 			"id" "6729"
 			"plane" "(167 -474 71) (-2 -474 -1) (-2 -469.597 -1)"
-			"material" "DE_CBBLE/ROOFTILE02"
+			"material" "REALWORLDTEXTURES/CEILING/CEILING_1_04"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"

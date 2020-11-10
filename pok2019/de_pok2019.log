@@ -7934,3 +7934,1012 @@ Total triangle count: 26199
 Writing g:\documents\github\csgomaps2\pok2019\de_pok2019.bsp
 MSG_FILEWRITE - Filesystem was asked to write to 'g:\documents\github\csgomaps2\pok2019\de_pok2019.bsp', but we don't own that location. Allowing...
 1 minute, 36 seconds elapsed
+
+
+
+materialPath: D:\Programas\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading g:\documents\github\csgomaps2\pok2019\de_pok2019.vmf
+Map revision 163
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 174 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (1)
+writing g:\documents\github\csgomaps2\pok2019\de_pok2019.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (312339 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 3896 texinfos to 1921
+Reduced 66 texdatas to 49 (2134 bytes to 1613)
+Writing g:\documents\github\csgomaps2\pok2019\de_pok2019.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'g:\documents\github\csgomaps2\pok2019\de_pok2019.bsp', but we don't own that location. Allowing...
+2 seconds elapsed
+
+
+
+16 threads
+reading g:\documents\github\csgomaps2\pok2019\de_pok2019.bsp
+reading g:\documents\github\csgomaps2\pok2019\de_pok2019.prt
+2752 portalclusters
+8965 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 515749 visible clusters (0.00%)
+Total clusters visible: 5205937
+Average clusters visible: 1891
+Building PAS...
+Average clusters audible: 2749
+visdatasize:1824194  compressed from 1893376
+writing g:\documents\github\csgomaps2\pok2019\de_pok2019.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'g:\documents\github\csgomaps2\pok2019\de_pok2019.bsp', but we don't own that location. Allowing...
+1 second elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading g:\documents\github\csgomaps2\pok2019\de_pok2019.bsp
+9380 faces
+3 degenerate faces
+2205525 square feet [317595616.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+9377 patches before subdivision
+126595 patches after subdivision
+89 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 10516372, max 1341
+transfer lists:  80.2 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(239170, 195606, 151080)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(56521, 40316, 28294)
+Build Patch/Sample Hash Table(s).....Done<0.0366 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Computing static prop lighting : 00...1...2...3...4...5...6...7...8...9...10
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  71/1024         3408/49152    ( 6.9%) 
+brushes                751/8192         9012/98304    ( 9.2%) 
+brushsides            6625/81920       53000/655360   ( 8.1%) 
+planes               10294/65536      205880/1310720  (15.7%) 
+vertexes             16828/65536      201936/786432   (25.7%) 
+nodes                 6746/65536      215872/2097152  (10.3%) 
+texinfos              1921/12288      138312/884736   (15.6%) 
+texdata                 49/4096         1568/131072   ( 1.2%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 9380/65536      525280/3670016  (14.3%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             2987/65536      167272/3670016  ( 4.6%) 
+facebrushes             12/0              24/0        ( 0.0%) 
+facebrushlists        9380/0           37520/0        ( 0.0%) 
+leaves                6818/65536      218176/2097152  (10.4%) 
+leaffaces            11403/65536       22806/131072   (17.4%) 
+leafbrushes           6104/65536       12208/131072   ( 9.3%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges            57028/512000     228112/2048000  (11.1%) 
+edges                32010/256000     128040/1024000  (12.5%) 
+LDR worldlights         89/8192         8900/819200   ( 1.1%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            5/32768          60/393216   ( 0.0%) 
+waterstrips           1320/32768       13200/327680   ( 4.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices         19623/65536       39246/131072   (29.9%) 
+cubemapsamples           1/1024           16/16384    ( 0.1%) 
+overlays                17/1024         5984/360448   ( 1.7%) 
+LDR lightdata         [variable]    12437424/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]     1824194/16777216 (10.9%) 
+entdata               [variable]      172901/393216   (44.0%) 
+LDR ambient table     6818/65536       27272/262144   (10.4%) 
+HDR ambient table     6818/65536       27272/262144   (10.4%) 
+LDR leaf ambient     25796/65536      722288/1835008  (39.4%) 
+HDR leaf ambient      6818/65536      190904/1835008  (10.4%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/22906    ( 0.0%) 
+pakfile               [variable]    10693312/0        ( 0.0%) 
+physics               [variable]      312339/4194304  ( 7.4%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7d
+
+Total triangle count: 26295
+Writing g:\documents\github\csgomaps2\pok2019\de_pok2019.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'g:\documents\github\csgomaps2\pok2019\de_pok2019.bsp', but we don't own that location. Allowing...
+1 minute, 37 seconds elapsed
+
+
+
+materialPath: D:\Programas\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading g:\documents\github\csgomaps2\pok2019\de_pok2019.vmf
+Map revision 164
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 174 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (1)
+writing g:\documents\github\csgomaps2\pok2019\de_pok2019.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (312345 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 3663 texinfos to 1850
+Reduced 67 texdatas to 50 (2173 bytes to 1652)
+Writing g:\documents\github\csgomaps2\pok2019\de_pok2019.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'g:\documents\github\csgomaps2\pok2019\de_pok2019.bsp', but we don't own that location. Allowing...
+2 seconds elapsed
+
+
+
+16 threads
+reading g:\documents\github\csgomaps2\pok2019\de_pok2019.bsp
+reading g:\documents\github\csgomaps2\pok2019\de_pok2019.prt
+2752 portalclusters
+8965 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 515749 visible clusters (0.00%)
+Total clusters visible: 5205937
+Average clusters visible: 1891
+Building PAS...
+Average clusters audible: 2749
+visdatasize:1824194  compressed from 1893376
+writing g:\documents\github\csgomaps2\pok2019\de_pok2019.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'g:\documents\github\csgomaps2\pok2019\de_pok2019.bsp', but we don't own that location. Allowing...
+1 second elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading g:\documents\github\csgomaps2\pok2019\de_pok2019.bsp
+9412 faces
+3 degenerate faces
+2205837 square feet [317640544.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+9409 patches before subdivision
+126699 patches after subdivision
+89 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 10515387, max 1341
+transfer lists:  80.2 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(250805, 200503, 157311)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(66514, 44263, 31513)
+Build Patch/Sample Hash Table(s).....Done<0.0385 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Computing static prop lighting : 00..
+
+
+materialPath: D:\Programas\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading g:\documents\github\csgomaps2\pok2019\de_pok2019.vmf
+Map revision 165
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 174 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (1)
+writing g:\documents\github\csgomaps2\pok2019\de_pok2019.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (312345 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 3663 texinfos to 1850
+Reduced 67 texdatas to 50 (2173 bytes to 1652)
+Writing g:\documents\github\csgomaps2\pok2019\de_pok2019.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'g:\documents\github\csgomaps2\pok2019\de_pok2019.bsp', but we don't own that location. Allowing...
+1 second elapsed
+
+
+
+16 threads
+reading g:\documents\github\csgomaps2\pok2019\de_pok2019.bsp
+reading g:\documents\github\csgomaps2\pok2019\de_pok2019.prt
+2752 portalclusters
+8965 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 515749 visible clusters (0.00%)
+Total clusters visible: 5205937
+Average clusters visible: 1891
+Building PAS...
+Average clusters audible: 2749
+visdatasize:1824194  compressed from 1893376
+writing g:\documents\github\csgomaps2\pok2019\de_pok2019.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'g:\documents\github\csgomaps2\pok2019\de_pok2019.bsp', but we don't own that location. Allowing...
+1 second elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading g:\documents\github\csgomaps2\pok2019\de_pok2019.bsp
+9412 faces
+3 degenerate faces
+2205837 square feet [317640544.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+9409 patches before subdivision
+126699 patches after subdivision
+89 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 16071613, max 1632
+transfer lists: 122.6 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(291605, 238867, 185745)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(78908, 54664, 38767)
+Build Patch/Sample Hash Table(s).....Done<0.0358 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  71/1024         3408/49152    ( 6.9%) 
+brushes                751/8192         9012/98304    ( 9.2%) 
+brushsides            6625/81920       53000/655360   ( 8.1%) 
+planes               10294/65536      205880/1310720  (15.7%) 
+vertexes             16830/65536      201960/786432   (25.7%) 
+nodes                 6746/65536      215872/2097152  (10.3%) 
+texinfos              1850/12288      133200/884736   (15.1%) 
+texdata                 50/4096         1600/131072   ( 1.2%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 9412/65536      527072/3670016  (14.4%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             3004/65536      168224/3670016  ( 4.6%) 
+facebrushes              8/0              16/0        ( 0.0%) 
+facebrushlists        9412/0           37648/0        ( 0.0%) 
+leaves                6818/65536      218176/2097152  (10.4%) 
+leaffaces            11435/65536       22870/131072   (17.4%) 
+leafbrushes           6104/65536       12208/131072   ( 9.3%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges            57255/512000     229020/2048000  (11.2%) 
+edges                32062/256000     128248/1024000  (12.5%) 
+LDR worldlights         89/8192         8900/819200   ( 1.1%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            5/32768          60/393216   ( 0.0%) 
+waterstrips           1320/32768       13200/327680   ( 4.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices         19626/65536       39252/131072   (29.9%) 
+cubemapsamples           1/1024           16/16384    ( 0.1%) 
+overlays                17/1024         5984/360448   ( 1.7%) 
+LDR lightdata         [variable]    12094252/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]     1824194/16777216 (10.9%) 
+entdata               [variable]       85337/393216   (21.7%) 
+LDR ambient table     6818/65536       27272/262144   (10.4%) 
+HDR ambient table     6818/65536       27272/262144   (10.4%) 
+LDR leaf ambient     25852/65536      723856/1835008  (39.4%) 
+HDR leaf ambient      6818/65536      190904/1835008  (10.4%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]      154556/0        ( 0.0%) 
+physics               [variable]      312345/4194304  ( 7.4%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7d
+
+Total triangle count: 26390
+Writing g:\documents\github\csgomaps2\pok2019\de_pok2019.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'g:\documents\github\csgomaps2\pok2019\de_pok2019.bsp', but we don't own that location. Allowing...
+32 seconds elapsed
+
+
+
+materialPath: D:\Programas\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading g:\documents\github\csgomaps2\pok2019\de_pok2019.vmf
+Map revision 167
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 166 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (1)
+writing g:\documents\github\csgomaps2\pok2019\de_pok2019.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (312343 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 3852 texinfos to 1881
+Reduced 70 texdatas to 52 (2374 bytes to 1797)
+Writing g:\documents\github\csgomaps2\pok2019\de_pok2019.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'g:\documents\github\csgomaps2\pok2019\de_pok2019.bsp', but we don't own that location. Allowing...
+1 second elapsed
+
+
+
+16 threads
+reading g:\documents\github\csgomaps2\pok2019\de_pok2019.bsp
+reading g:\documents\github\csgomaps2\pok2019\de_pok2019.prt
+2765 portalclusters
+9019 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 523417 visible clusters (0.00%)
+Total clusters visible: 5267748
+Average clusters visible: 1905
+Building PAS...
+Average clusters audible: 2762
+visdatasize:1839126  compressed from 1946560
+writing g:\documents\github\csgomaps2\pok2019\de_pok2019.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'g:\documents\github\csgomaps2\pok2019\de_pok2019.bsp', but we don't own that location. Allowing...
+1 second elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading g:\documents\github\csgomaps2\pok2019\de_pok2019.bsp
+9590 faces
+3 degenerate faces
+2220628 square feet [319770528.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+9587 patches before subdivision
+128819 patches after subdivision
+89 direct lights
+0...1...2...3...4...5...6...7.
+
+
+materialPath: D:\Programas\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading g:\documents\github\csgomaps2\pok2019\de_pok2019.vmf
+Map revision 173
+Warning in .VMT file ($envmaptint): no ']' or '}' found in vector key "$envmaptint".
+Did you forget to surround the vector with "s?
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 196 detail faces...done (0)
+Merging details...done (1)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing g:\documents\github\csgomaps2\pok2019\de_pok2019.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (311773 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 3925 texinfos to 2194
+Reduced 86 texdatas to 64 (3095 bytes to 2377)
+Writing g:\documents\github\csgomaps2\pok2019\de_pok2019.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'g:\documents\github\csgomaps2\pok2019\de_pok2019.bsp', but we don't own that location. Allowing...
+2 seconds elapsed
+
+
+
+16 threads
+reading g:\documents\github\csgomaps2\pok2019\de_pok2019.bsp
+reading g:\documents\github\csgomaps2\pok2019\de_pok2019.prt
+2762 portalclusters
+9016 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 529386 visible clusters (0.00%)
+Total clusters visible: 5229100
+Average clusters visible: 1893
+Building PAS...
+Average clusters audible: 2759
+visdatasize:1839322  compressed from 1944448
+writing g:\documents\github\csgomaps2\pok2019\de_pok2019.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'g:\documents\github\csgomaps2\pok2019\de_pok2019.bsp', but we don't own that location. Allowing...
+1 second elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading g:\documents\github\csgomaps2\pok2019\de_pok2019.bsp
+9458 faces
+3 degenerate faces
+2192597 square feet [315733984.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+9455 patches before subdivision
+124739 patches after subdivision
+89 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 10163648, max 1327
+transfer lists:  77.5 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(265819, 217138, 168737)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(71581, 47563, 32605)
+Build Patch/Sample Hash Table(s).....Done<0.0348 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Computing static prop lighting : 00...1...2...3...4...5...6...7...8...9...10
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  71/1024         3408/49152    ( 6.9%) 
+brushes                751/8192         9012/98304    ( 9.2%) 
+brushsides            6617/81920       52936/655360   ( 8.1%) 
+planes               10286/65536      205720/1310720  (15.7%) 
+vertexes             16868/65536      202416/786432   (25.7%) 
+nodes                 6773/65536      216736/2097152  (10.3%) 
+texinfos              2194/12288      157968/884736   (17.9%) 
+texdata                 64/4096         2048/131072   ( 1.6%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 9458/65536      529648/3670016  (14.4%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             3066/65536      171696/3670016  ( 4.7%) 
+facebrushes             12/0              24/0        ( 0.0%) 
+facebrushlists        9458/0           37832/0        ( 0.0%) 
+leaves                6845/65536      219040/2097152  (10.4%) 
+leaffaces            11434/65536       22868/131072   (17.4%) 
+leafbrushes           6108/65536       12216/131072   ( 9.3%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges            57626/512000     230504/2048000  (11.3%) 
+edges                32251/256000     129004/1024000  (12.6%) 
+LDR worldlights         89/8192         8900/819200   ( 1.1%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            5/32768          60/393216   ( 0.0%) 
+waterstrips           1305/32768       13050/327680   ( 4.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices         19377/65536       38754/131072   (29.6%) 
+cubemapsamples           1/1024           16/16384    ( 0.1%) 
+overlays                17/1024         5984/360448   ( 1.7%) 
+LDR lightdata         [variable]    10636068/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]     1839322/16777216 (11.0%) 
+entdata               [variable]      172902/393216   (44.0%) 
+LDR ambient table     6845/65536       27380/262144   (10.4%) 
+HDR ambient table     6845/65536       27380/262144   (10.4%) 
+LDR leaf ambient     26272/65536      735616/1835008  (40.1%) 
+HDR leaf ambient      6845/65536      191660/1835008  (10.4%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/22906    ( 0.0%) 
+pakfile               [variable]    10695298/0        ( 0.0%) 
+physics               [variable]      311773/4194304  ( 7.4%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7d
+
+Total triangle count: 26418
+Writing g:\documents\github\csgomaps2\pok2019\de_pok2019.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'g:\documents\github\csgomaps2\pok2019\de_pok2019.bsp', but we don't own that location. Allowing...
+1 minute, 39 seconds elapsed
+
+
+
+materialPath: D:\Programas\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading g:\documents\github\csgomaps2\pok2019\de_pok2019.vmf
+Map revision 175
+Warning in .VMT file ($envmaptint): no ']' or '}' found in vector key "$envmaptint".
+Did you forget to surround the vector with "s?
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 216 detail faces...done (0)
+Merging details...done (1)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing g:\documents\github\csgomaps2\pok2019\de_pok2019.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (311877 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 3907 texinfos to 2205
+Reduced 86 texdatas to 64 (3095 bytes to 2377)
+Writing g:\documents\github\csgomaps2\pok2019\de_pok2019.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'g:\documents\github\csgomaps2\pok2019\de_pok2019.bsp', but we don't own that location. Allowing...
+2 seconds elapsed
+
+
+
+16 threads
+reading g:\documents\github\csgomaps2\pok2019\de_pok2019.bsp
+reading g:\documents\github\csgomaps2\pok2019\de_pok2019.prt
+2750 portalclusters
+8952 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 521850 visible clusters (0.00%)
+Total clusters visible: 5194269
+Average clusters visible: 1888
+Building PAS...
+Average clusters audible: 2747
+visdatasize:1820180  compressed from 1892000
+writing g:\documents\github\csgomaps2\pok2019\de_pok2019.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'g:\documents\github\csgomaps2\pok2019\de_pok2019.bsp', but we don't own that location. Allowing...
+1 second elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading g:\documents\github\csgomaps2\pok2019\de_pok2019.bsp
+9480 faces
+3 degenerate faces
+2199751 square feet [316764256.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+9477 patches before subdivision
+125781 patches after subdivision
+89 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 10334752, max 1338
+transfer lists:  78.8 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(267763, 218998, 170470)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(72911, 48884, 33658)
+Build Patch/Sample Hash Table(s).....Done<0.0384 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Computing static prop lighting : 00..
+
+
+materialPath: D:\Programas\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading g:\documents\github\csgomaps2\pok2019\de_pok2019.vmf
+Map revision 176
+Warning in .VMT file ($envmaptint): no ']' or '}' found in vector key "$envmaptint".
+Did you forget to surround the vector with "s?
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 216 detail faces...done (0)
+Merging details...done (1)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing g:\documents\github\csgomaps2\pok2019\de_pok2019.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (311877 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 3907 texinfos to 2205
+Reduced 86 texdatas to 64 (3095 bytes to 2377)
+Writing g:\documents\github\csgomaps2\pok2019\de_pok2019.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'g:\documents\github\csgomaps2\pok2019\de_pok2019.bsp', but we don't own that location. Allowing...
+2 seconds elapsed
+
+
+
+16 threads
+reading g:\documents\github\csgomaps2\pok2019\de_pok2019.bsp
+reading g:\documents\github\csgomaps2\pok2019\de_pok2019.prt
+2750 portalclusters
+8952 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 521850 visible clusters (0.00%)
+Total clusters visible: 5194269
+Average clusters visible: 1888
+Building PAS...
+Average clusters audible: 2747
+visdatasize:1820180  compressed from 1892000
+writing g:\documents\github\csgomaps2\pok2019\de_pok2019.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'g:\documents\github\csgomaps2\pok2019\de_pok2019.bsp', but we don't own that location. Allowing...
+1 second elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading g:\documents\github\csgomaps2\pok2019\de_pok2019.bsp
+9480 faces
+3 degenerate faces
+2199751 square feet [316764256.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+9477 patches before subdivision
+125781 patches after subdivision
+89 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 10334752, max 1338
+transfer lists:  78.8 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(267763, 218998, 170470)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(72911, 48884, 33658)
+Build Patch/Sample Hash Table(s).....Done<0.0364 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Computing static prop lighting : 00...1...2...3...4...5...6...7...8...9...10
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  71/1024         3408/49152    ( 6.9%) 
+brushes                750/8192         9000/98304    ( 9.2%) 
+brushsides            6592/81920       52736/655360   ( 8.0%) 
+planes               10234/65536      204680/1310720  (15.6%) 
+vertexes             16855/65536      202260/786432   (25.7%) 
+nodes                 6741/65536      215712/2097152  (10.3%) 
+texinfos              2205/12288      158760/884736   (17.9%) 
+texdata                 64/4096         2048/131072   ( 1.6%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 9480/65536      530880/3670016  (14.5%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             3079/65536      172424/3670016  ( 4.7%) 
+facebrushes             12/0              24/0        ( 0.0%) 
+facebrushlists        9480/0           37920/0        ( 0.0%) 
+leaves                6813/65536      218016/2097152  (10.4%) 
+leaffaces            11452/65536       22904/131072   (17.5%) 
+leafbrushes           6061/65536       12122/131072   ( 9.2%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges            57855/512000     231420/2048000  (11.3%) 
+edges                32339/256000     129356/1024000  (12.6%) 
+LDR worldlights         89/8192         8900/819200   ( 1.1%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            5/32768          60/393216   ( 0.0%) 
+waterstrips           1319/32768       13190/327680   ( 4.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices         19620/65536       39240/131072   (29.9%) 
+cubemapsamples           1/1024           16/16384    ( 0.1%) 
+overlays                17/1024         5984/360448   ( 1.7%) 
+LDR lightdata         [variable]    10734204/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]     1820180/16777216 (10.8%) 
+entdata               [variable]      172902/393216   (44.0%) 
+LDR ambient table     6813/65536       27252/262144   (10.4%) 
+HDR ambient table     6813/65536       27252/262144   (10.4%) 
+LDR leaf ambient     26213/65536      733964/1835008  (40.0%) 
+HDR leaf ambient      6813/65536      190764/1835008  (10.4%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/22908    ( 0.0%) 
+pakfile               [variable]    10695298/0        ( 0.0%) 
+physics               [variable]      311877/4194304  ( 7.4%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7d
+
+Total triangle count: 26555
+Writing g:\documents\github\csgomaps2\pok2019\de_pok2019.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'g:\documents\github\csgomaps2\pok2019\de_pok2019.bsp', but we don't own that location. Allowing...
+1 minute, 38 seconds elapsed
+
+
+
+materialPath: D:\Programas\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading g:\documents\github\csgomaps2\pok2019\de_pok2019.vmf
+Map revision 177
+Warning in .VMT file ($envmaptint): no ']' or '}' found in vector key "$envmaptint".
+Did you forget to surround the vector with "s?
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 216 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing g:\documents\github\csgomaps2\pok2019\de_pok2019.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (311877 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 3907 texinfos to 2206
+Reduced 86 texdatas to 64 (3095 bytes to 2377)
+Writing g:\documents\github\csgomaps2\pok2019\de_pok2019.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'g:\documents\github\csgomaps2\pok2019\de_pok2019.bsp', but we don't own that location. Allowing...
+2 seconds elapsed
+
+
+
+16 threads
+reading g:\documents\github\csgomaps2\pok2019\de_pok2019.bsp
+reading g:\documents\github\csgomaps2\pok2019\de_pok2019.prt
+2749 portalclusters
+8943 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 521113 visible clusters (0.00%)
+Total clusters visible: 5189863
+Average clusters visible: 1887
+Building PAS...
+Average clusters audible: 2746
+visdatasize:1818891  compressed from 1891312
+writing g:\documents\github\csgomaps2\pok2019\de_pok2019.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'g:\documents\github\csgomaps2\pok2019\de_pok2019.bsp', but we don't own that location. Allowing...
+1 second elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading g:\documents\github\csgomaps2\pok2019\de_pok2019.bsp
+9494 faces
+3 degenerate faces
+2203066 square feet [317241504.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+9491 patches before subdivision
+126247 patches after subdivision
+89 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 10390725, max 1338
+transfer lists:  79.3 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(268133, 219333, 170751)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(73038, 48979, 33724)
+Build Patch/Sample Hash Table(s).....Done<0.0371 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Computing static prop lighting : 00...1...2...3...4...5...6...7...8...9...10
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  71/1024         3408/49152    ( 6.9%) 
+brushes                750/8192         9000/98304    ( 9.2%) 
+brushsides            6590/81920       52720/655360   ( 8.0%) 
+planes               10244/65536      204880/1310720  (15.6%) 
+vertexes             16851/65536      202212/786432   (25.7%) 
+nodes                 6740/65536      215680/2097152  (10.3%) 
+texinfos              2206/12288      158832/884736   (18.0%) 
+texdata                 64/4096         2048/131072   ( 1.6%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 9494/65536      531664/3670016  (14.5%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             3079/65536      172424/3670016  ( 4.7%) 
+facebrushes             12/0              24/0        ( 0.0%) 
+facebrushlists        9494/0           37976/0        ( 0.0%) 
+leaves                6812/65536      217984/2097152  (10.4%) 
+leaffaces            11475/65536       22950/131072   (17.5%) 
+leafbrushes           6065/65536       12130/131072   ( 9.3%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges            57926/512000     231704/2048000  (11.3%) 
+edges                32366/256000     129464/1024000  (12.6%) 
+LDR worldlights         89/8192         8900/819200   ( 1.1%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            5/32768          60/393216   ( 0.0%) 
+waterstrips           1319/32768       13190/327680   ( 4.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices         19632/65536       39264/131072   (30.0%) 
+cubemapsamples           1/1024           16/16384    ( 0.1%) 
+overlays                17/1024         5984/360448   ( 1.7%) 
+LDR lightdata         [variable]    10752124/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]     1818891/16777216 (10.8%) 
+entdata               [variable]      172903/393216   (44.0%) 
+LDR ambient table     6812/65536       27248/262144   (10.4%) 
+HDR ambient table     6812/65536       27248/262144   (10.4%) 
+LDR leaf ambient     26085/65536      730380/1835008  (39.8%) 
+HDR leaf ambient      6812/65536      190736/1835008  (10.4%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/22912    ( 0.0%) 
+pakfile               [variable]    10695298/0        ( 0.0%) 
+physics               [variable]      311877/4194304  ( 7.4%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7d
+
+Total triangle count: 26598
+Writing g:\documents\github\csgomaps2\pok2019\de_pok2019.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'g:\documents\github\csgomaps2\pok2019\de_pok2019.bsp', but we don't own that location. Allowing...
+1 minute, 37 seconds elapsed
+
+
+
+materialPath: D:\Programas\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading g:\documents\github\csgomaps2\pok2019\de_pok2019.vmf
+Map revision 178
+Warning in .VMT file ($envmaptint): no ']' or '}' found in vector key "$envmaptint".
+Did you forget to surround the vector with "s?
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 216 detail faces...done (0)
+Merging details...done (1)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing g:\documents\github\csgomaps2\pok2019\de_pok2019.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (311877 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 3915 texinfos to 2212
+Reduced 86 texdatas to 64 (3095 bytes to 2377)
+Writing g:\documents\github\csgomaps2\pok2019\de_pok2019.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'g:\documents\github\csgomaps2\pok2019\de_pok2019.bsp', but we don't own that location. Allowing...
+2 seconds elapsed
+
+
+
+16 threads
+reading g:\documents\github\csgomaps2\pok2019\de_pok2019.bsp
+reading g:\documents\github\csgomaps2\pok2019\de_pok2019.prt
+2749 portalclusters
+8943 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 521113 visible clusters (0.00%)
+Total clusters visible: 5189863
+Average clusters visible: 1887
+Building PAS...
+Average clusters audible: 2746
+visdatasize:1818891  compressed from 1891312
+writing g:\documents\github\csgomaps2\pok2019\de_pok2019.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'g:\documents\github\csgomaps2\pok2019\de_pok2019.bsp', but we don't own that location. Allowing...
+1 second elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading g:\documents\github\csgomaps2\pok2019\de_pok2019.bsp
+9518 faces
+3 degenerate faces
+2204989 square feet [317518496.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+9515 patches before subdivision
+126547 patches after subdivision
+89 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 10448793, max 1343
+transfer lists:  79.7 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(268235, 219427, 170819)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(73100, 49032, 33757)
+Build Patch/Sample Hash Table(s).....Done<0.0366 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Computing static prop lighting : 00...1...2...3...4...5...6...7...8...9...10
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  71/1024         3408/49152    ( 6.9%) 
+brushes                750/8192         9000/98304    ( 9.2%) 
+brushsides            6590/81920       52720/655360   ( 8.0%) 
+planes               10244/65536      204880/1310720  (15.6%) 
+vertexes             16855/65536      202260/786432   (25.7%) 
+nodes                 6740/65536      215680/2097152  (10.3%) 
+texinfos              2212/12288      159264/884736   (18.0%) 
+texdata                 64/4096         2048/131072   ( 1.6%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 9518/65536      533008/3670016  (14.5%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             3082/65536      172592/3670016  ( 4.7%) 
+facebrushes             12/0              24/0        ( 0.0%) 
+facebrushlists        9518/0           38072/0        ( 0.0%) 
+leaves                6812/65536      217984/2097152  (10.4%) 
+leaffaces            11508/65536       23016/131072   (17.6%) 
+leafbrushes           6065/65536       12130/131072   ( 9.3%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges            58073/512000     232292/2048000  (11.3%) 
+edges                32410/256000     129640/1024000  (12.7%) 
+LDR worldlights         89/8192         8900/819200   ( 1.1%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            5/32768          60/393216   ( 0.0%) 
+waterstrips           1320/32768       13200/327680   ( 4.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices         19638/65536       39276/131072   (30.0%) 
+cubemapsamples           1/1024           16/16384    ( 0.1%) 
+overlays                17/1024         5984/360448   ( 1.7%) 
+LDR lightdata         [variable]    10789756/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]     1818891/16777216 (10.8%) 
+entdata               [variable]      172903/393216   (44.0%) 
+LDR ambient table     6812/65536       27248/262144   (10.4%) 
+HDR ambient table     6812/65536       27248/262144   (10.4%) 
+LDR leaf ambient     25887/65536      724836/1835008  (39.5%) 
+HDR leaf ambient      6812/65536      190736/1835008  (10.4%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/22912    ( 0.0%) 
+pakfile               [variable]    10695298/0        ( 0.0%) 
+physics               [variable]      311877/4194304  ( 7.4%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7d
+
+Total triangle count: 26685
+Writing g:\documents\github\csgomaps2\pok2019\de_pok2019.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'g:\documents\github\csgomaps2\pok2019\de_pok2019.bsp', but we don't own that location. Allowing...
+1 minute, 36 seconds elapsed
