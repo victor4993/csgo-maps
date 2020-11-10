@@ -12782,3 +12782,164 @@ zero area child patch
 601805 patches after subdivision
 38 direct lights
 0...1...2...3...4...5...6...7...8...9...100...1...2..
+
+
+materialPath: D:\Programas\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading g:\documents\github\csgomaps2\tusurf\de_genesis.vmf
+Map revision 254
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (1)
+Find Visible Detail Sides...
+Merged 2106 detail faces...done (1)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing g:\documents\github\csgomaps2\tusurf\de_genesis.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (336668 bytes)
+Error! To use model "models/props/de_nuke/car_nuke_animation.mdl"
+      with prop_static, it must be compiled with $staticprop!
+Error loading studio model "models/props/de_nuke/car_nuke_animation.mdl"!
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 1812 texinfos to 1228
+Reduced 31 texdatas to 27 (942 bytes to 858)
+Writing g:\documents\github\csgomaps2\tusurf\de_genesis.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'g:\documents\github\csgomaps2\tusurf\de_genesis.bsp', but we don't own that location. Allowing...
+2 seconds elapsed
+
+
+
+16 threads
+reading g:\documents\github\csgomaps2\tusurf\de_genesis.bsp
+reading g:\documents\github\csgomaps2\tusurf\de_genesis.prt
+ 903 portalclusters
+1970 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 12663 visible clusters (0.00%)
+Total clusters visible: 525452
+Average clusters visible: 581
+Building PAS...
+Average clusters audible: 903
+visdatasize:212957  compressed from 216720
+writing g:\documents\github\csgomaps2\tusurf\de_genesis.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'g:\documents\github\csgomaps2\tusurf\de_genesis.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading g:\documents\github\csgomaps2\tusurf\de_genesis.bsp
+13560 faces
+29 degenerate faces
+20675932 square feet [2977334272.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+13531 patches before subdivision
+zero area child patch
+zero area child patch
+zero area child patch
+zero area child patch
+zero area child patch
+zero area child patch
+zero area child patch
+zero area child patch
+zero area child patch
+zero area child patch
+zero area child patch
+zero area child patch
+zero area child patch
+zero area child patch
+zero area child patch
+zero area child patch
+zero area child patch
+zero area child patch
+zero area child patch
+zero area child patch
+zero area child patch
+zero area child patch
+zero area child patch
+zero area child patch
+zero area child patch
+zero area child patch
+zero area child patch
+603605 patches after subdivision
+38 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 219509329, max 3791
+transfer lists: 1674.7 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(903841, 923440, 726897)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(224916, 229786, 167589)
+Build Patch/Sample Hash Table(s).....Done<0.3137 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Computing static prop lighting : 00...1...2...3...4...5...6...7...8...9...10
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  46/1024         2208/49152    ( 4.5%) 
+brushes                821/8192         9852/98304    (10.0%) 
+brushsides           16907/81920      135256/655360   (20.6%) 
+planes               30340/65536      606800/1310720  (46.3%) 
+vertexes             19435/65536      233220/786432   (29.7%) 
+nodes                 2830/65536       90560/2097152  ( 4.3%) 
+texinfos              1228/12288       88416/884736   (10.0%) 
+texdata                 27/4096          864/131072   ( 0.7%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                13560/65536      759360/3670016  (20.7%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             3149/65536      176344/3670016  ( 4.8%) 
+facebrushes            577/0            1154/0        ( 0.0%) 
+facebrushlists       13560/0           54240/0        ( 0.0%) 
+leaves                2877/65536       92064/2097152  ( 4.4%) 
+leaffaces            16186/65536       32372/131072   (24.7%) 
+leafbrushes           2981/65536        5962/131072   ( 4.5%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges            78402/512000     313608/2048000  (15.3%) 
+edges                43312/256000     173248/1024000  (16.9%) 
+LDR worldlights         38/8192         3800/819200   ( 0.5%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips           2232/32768       22320/327680   ( 6.8%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices         41988/65536       83976/131072   (64.1%) 
+cubemapsamples           3/1024           48/16384    ( 0.3%) 
+overlays                22/1024         7744/360448   ( 2.1%) 
+LDR lightdata         [variable]    86732468/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]      212957/16777216 ( 1.3%) 
+entdata               [variable]       95291/393216   (24.2%) 
+LDR ambient table     2877/65536       11508/262144   ( 4.4%) 
+HDR ambient table     2877/65536       11508/262144   ( 4.4%) 
+LDR leaf ambient     10754/65536      301112/1835008  (16.4%) 
+HDR leaf ambient      2877/65536       80556/1835008  ( 4.4%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/2472     ( 0.0%) 
+pakfile               [variable]     1182511/0        ( 0.0%) 
+physics               [variable]      336668/4194304  ( 8.0%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7d
+
+Total triangle count: 38423
+Writing g:\documents\github\csgomaps2\tusurf\de_genesis.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'g:\documents\github\csgomaps2\tusurf\de_genesis.bsp', but we don't own that location. Allowing...
+1 minute, 50 seconds elapsed
