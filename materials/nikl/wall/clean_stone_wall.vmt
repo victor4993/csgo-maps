@@ -1,0 +1,5 @@
+"lightmappedgeneric" {
+    "$basetexture" "nikl/wall/clean_stone_wall"
+    "$bumpmap" "nikl/wall/clean_stone_wall_normal"
+    "$surfaceprop" "rock"
+}
