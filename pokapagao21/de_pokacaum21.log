@@ -1,0 +1,620 @@
+
+
+
+materialPath: D:\Programas\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading g:\documents\github\csgomaps2\pokapagao21\de_pokacaum21.vmf
+Map revision 184
+Warning in .VMT file ($envmaptint): no ']' or '}' found in vector key "$envmaptint".
+Did you forget to surround the vector with "s?
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 178 detail faces...done (0)
+Merging details...done (1)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing g:\documents\github\csgomaps2\pokapagao21\de_pokacaum21.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (311773 bytes)
+Encountered obsolete static prop option to do its fade in screen space @ -2377.00 4514.00 -81.72
+Encountered obsolete static prop option to do its fade in screen space @ -2367.00 4617.00 -81.72
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 3905 texinfos to 2219
+Reduced 86 texdatas to 64 (3161 bytes to 2428)
+Writing g:\documents\github\csgomaps2\pokapagao21\de_pokacaum21.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'g:\documents\github\csgomaps2\pokapagao21\de_pokacaum21.bsp', but we don't own that location. Allowing...
+2 seconds elapsed
+
+
+
+16 threads
+reading g:\documents\github\csgomaps2\pokapagao21\de_pokacaum21.bsp
+reading g:\documents\github\csgomaps2\pokapagao21\de_pokacaum21.prt
+2746 portalclusters
+8979 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 516086 visible clusters (0.00%)
+Total clusters visible: 5184979
+Average clusters visible: 1888
+Building PAS...
+Average clusters audible: 2743
+visdatasize:1818224  compressed from 1889248
+writing g:\documents\github\csgomaps2\pokapagao21\de_pokacaum21.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'g:\documents\github\csgomaps2\pokapagao21\de_pokacaum21.bsp', but we don't own that location. Allowing...
+1 second elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading g:\documents\github\csgomaps2\pokapagao21\de_pokacaum21.bsp
+10745 faces
+2 degenerate faces
+2208332 square feet [317999904.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+10743 patches before subdivision
+236107 patches after subdivision
+93 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 81207462, max 2218
+transfer lists: 619.6 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(96906, 61248, 45002)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(37330, 18634, 11668)
+Build Patch/Sample Hash Table(s).....Done<0.0810 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Computing static prop lighting : 00...1...2...3...4...5...6...7...8...9...10
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  71/1024         3408/49152    ( 6.9%) 
+brushes                748/8192         8976/98304    ( 9.1%) 
+brushsides            6564/81920       52512/655360   ( 8.0%) 
+planes               10240/65536      204800/1310720  (15.6%) 
+vertexes             18150/65536      217800/786432   (27.7%) 
+nodes                 6729/65536      215328/2097152  (10.3%) 
+texinfos              2219/12288      159768/884736   (18.1%) 
+texdata                 64/4096         2048/131072   ( 1.6%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                10745/65536      601720/3670016  (16.4%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             3081/65536      172536/3670016  ( 4.7%) 
+facebrushes             12/0              24/0        ( 0.0%) 
+facebrushlists       10745/0           42980/0        ( 0.0%) 
+leaves                6801/65536      217632/2097152  (10.4%) 
+leaffaces            13014/65536       26028/131072   (19.9%) 
+leafbrushes           6061/65536       12122/131072   ( 9.2%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges            63124/512000     252496/2048000  (12.3%) 
+edges                34907/256000     139628/1024000  (13.6%) 
+LDR worldlights         93/8192         9300/819200   ( 1.1%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            5/32768          60/393216   ( 0.0%) 
+waterstrips           1314/32768       13140/327680   ( 4.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices         19524/65536       39048/131072   (29.8%) 
+cubemapsamples           1/1024           16/16384    ( 0.1%) 
+overlays                17/1024         5984/360448   ( 1.7%) 
+LDR lightdata         [variable]    18455200/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]     1818224/16777216 (10.8%) 
+entdata               [variable]      177598/393216   (45.2%) 
+LDR ambient table     6801/65536       27204/262144   (10.4%) 
+HDR ambient table     6801/65536       27204/262144   (10.4%) 
+LDR leaf ambient     14751/65536      413028/1835008  (22.5%) 
+HDR leaf ambient      6801/65536      190428/1835008  (10.4%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/23450    ( 0.0%) 
+pakfile               [variable]    10778225/0        ( 0.0%) 
+physics               [variable]      311773/4194304  ( 7.4%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7d
+
+Total triangle count: 29288
+Writing g:\documents\github\csgomaps2\pokapagao21\de_pokacaum21.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'g:\documents\github\csgomaps2\pokapagao21\de_pokacaum21.bsp', but we don't own that location. Allowing...
+2 minutes, 1 second elapsed
+
+
+
+materialPath: D:\Programas\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading g:\documents\github\csgomaps2\pokapagao21\de_pokacaum21.vmf
+Map revision 185
+Warning in .VMT file ($envmaptint): no ']' or '}' found in vector key "$envmaptint".
+Did you forget to surround the vector with "s?
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 178 detail faces...done (1)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing g:\documents\github\csgomaps2\pokapagao21\de_pokacaum21.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (311773 bytes)
+Encountered obsolete static prop option to do its fade in screen space @ -2377.00 4514.00 -81.72
+Encountered obsolete static prop option to do its fade in screen space @ -2367.00 4617.00 -81.72
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 3905 texinfos to 2220
+Reduced 86 texdatas to 64 (3161 bytes to 2428)
+Writing g:\documents\github\csgomaps2\pokapagao21\de_pokacaum21.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'g:\documents\github\csgomaps2\pokapagao21\de_pokacaum21.bsp', but we don't own that location. Allowing...
+2 seconds elapsed
+
+
+
+16 threads
+reading g:\documents\github\csgomaps2\pokapagao21\de_pokacaum21.bsp
+reading g:\documents\github\csgomaps2\pokapagao21\de_pokacaum21.prt
+2746 portalclusters
+8979 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 516086 visible clusters (0.00%)
+Total clusters visible: 5184979
+Average clusters visible: 1888
+Building PAS...
+Average clusters audible: 2743
+visdatasize:1818224  compressed from 1889248
+writing g:\documents\github\csgomaps2\pokapagao21\de_pokacaum21.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'g:\documents\github\csgomaps2\pokapagao21\de_pokacaum21.bsp', but we don't own that location. Allowing...
+1 second elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading g:\documents\github\csgomaps2\pokapagao21\de_pokacaum21.bsp
+10747 faces
+2 degenerate faces
+2208375 square feet [318006112.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+10745 patches before subdivision
+236115 patches after subdivision
+111 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 81209179, max 2219
+transfer lists: 619.6 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(97196, 61469, 45151)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(37384, 18664, 11683)
+Build Patch/Sample Hash Table(s).....Done<0.0952 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Computing static prop lighting : 00...1...2...3...4...5...6...7...8...9...10
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  71/1024         3408/49152    ( 6.9%) 
+brushes                748/8192         8976/98304    ( 9.1%) 
+brushsides            6565/81920       52520/655360   ( 8.0%) 
+planes               10244/65536      204880/1310720  (15.6%) 
+vertexes             18150/65536      217800/786432   (27.7%) 
+nodes                 6729/65536      215328/2097152  (10.3%) 
+texinfos              2220/12288      159840/884736   (18.1%) 
+texdata                 64/4096         2048/131072   ( 1.6%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                10747/65536      601832/3670016  (16.4%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             3082/65536      172592/3670016  ( 4.7%) 
+facebrushes             12/0              24/0        ( 0.0%) 
+facebrushlists       10747/0           42988/0        ( 0.0%) 
+leaves                6801/65536      217632/2097152  (10.4%) 
+leaffaces            13016/65536       26032/131072   (19.9%) 
+leafbrushes           6061/65536       12122/131072   ( 9.2%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges            63136/512000     252544/2048000  (12.3%) 
+edges                34909/256000     139636/1024000  (13.6%) 
+LDR worldlights        111/8192        11100/819200   ( 1.4%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            5/32768          60/393216   ( 0.0%) 
+waterstrips           1314/32768       13140/327680   ( 4.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices         19524/65536       39048/131072   (29.8%) 
+cubemapsamples           1/1024           16/16384    ( 0.1%) 
+overlays                17/1024         5984/360448   ( 1.7%) 
+LDR lightdata         [variable]    24203216/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]     1818224/16777216 (10.8%) 
+entdata               [variable]      192886/393216   (49.1%) 
+LDR ambient table     6801/65536       27204/262144   (10.4%) 
+HDR ambient table     6801/65536       27204/262144   (10.4%) 
+LDR leaf ambient     14930/65536      418040/1835008  (22.8%) 
+HDR leaf ambient      6801/65536      190428/1835008  (10.4%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/24702    ( 0.0%) 
+pakfile               [variable]    11213553/0        ( 0.0%) 
+physics               [variable]      311773/4194304  ( 7.4%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7d
+
+Total triangle count: 29292
+Writing g:\documents\github\csgomaps2\pokapagao21\de_pokacaum21.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'g:\documents\github\csgomaps2\pokapagao21\de_pokacaum21.bsp', but we don't own that location. Allowing...
+2 minutes, 16 seconds elapsed
+
+
+
+materialPath: D:\Programas\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading g:\documents\github\csgomaps2\pokapagao21\de_pokacaum21.vmf
+Map revision 186
+Warning in .VMT file ($envmaptint): no ']' or '}' found in vector key "$envmaptint".
+Did you forget to surround the vector with "s?
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 178 detail faces...done (0)
+Merging details...done (1)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing g:\documents\github\csgomaps2\pokapagao21\de_pokacaum21.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (311773 bytes)
+Encountered obsolete static prop option to do its fade in screen space @ -2377.00 4514.00 -81.72
+Encountered obsolete static prop option to do its fade in screen space @ -2367.00 4617.00 -81.72
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 3905 texinfos to 2220
+Reduced 86 texdatas to 64 (3161 bytes to 2428)
+Writing g:\documents\github\csgomaps2\pokapagao21\de_pokacaum21.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'g:\documents\github\csgomaps2\pokapagao21\de_pokacaum21.bsp', but we don't own that location. Allowing...
+2 seconds elapsed
+
+
+
+16 threads
+reading g:\documents\github\csgomaps2\pokapagao21\de_pokacaum21.bsp
+reading g:\documents\github\csgomaps2\pokapagao21\de_pokacaum21.prt
+2746 portalclusters
+8979 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 516086 visible clusters (0.00%)
+Total clusters visible: 5184979
+Average clusters visible: 1888
+Building PAS...
+Average clusters audible: 2743
+visdatasize:1818224  compressed from 1889248
+writing g:\documents\github\csgomaps2\pokapagao21\de_pokacaum21.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'g:\documents\github\csgomaps2\pokapagao21\de_pokacaum21.bsp', but we don't own that location. Allowing...
+1 second elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading g:\documents\github\csgomaps2\pokapagao21\de_pokacaum21.bsp
+10747 faces
+2 degenerate faces
+2208375 square feet [318006112.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+10745 patches before subdivision
+236115 patches after subdivision
+115 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 81204460, max 2219
+transfer lists: 619.5 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(97195, 61469, 45150)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(37383, 18664, 11683)
+Build Patch/Sample Hash Table(s).....Done<0.0843 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Computing static prop lighting : 00...1...2...3...4...5...6...7...8...9...10
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  71/1024         3408/49152    ( 6.9%) 
+brushes                748/8192         8976/98304    ( 9.1%) 
+brushsides            6565/81920       52520/655360   ( 8.0%) 
+planes               10244/65536      204880/1310720  (15.6%) 
+vertexes             18150/65536      217800/786432   (27.7%) 
+nodes                 6729/65536      215328/2097152  (10.3%) 
+texinfos              2220/12288      159840/884736   (18.1%) 
+texdata                 64/4096         2048/131072   ( 1.6%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                10747/65536      601832/3670016  (16.4%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             3082/65536      172592/3670016  ( 4.7%) 
+facebrushes             12/0              24/0        ( 0.0%) 
+facebrushlists       10747/0           42988/0        ( 0.0%) 
+leaves                6801/65536      217632/2097152  (10.4%) 
+leaffaces            13016/65536       26032/131072   (19.9%) 
+leafbrushes           6061/65536       12122/131072   ( 9.2%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges            63136/512000     252544/2048000  (12.3%) 
+edges                34909/256000     139636/1024000  (13.6%) 
+LDR worldlights        115/8192        11500/819200   ( 1.4%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            5/32768          60/393216   ( 0.0%) 
+waterstrips           1314/32768       13140/327680   ( 4.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices         19524/65536       39048/131072   (29.8%) 
+cubemapsamples           1/1024           16/16384    ( 0.1%) 
+overlays                17/1024         5984/360448   ( 1.7%) 
+LDR lightdata         [variable]    24579216/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]     1818224/16777216 (10.8%) 
+entdata               [variable]      196384/393216   (49.9%) 
+LDR ambient table     6801/65536       27204/262144   (10.4%) 
+HDR ambient table     6801/65536       27204/262144   (10.4%) 
+LDR leaf ambient     14930/65536      418040/1835008  (22.8%) 
+HDR leaf ambient      6801/65536      190428/1835008  (10.4%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/25032    ( 0.0%) 
+pakfile               [variable]    11320433/0        ( 0.0%) 
+physics               [variable]      311773/4194304  ( 7.4%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7d
+
+Total triangle count: 29292
+Writing g:\documents\github\csgomaps2\pokapagao21\de_pokacaum21.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'g:\documents\github\csgomaps2\pokapagao21\de_pokacaum21.bsp', but we don't own that location. Allowing...
+2 minutes, 16 seconds elapsed
+
+
+
+materialPath: D:\Programas\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading g:\documents\github\csgomaps2\pokapagao21\de_pokacaum21.vmf
+Map revision 187
+Warning in .VMT file ($envmaptint): no ']' or '}' found in vector key "$envmaptint".
+Did you forget to surround the vector with "s?
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 178 detail faces...done (0)
+Merging details...done (1)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing g:\documents\github\csgomaps2\pokapagao21\de_pokacaum21.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (311773 bytes)
+Encountered obsolete static prop option to do its fade in screen space @ -2377.00 4514.00 -81.72
+Encountered obsolete static prop option to do its fade in screen space @ -2367.00 4617.00 -81.72
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 3905 texinfos to 2220
+Reduced 86 texdatas to 64 (3161 bytes to 2428)
+Writing g:\documents\github\csgomaps2\pokapagao21\de_pokacaum21.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'g:\documents\github\csgomaps2\pokapagao21\de_pokacaum21.bsp', but we don't own that location. Allowing...
+2 seconds elapsed
+
+
+
+16 threads
+reading g:\documents\github\csgomaps2\pokapagao21\de_pokacaum21.bsp
+reading g:\documents\github\csgomaps2\pokapagao21\de_pokacaum21.prt
+2746 portalclusters
+8979 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 516086 visible clusters (0.00%)
+Total clusters visible: 5184979
+Average clusters visible: 1888
+Building PAS...
+Average clusters audible: 2743
+visdatasize:1818224  compressed from 1889248
+writing g:\documents\github\csgomaps2\pokapagao21\de_pokacaum21.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'g:\documents\github\csgomaps2\pokapagao21\de_pokacaum21.bsp', but we don't own that location. Allowing...
+1 second elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading g:\documents\github\csgomaps2\pokapagao21\de_pokacaum21.bsp
+10747 faces
+2 degenerate faces
+2208375 square feet [318006112.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+10745 patches before subdivision
+236115 patches after subdivision
+115 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 81208500, max 2219
+transfer lists: 619.6 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(97195, 61469, 45150)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(37383, 18664, 11683)
+Build Patch/Sample Hash Table(s).....Done<0.0829 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Computing static prop lighting : 00...1...2...3...4...5...6...7...8...9..
+
+
+materialPath: D:\Programas\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading g:\documents\github\csgomaps2\pokapagao21\de_pokacaum21.vmf
+Map revision 187
+Warning in .VMT file ($envmaptint): no ']' or '}' found in vector key "$envmaptint".
+Did you forget to surround the vector with "s?
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 178 detail faces...done (0)
+Merging details...done (1)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing g:\documents\github\csgomaps2\pokapagao21\de_pokacaum21.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (311773 bytes)
+Encountered obsolete static prop option to do its fade in screen space @ -2377.00 4514.00 -81.72
+Encountered obsolete static prop option to do its fade in screen space @ -2367.00 4617.00 -81.72
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 3905 texinfos to 2220
+Reduced 86 texdatas to 64 (3161 bytes to 2428)
+Writing g:\documents\github\csgomaps2\pokapagao21\de_pokacaum21.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'g:\documents\github\csgomaps2\pokapagao21\de_pokacaum21.bsp', but we don't own that location. Allowing...
+2 seconds elapsed
+
+
+
+16 threads
+reading g:\documents\github\csgomaps2\pokapagao21\de_pokacaum21.bsp
+reading g:\documents\github\csgomaps2\pokapagao21\de_pokacaum21.prt
+2746 portalclusters
+8979 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 516086 visible clusters (0.00%)
+Total clusters visible: 5184979
+Average clusters visible: 1888
+Building PAS...
+Average clusters audible: 2743
+visdatasize:1818224  compressed from 1889248
+writing g:\documents\github\csgomaps2\pokapagao21\de_pokacaum21.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'g:\documents\github\csgomaps2\pokapagao21\de_pokacaum21.bsp', but we don't own that location. Allowing...
+1 second elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading g:\documents\github\csgomaps2\pokapagao21\de_pokacaum21.bsp
+10747 faces
+2 degenerate faces
+2208375 square feet [318006112.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+10745 patches before subdivision
+236115 patches after subdivision
+115 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 81208500, max 2219
+transfer lists: 619.6 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(97195, 61469, 45150)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(37383, 18664, 11683)
+Build Patch/Sample Hash Table(s).....Done<0.0814 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Computing static prop lighting : 00...1...2...3...4...5...6...7...8...9...10
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  71/1024         3408/49152    ( 6.9%) 
+brushes                748/8192         8976/98304    ( 9.1%) 
+brushsides            6565/81920       52520/655360   ( 8.0%) 
+planes               10244/65536      204880/1310720  (15.6%) 
+vertexes             18150/65536      217800/786432   (27.7%) 
+nodes                 6729/65536      215328/2097152  (10.3%) 
+texinfos              2220/12288      159840/884736   (18.1%) 
+texdata                 64/4096         2048/131072   ( 1.6%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                10747/65536      601832/3670016  (16.4%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             3082/65536      172592/3670016  ( 4.7%) 
+facebrushes             12/0              24/0        ( 0.0%) 
+facebrushlists       10747/0           42988/0        ( 0.0%) 
+leaves                6801/65536      217632/2097152  (10.4%) 
+leaffaces            13016/65536       26032/131072   (19.9%) 
+leafbrushes           6061/65536       12122/131072   ( 9.2%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges            63136/512000     252544/2048000  (12.3%) 
+edges                34909/256000     139636/1024000  (13.6%) 
+LDR worldlights        115/8192        11500/819200   ( 1.4%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            5/32768          60/393216   ( 0.0%) 
+waterstrips           1314/32768       13140/327680   ( 4.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices         19524/65536       39048/131072   (29.8%) 
+cubemapsamples           1/1024           16/16384    ( 0.1%) 
+overlays                17/1024         5984/360448   ( 1.7%) 
+LDR lightdata         [variable]    24567460/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]     1818224/16777216 (10.8%) 
+entdata               [variable]      196416/393216   (50.0%) 
+LDR ambient table     6801/65536       27204/262144   (10.4%) 
+HDR ambient table     6801/65536       27204/262144   (10.4%) 
+LDR leaf ambient     14930/65536      418040/1835008  (22.8%) 
+HDR leaf ambient      6801/65536      190428/1835008  (10.4%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/25034    ( 0.0%) 
+pakfile               [variable]    11320433/0        ( 0.0%) 
+physics               [variable]      311773/4194304  ( 7.4%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7d
+
+Total triangle count: 29292
+Writing g:\documents\github\csgomaps2\pokapagao21\de_pokacaum21.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'g:\documents\github\csgomaps2\pokapagao21\de_pokacaum21.bsp', but we don't own that location. Allowing...
+2 minutes, 16 seconds elapsed
