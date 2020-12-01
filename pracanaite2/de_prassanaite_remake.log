@@ -256,3 +256,1209 @@ Total triangle count: 9080
 Writing g:\documents\github\csgomaps2\pracanaite2\de_prassanaite_remake.bsp
 MSG_FILEWRITE - Filesystem was asked to write to 'g:\documents\github\csgomaps2\pracanaite2\de_prassanaite_remake.bsp', but we don't own that location. Allowing...
 13 seconds elapsed
+
+
+
+materialPath: D:\Programas\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading g:\documents\github\csgomaps2\pracanaite2\de_prassanaite_remake.vmf
+Map revision 25
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing g:\documents\github\csgomaps2\pracanaite2\de_prassanaite_remake.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (75270 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 730 texinfos to 505
+Reduced 19 texdatas to 17 (583 bytes to 527)
+Writing g:\documents\github\csgomaps2\pracanaite2\de_prassanaite_remake.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'g:\documents\github\csgomaps2\pracanaite2\de_prassanaite_remake.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+16 threads
+reading g:\documents\github\csgomaps2\pracanaite2\de_prassanaite_remake.bsp
+reading g:\documents\github\csgomaps2\pracanaite2\de_prassanaite_remake.prt
+1229 portalclusters
+3953 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 62294 visible clusters (0.00%)
+Total clusters visible: 1169893
+Average clusters visible: 951
+Building PAS...
+Average clusters audible: 1229
+visdatasize:386520  compressed from 393280
+writing g:\documents\github\csgomaps2\pracanaite2\de_prassanaite_remake.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'g:\documents\github\csgomaps2\pracanaite2\de_prassanaite_remake.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading g:\documents\github\csgomaps2\pracanaite2\de_prassanaite_remake.bsp
+3786 faces
+2104264 square feet [303014112.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+3786 patches before subdivision
+93946 patches after subdivision
+12 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 10140189, max 1400
+transfer lists:  77.4 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(146249, 130973, 65913)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(21229, 18006, 8201)
+Build Patch/Sample Hash Table(s).....Done<0.0271 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   4/1024          192/49152    ( 0.4%) 
+brushes                190/8192         2280/98304    ( 2.3%) 
+brushsides            1282/81920       10256/655360   ( 1.6%) 
+planes                1584/65536       31680/1310720  ( 2.4%) 
+vertexes              6077/65536       72924/786432   ( 9.3%) 
+nodes                 2549/65536       81568/2097152  ( 3.9%) 
+texinfos               505/12288       36360/884736   ( 4.1%) 
+texdata                 17/4096          544/131072   ( 0.4%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 3786/65536      212016/3670016  ( 5.8%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              797/65536       44632/3670016  ( 1.2%) 
+facebrushes              0/0               0/0        ( 0.0%) 
+facebrushlists        3786/0           15144/0        ( 0.0%) 
+leaves                2554/65536       81728/2097152  ( 3.9%) 
+leaffaces             4480/65536        8960/131072   ( 6.8%) 
+leafbrushes           1833/65536        3666/131072   ( 2.8%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges            20612/512000      82448/2048000  ( 4.0%) 
+edges                11180/256000      44720/1024000  ( 4.4%) 
+LDR worldlights         12/8192         1200/819200   ( 0.1%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            355/32768        3550/327680   ( 1.1%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          5064/65536       10128/131072   ( 7.7%) 
+cubemapsamples           1/1024           16/16384    ( 0.1%) 
+overlays                 2/1024          704/360448   ( 0.2%) 
+LDR lightdata         [variable]    10615332/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]      386520/16777216 ( 2.3%) 
+entdata               [variable]        6981/393216   ( 1.8%) 
+LDR ambient table     2554/65536       10216/262144   ( 3.9%) 
+HDR ambient table     2554/65536       10216/262144   ( 3.9%) 
+LDR leaf ambient     13598/65536      380744/1835008  (20.7%) 
+HDR leaf ambient      2554/65536       71512/1835008  ( 3.9%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]      149690/0        ( 0.0%) 
+physics               [variable]       75270/4194304  ( 1.8%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7d
+
+Total triangle count: 9821
+Writing g:\documents\github\csgomaps2\pracanaite2\de_prassanaite_remake.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'g:\documents\github\csgomaps2\pracanaite2\de_prassanaite_remake.bsp', but we don't own that location. Allowing...
+14 seconds elapsed
+
+
+
+materialPath: D:\Programas\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading g:\documents\github\csgomaps2\pracanaite2\de_prassanaite_remake.vmf
+Map revision 26
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing g:\documents\github\csgomaps2\pracanaite2\de_prassanaite_remake.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (75270 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 730 texinfos to 505
+Reduced 19 texdatas to 17 (583 bytes to 527)
+Writing g:\documents\github\csgomaps2\pracanaite2\de_prassanaite_remake.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'g:\documents\github\csgomaps2\pracanaite2\de_prassanaite_remake.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+16 threads
+reading g:\documents\github\csgomaps2\pracanaite2\de_prassanaite_remake.bsp
+reading g:\documents\github\csgomaps2\pracanaite2\de_prassanaite_remake.prt
+1229 portalclusters
+3953 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 62294 visible clusters (0.00%)
+Total clusters visible: 1169893
+Average clusters visible: 951
+Building PAS...
+Average clusters audible: 1229
+visdatasize:386520  compressed from 393280
+writing g:\documents\github\csgomaps2\pracanaite2\de_prassanaite_remake.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'g:\documents\github\csgomaps2\pracanaite2\de_prassanaite_remake.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading g:\documents\github\csgomaps2\pracanaite2\de_prassanaite_remake.bsp
+3786 faces
+2104264 square feet [303014112.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+3786 patches before subdivision
+93946 patches after subdivision
+12 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 10140189, max 1400
+transfer lists:  77.4 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(14100, 18296, 20787)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(2297, 2805, 2874)
+Build Patch/Sample Hash Table(s).....Done<0.0274 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   4/1024          192/49152    ( 0.4%) 
+brushes                190/8192         2280/98304    ( 2.3%) 
+brushsides            1282/81920       10256/655360   ( 1.6%) 
+planes                1584/65536       31680/1310720  ( 2.4%) 
+vertexes              6077/65536       72924/786432   ( 9.3%) 
+nodes                 2549/65536       81568/2097152  ( 3.9%) 
+texinfos               505/12288       36360/884736   ( 4.1%) 
+texdata                 17/4096          544/131072   ( 0.4%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 3786/65536      212016/3670016  ( 5.8%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              797/65536       44632/3670016  ( 1.2%) 
+facebrushes              0/0               0/0        ( 0.0%) 
+facebrushlists        3786/0           15144/0        ( 0.0%) 
+leaves                2554/65536       81728/2097152  ( 3.9%) 
+leaffaces             4480/65536        8960/131072   ( 6.8%) 
+leafbrushes           1833/65536        3666/131072   ( 2.8%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges            20612/512000      82448/2048000  ( 4.0%) 
+edges                11180/256000      44720/1024000  ( 4.4%) 
+LDR worldlights         12/8192         1200/819200   ( 0.1%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            355/32768        3550/327680   ( 1.1%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          5064/65536       10128/131072   ( 7.7%) 
+cubemapsamples           1/1024           16/16384    ( 0.1%) 
+overlays                 2/1024          704/360448   ( 0.2%) 
+LDR lightdata         [variable]    10615332/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]      386520/16777216 ( 2.3%) 
+entdata               [variable]        6977/393216   ( 1.8%) 
+LDR ambient table     2554/65536       10216/262144   ( 3.9%) 
+HDR ambient table     2554/65536       10216/262144   ( 3.9%) 
+LDR leaf ambient     11322/65536      317016/1835008  (17.3%) 
+HDR leaf ambient      2554/65536       71512/1835008  ( 3.9%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]      149690/0        ( 0.0%) 
+physics               [variable]       75270/4194304  ( 1.8%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7d
+
+Total triangle count: 9821
+Writing g:\documents\github\csgomaps2\pracanaite2\de_prassanaite_remake.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'g:\documents\github\csgomaps2\pracanaite2\de_prassanaite_remake.bsp', but we don't own that location. Allowing...
+15 seconds elapsed
+
+
+
+materialPath: D:\Programas\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading g:\documents\github\csgomaps2\pracanaite2\de_prassanaite_remake.vmf
+Map revision 29
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing g:\documents\github\csgomaps2\pracanaite2\de_prassanaite_remake.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (116446 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 1248 texinfos to 812
+Reduced 30 texdatas to 25 (1054 bytes to 914)
+Writing g:\documents\github\csgomaps2\pracanaite2\de_prassanaite_remake.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'g:\documents\github\csgomaps2\pracanaite2\de_prassanaite_remake.bsp', but we don't own that location. Allowing...
+1 second elapsed
+
+
+
+16 threads
+reading g:\documents\github\csgomaps2\pracanaite2\de_prassanaite_remake.bsp
+reading g:\documents\github\csgomaps2\pracanaite2\de_prassanaite_remake.prt
+1542 portalclusters
+5084 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 107318 visible clusters (0.00%)
+Total clusters visible: 1823452
+Average clusters visible: 1182
+Building PAS...
+Average clusters audible: 1541
+visdatasize:596036  compressed from 616800
+writing g:\documents\github\csgomaps2\pracanaite2\de_prassanaite_remake.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'g:\documents\github\csgomaps2\pracanaite2\de_prassanaite_remake.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading g:\documents\github\csgomaps2\pracanaite2\de_prassanaite_remake.bsp
+4753 faces
+2138159 square feet [307895008.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+4753 patches before subdivision
+97951 patches after subdivision
+13 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 9732347, max 1477
+transfer lists:  74.3 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(14761, 18694, 23543)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(2774, 3018, 3352)
+Build Patch/Sample Hash Table(s).....Done<0.0294 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Computing static prop lighting : 00...1...2...3...4...5...6...7...8...9...10
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   4/1024          192/49152    ( 0.4%) 
+brushes                298/8192         3576/98304    ( 3.6%) 
+brushsides            1999/81920       15992/655360   ( 2.4%) 
+planes                2256/65536       45120/1310720  ( 3.4%) 
+vertexes              7742/65536       92904/786432   (11.8%) 
+nodes                 3130/65536      100160/2097152  ( 4.8%) 
+texinfos               812/12288       58464/884736   ( 6.6%) 
+texdata                 25/4096          800/131072   ( 0.6%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 4753/65536      266168/3670016  ( 7.3%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             1223/65536       68488/3670016  ( 1.9%) 
+facebrushes             24/0              48/0        ( 0.0%) 
+facebrushlists        4753/0           19012/0        ( 0.0%) 
+leaves                3135/65536      100320/2097152  ( 4.8%) 
+leaffaces             5592/65536       11184/131072   ( 8.5%) 
+leafbrushes           2232/65536        4464/131072   ( 3.4%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges            27079/512000     108316/2048000  ( 5.3%) 
+edges                14704/256000      58816/1024000  ( 5.7%) 
+LDR worldlights         13/8192         1300/819200   ( 0.2%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            462/32768        4620/327680   ( 1.4%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          6888/65536       13776/131072   (10.5%) 
+cubemapsamples           1/1024           16/16384    ( 0.1%) 
+overlays                 2/1024          704/360448   ( 0.2%) 
+LDR lightdata         [variable]    11092228/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]      596036/16777216 ( 3.6%) 
+entdata               [variable]       18344/393216   ( 4.7%) 
+LDR ambient table     3135/65536       12540/262144   ( 4.8%) 
+HDR ambient table     3135/65536       12540/262144   ( 4.8%) 
+LDR leaf ambient     12709/65536      355852/1835008  (19.4%) 
+HDR leaf ambient      3135/65536       87780/1835008  ( 4.8%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/9480     ( 0.0%) 
+pakfile               [variable]     4098524/0        ( 0.0%) 
+physics               [variable]      116446/4194304  ( 2.8%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7d
+
+Total triangle count: 12646
+Writing g:\documents\github\csgomaps2\pracanaite2\de_prassanaite_remake.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'g:\documents\github\csgomaps2\pracanaite2\de_prassanaite_remake.bsp', but we don't own that location. Allowing...
+25 seconds elapsed
+
+
+
+materialPath: D:\Programas\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading g:\documents\github\csgomaps2\pracanaite2\de_prassanaite_remake.vmf
+Map revision 30
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing g:\documents\github\csgomaps2\pracanaite2\de_prassanaite_remake.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (1) (132923 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 1534 texinfos to 876
+Reduced 31 texdatas to 25 (1118 bytes to 942)
+Writing g:\documents\github\csgomaps2\pracanaite2\de_prassanaite_remake.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'g:\documents\github\csgomaps2\pracanaite2\de_prassanaite_remake.bsp', but we don't own that location. Allowing...
+2 seconds elapsed
+
+
+
+16 threads
+reading g:\documents\github\csgomaps2\pracanaite2\de_prassanaite_remake.bsp
+reading g:\documents\github\csgomaps2\pracanaite2\de_prassanaite_remake.prt
+1583 portalclusters
+5245 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 111757 visible clusters (0.00%)
+Total clusters visible: 1937203
+Average clusters visible: 1223
+Building PAS...
+Average clusters audible: 1582
+visdatasize:624654  compressed from 633200
+writing g:\documents\github\csgomaps2\pracanaite2\de_prassanaite_remake.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'g:\documents\github\csgomaps2\pracanaite2\de_prassanaite_remake.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading g:\documents\github\csgomaps2\pracanaite2\de_prassanaite_remake.bsp
+4947 faces
+1 degenerate faces
+2147561 square feet [309248832.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+4946 patches before subdivision
+99328 patches after subdivision
+41 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 10458209, max 1417
+transfer lists:  79.8 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(49399, 52729, 53780)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(17754, 16516, 13198)
+Build Patch/Sample Hash Table(s).....Done<0.0287 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Computing static prop lighting : 00...1...2...3...4...5...6...7...8...9...10
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  27/1024         1296/49152    ( 2.6%) 
+brushes                331/8192         3972/98304    ( 4.0%) 
+brushsides            2234/81920       17872/655360   ( 2.7%) 
+planes                2662/65536       53240/1310720  ( 4.1%) 
+vertexes              8142/65536       97704/786432   (12.4%) 
+nodes                 3336/65536      106752/2097152  ( 5.1%) 
+texinfos               876/12288       63072/884736   ( 7.1%) 
+texdata                 25/4096          800/131072   ( 0.6%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 4947/65536      277032/3670016  ( 7.5%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             1362/65536       76272/3670016  ( 2.1%) 
+facebrushes             32/0              64/0        ( 0.0%) 
+facebrushlists        4947/0           19788/0        ( 0.0%) 
+leaves                3364/65536      107648/2097152  ( 5.1%) 
+leaffaces             5788/65536       11576/131072   ( 8.8%) 
+leafbrushes           2246/65536        4492/131072   ( 3.4%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges            28528/512000     114112/2048000  ( 5.6%) 
+edges                15483/256000      61932/1024000  ( 6.0%) 
+LDR worldlights         41/8192         4100/819200   ( 0.5%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            480/32768        4800/327680   ( 1.5%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          7263/65536       14526/131072   (11.1%) 
+cubemapsamples           1/1024           16/16384    ( 0.1%) 
+overlays                 2/1024          704/360448   ( 0.2%) 
+LDR lightdata         [variable]    11172896/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]      624654/16777216 ( 3.7%) 
+entdata               [variable]       66168/393216   (16.8%) 
+LDR ambient table     3364/65536       13456/262144   ( 5.1%) 
+HDR ambient table     3364/65536       13456/262144   ( 5.1%) 
+LDR leaf ambient     13589/65536      380492/1835008  (20.7%) 
+HDR leaf ambient      3364/65536       94192/1835008  ( 5.1%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/10158    ( 0.0%) 
+pakfile               [variable]     4234858/0        ( 0.0%) 
+physics               [variable]      132923/4194304  ( 3.2%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7d
+
+Total triangle count: 13151
+Writing g:\documents\github\csgomaps2\pracanaite2\de_prassanaite_remake.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'g:\documents\github\csgomaps2\pracanaite2\de_prassanaite_remake.bsp', but we don't own that location. Allowing...
+38 seconds elapsed
+
+
+
+materialPath: D:\Programas\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading g:\documents\github\csgomaps2\pracanaite2\de_prassanaite_remake.vmf
+Map revision 32
+Warning in .VMT file ($envmaptint): no ']' or '}' found in vector key "$envmaptint".
+Did you forget to surround the vector with "s?
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 34 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing g:\documents\github\csgomaps2\pracanaite2\de_prassanaite_remake.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (188818 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 2192 texinfos to 1332
+Reduced 50 texdatas to 39 (1795 bytes to 1461)
+Writing g:\documents\github\csgomaps2\pracanaite2\de_prassanaite_remake.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'g:\documents\github\csgomaps2\pracanaite2\de_prassanaite_remake.bsp', but we don't own that location. Allowing...
+1 second elapsed
+
+
+
+16 threads
+reading g:\documents\github\csgomaps2\pracanaite2\de_prassanaite_remake.bsp
+reading g:\documents\github\csgomaps2\pracanaite2\de_prassanaite_remake.prt
+1892 portalclusters
+6154 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 212336 visible clusters (0.00%)
+Total clusters visible: 2600827
+Average clusters visible: 1374
+Building PAS...
+Average clusters audible: 1891
+visdatasize:873340  compressed from 908160
+writing g:\documents\github\csgomaps2\pracanaite2\de_prassanaite_remake.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'g:\documents\github\csgomaps2\pracanaite2\de_prassanaite_remake.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading g:\documents\github\csgomaps2\pracanaite2\de_prassanaite_remake.bsp
+6190 faces
+1 degenerate faces
+2226539 square feet [320621696.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+6189 patches before subdivision
+113081 patches after subdivision
+55 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 12453491, max 1480
+transfer lists:  95.0 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(85302, 67783, 73371)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(30682, 22936, 19667)
+Build Patch/Sample Hash Table(s).....Done<0.0311 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Computing static prop lighting : 00...1...2...3...4...5...6...7...8...9...10
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  38/1024         1824/49152    ( 3.7%) 
+brushes                466/8192         5592/98304    ( 5.7%) 
+brushsides            3383/81920       27064/655360   ( 4.1%) 
+planes                4360/65536       87200/1310720  ( 6.7%) 
+vertexes             10484/65536      125808/786432   (16.0%) 
+nodes                 4088/65536      130816/2097152  ( 6.2%) 
+texinfos              1332/12288       95904/884736   (10.8%) 
+texdata                 39/4096         1248/131072   ( 1.0%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 6190/65536      346640/3670016  ( 9.4%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             1939/65536      108584/3670016  ( 3.0%) 
+facebrushes             12/0              24/0        ( 0.0%) 
+facebrushlists        6190/0           24760/0        ( 0.0%) 
+leaves                4127/65536      132064/2097152  ( 6.3%) 
+leaffaces             7213/65536       14426/131072   (11.0%) 
+leafbrushes           2932/65536        5864/131072   ( 4.5%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges            36926/512000     147704/2048000  ( 7.2%) 
+edges                20212/256000      80848/1024000  ( 7.9%) 
+LDR worldlights         55/8192         5500/819200   ( 0.7%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            653/32768        6530/327680   ( 2.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          9999/65536       19998/131072   (15.3%) 
+cubemapsamples           1/1024           16/16384    ( 0.1%) 
+overlays                 9/1024         3168/360448   ( 0.9%) 
+LDR lightdata         [variable]    11863272/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]      873340/16777216 ( 5.2%) 
+entdata               [variable]       91401/393216   (23.2%) 
+LDR ambient table     4127/65536       16508/262144   ( 6.3%) 
+HDR ambient table     4127/65536       16508/262144   ( 6.3%) 
+LDR leaf ambient     15822/65536      443016/1835008  (24.1%) 
+HDR leaf ambient      4127/65536      115556/1835008  ( 6.3%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/11970    ( 0.0%) 
+pakfile               [variable]     4708310/0        ( 0.0%) 
+physics               [variable]      188818/4194304  ( 4.5%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7d
+
+Total triangle count: 16747
+Writing g:\documents\github\csgomaps2\pracanaite2\de_prassanaite_remake.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'g:\documents\github\csgomaps2\pracanaite2\de_prassanaite_remake.bsp', but we don't own that location. Allowing...
+47 seconds elapsed
+
+
+
+materialPath: D:\Programas\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading g:\documents\github\csgomaps2\pracanaite2\de_prassanaite_remake.vmf
+Map revision 34
+Warning in .VMT file ($envmaptint): no ']' or '}' found in vector key "$envmaptint".
+Did you forget to surround the vector with "s?
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 42 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing g:\documents\github\csgomaps2\pracanaite2\de_prassanaite_remake.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (1) (193016 bytes)
+Error! To use model "models/props_downtown/door_interior_112_01.mdl"
+      with prop_static, it must be compiled with $staticprop!
+Error loading studio model "models/props_downtown/door_interior_112_01.mdl"!
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Water found with no water_lod_control entity, creating a default one.
+Compacting texture/material tables...
+Reduced 2238 texinfos to 1362
+Reduced 55 texdatas to 41 (2016 bytes to 1505)
+Writing g:\documents\github\csgomaps2\pracanaite2\de_prassanaite_remake.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'g:\documents\github\csgomaps2\pracanaite2\de_prassanaite_remake.bsp', but we don't own that location. Allowing...
+2 seconds elapsed
+
+
+
+16 threads
+reading g:\documents\github\csgomaps2\pracanaite2\de_prassanaite_remake.bsp
+reading g:\documents\github\csgomaps2\pracanaite2\de_prassanaite_remake.prt
+2013 portalclusters
+6569 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 228026 visible clusters (0.00%)
+Total clusters visible: 2921752
+Average clusters visible: 1451
+Building PAS...
+Average clusters audible: 2012
+visdatasize:987402  compressed from 1030656
+writing g:\documents\github\csgomaps2\pracanaite2\de_prassanaite_remake.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'g:\documents\github\csgomaps2\pracanaite2\de_prassanaite_remake.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading g:\documents\github\csgomaps2\pracanaite2\de_prassanaite_remake.bsp
+6618 faces
+1 degenerate faces
+2334584 square feet [336180160.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+6617 patches before subdivision
+122989 patches after subdivision
+56 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 14028007, max 1516
+transfer lists: 107.0 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(84048, 68503, 73575)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(29379, 23020, 19295)
+Build Patch/Sample Hash Table(s).....Done<0.0362 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Computing static prop lighting : 00...1...2...3...4...5...6...7...8...9...10
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  40/1024         1920/49152    ( 3.9%) 
+brushes                472/8192         5664/98304    ( 5.8%) 
+brushsides            3418/81920       27344/655360   ( 4.2%) 
+planes                4434/65536       88680/1310720  ( 6.8%) 
+vertexes             11129/65536      133548/786432   (17.0%) 
+nodes                 4328/65536      138496/2097152  ( 6.6%) 
+texinfos              1362/12288       98064/884736   (11.1%) 
+texdata                 41/4096         1312/131072   ( 1.0%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 6618/65536      370608/3670016  (10.1%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             1982/65536      110992/3670016  ( 3.0%) 
+facebrushes             12/0              24/0        ( 0.0%) 
+facebrushlists        6618/0           26472/0        ( 0.0%) 
+leaves                4369/65536      139808/2097152  ( 6.7%) 
+leaffaces             7703/65536       15406/131072   (11.8%) 
+leafbrushes           3147/65536        6294/131072   ( 4.8%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges            39187/512000     156748/2048000  ( 7.7%) 
+edges                21431/256000      85724/1024000  ( 8.4%) 
+LDR worldlights         56/8192         5600/819200   ( 0.7%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            3/32768          36/393216   ( 0.0%) 
+waterstrips            743/32768        7430/327680   ( 2.3%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices         11214/65536       22428/131072   (17.1%) 
+cubemapsamples           1/1024           16/16384    ( 0.1%) 
+overlays                 9/1024         3168/360448   ( 0.9%) 
+LDR lightdata         [variable]    12754272/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]      987402/16777216 ( 5.9%) 
+entdata               [variable]       93566/393216   (23.8%) 
+LDR ambient table     4369/65536       17476/262144   ( 6.7%) 
+HDR ambient table     4369/65536       17476/262144   ( 6.7%) 
+LDR leaf ambient     16925/65536      473900/1835008  (25.8%) 
+HDR leaf ambient      4369/65536      122332/1835008  ( 6.7%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/11958    ( 0.0%) 
+pakfile               [variable]     4709297/0        ( 0.0%) 
+physics               [variable]      193016/4194304  ( 4.6%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7d
+
+Total triangle count: 17980
+Writing g:\documents\github\csgomaps2\pracanaite2\de_prassanaite_remake.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'g:\documents\github\csgomaps2\pracanaite2\de_prassanaite_remake.bsp', but we don't own that location. Allowing...
+48 seconds elapsed
+
+
+
+materialPath: D:\Programas\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading g:\documents\github\csgomaps2\pracanaite2\de_prassanaite_remake.vmf
+Map revision 35
+Warning in .VMT file ($envmaptint): no ']' or '}' found in vector key "$envmaptint".
+Did you forget to surround the vector with "s?
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 42 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing g:\documents\github\csgomaps2\pracanaite2\de_prassanaite_remake.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (193016 bytes)
+Error! To use model "models/props_downtown/door_interior_112_01.mdl"
+      with prop_static, it must be compiled with $staticprop!
+Error loading studio model "models/props_downtown/door_interior_112_01.mdl"!
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Water found with no water_lod_control entity, creating a default one.
+Compacting texture/material tables...
+Reduced 2238 texinfos to 1362
+Reduced 55 texdatas to 41 (2016 bytes to 1505)
+Writing g:\documents\github\csgomaps2\pracanaite2\de_prassanaite_remake.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'g:\documents\github\csgomaps2\pracanaite2\de_prassanaite_remake.bsp', but we don't own that location. Allowing...
+1 second elapsed
+
+
+
+16 threads
+reading g:\documents\github\csgomaps2\pracanaite2\de_prassanaite_remake.bsp
+reading g:\documents\github\csgomaps2\pracanaite2\de_prassanaite_remake.prt
+2013 portalclusters
+6569 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 228026 visible clusters (0.00%)
+Total clusters visible: 2921752
+Average clusters visible: 1451
+Building PAS...
+Average clusters audible: 2012
+visdatasize:987402  compressed from 1030656
+writing g:\documents\github\csgomaps2\pracanaite2\de_prassanaite_remake.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'g:\documents\github\csgomaps2\pracanaite2\de_prassanaite_remake.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading g:\documents\github\csgomaps2\pracanaite2\de_prassanaite_remake.bsp
+6618 faces
+1 degenerate faces
+2334584 square feet [336180160.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+6617 patches before subdivision
+122989 patches after subdivision
+56 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 14028007, max 1516
+transfer lists: 107.0 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(101022, 113006, 160030)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(31998, 30864, 34779)
+Build Patch/Sample Hash Table(s).....Done<0.0353 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Computing static prop lighting : 00...1...2...3...4...5...6...7...8...9...10
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  40/1024         1920/49152    ( 3.9%) 
+brushes                472/8192         5664/98304    ( 5.8%) 
+brushsides            3418/81920       27344/655360   ( 4.2%) 
+planes                4434/65536       88680/1310720  ( 6.8%) 
+vertexes             11129/65536      133548/786432   (17.0%) 
+nodes                 4328/65536      138496/2097152  ( 6.6%) 
+texinfos              1362/12288       98064/884736   (11.1%) 
+texdata                 41/4096         1312/131072   ( 1.0%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 6618/65536      370608/3670016  (10.1%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             1982/65536      110992/3670016  ( 3.0%) 
+facebrushes             12/0              24/0        ( 0.0%) 
+facebrushlists        6618/0           26472/0        ( 0.0%) 
+leaves                4369/65536      139808/2097152  ( 6.7%) 
+leaffaces             7703/65536       15406/131072   (11.8%) 
+leafbrushes           3147/65536        6294/131072   ( 4.8%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges            39187/512000     156748/2048000  ( 7.7%) 
+edges                21431/256000      85724/1024000  ( 8.4%) 
+LDR worldlights         56/8192         5600/819200   ( 0.7%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            3/32768          36/393216   ( 0.0%) 
+waterstrips            743/32768        7430/327680   ( 2.3%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices         11214/65536       22428/131072   (17.1%) 
+cubemapsamples           1/1024           16/16384    ( 0.1%) 
+overlays                 9/1024         3168/360448   ( 0.9%) 
+LDR lightdata         [variable]    12754272/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]      987402/16777216 ( 5.9%) 
+entdata               [variable]       93568/393216   (23.8%) 
+LDR ambient table     4369/65536       17476/262144   ( 6.7%) 
+HDR ambient table     4369/65536       17476/262144   ( 6.7%) 
+LDR leaf ambient     19067/65536      533876/1835008  (29.1%) 
+HDR leaf ambient      4369/65536      122332/1835008  ( 6.7%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/11958    ( 0.0%) 
+pakfile               [variable]     4709297/0        ( 0.0%) 
+physics               [variable]      193016/4194304  ( 4.6%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7d
+
+Total triangle count: 17980
+Writing g:\documents\github\csgomaps2\pracanaite2\de_prassanaite_remake.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'g:\documents\github\csgomaps2\pracanaite2\de_prassanaite_remake.bsp', but we don't own that location. Allowing...
+48 seconds elapsed
+
+
+
+materialPath: D:\Programas\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading g:\documents\github\csgomaps2\pracanaite2\de_prassanaite_remake.vmf
+Map revision 39
+Warning in .VMT file ($envmaptint): no ']' or '}' found in vector key "$envmaptint".
+Did you forget to surround the vector with "s?
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 42 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing g:\documents\github\csgomaps2\pracanaite2\de_prassanaite_remake.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (1) (198385 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Water found with no water_lod_control entity, creating a default one.
+Compacting texture/material tables...
+Reduced 2345 texinfos to 1415
+Reduced 49 texdatas to 37 (1836 bytes to 1408)
+Writing g:\documents\github\csgomaps2\pracanaite2\de_prassanaite_remake.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'g:\documents\github\csgomaps2\pracanaite2\de_prassanaite_remake.bsp', but we don't own that location. Allowing...
+2 seconds elapsed
+
+
+
+16 threads
+reading g:\documents\github\csgomaps2\pracanaite2\de_prassanaite_remake.bsp
+reading g:\documents\github\csgomaps2\pracanaite2\de_prassanaite_remake.prt
+2188 portalclusters
+6868 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 238340 visible clusters (0.00%)
+Total clusters visible: 3288555
+Average clusters visible: 1502
+Building PAS...
+Average clusters audible: 2110
+visdatasize:1144794  compressed from 1225280
+writing g:\documents\github\csgomaps2\pracanaite2\de_prassanaite_remake.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'g:\documents\github\csgomaps2\pracanaite2\de_prassanaite_remake.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading g:\documents\github\csgomaps2\pracanaite2\de_prassanaite_remake.bsp
+7196 faces
+1 degenerate faces
+2372060 square feet [341576704.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+7195 patches before subdivision
+129623 patches after subdivision
+63 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 16853053, max 1658
+transfer lists: 128.6 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(104642, 122195, 171504)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(32451, 32261, 35980)
+Build Patch/Sample Hash Table(s).....Done<0.0373 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Computing static prop lighting : 00...1...2...3...4...5...6...7...8...9...10
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  38/1024         1824/49152    ( 3.7%) 
+brushes                487/8192         5844/98304    ( 5.9%) 
+brushsides            3506/81920       28048/655360   ( 4.3%) 
+planes                4520/65536       90400/1310720  ( 6.9%) 
+vertexes             11984/65536      143808/786432   (18.3%) 
+nodes                 4709/65536      150688/2097152  ( 7.2%) 
+texinfos              1415/12288      101880/884736   (11.5%) 
+texdata                 37/4096         1184/131072   ( 0.9%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 7196/65536      402976/3670016  (11.0%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             2063/65536      115528/3670016  ( 3.1%) 
+facebrushes             12/0              24/0        ( 0.0%) 
+facebrushlists        7196/0           28784/0        ( 0.0%) 
+leaves                4748/65536      151936/2097152  ( 7.2%) 
+leaffaces             8419/65536       16838/131072   (12.8%) 
+leafbrushes           3544/65536        7088/131072   ( 5.4%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges            42247/512000     168988/2048000  ( 8.3%) 
+edges                23095/256000      92380/1024000  ( 9.0%) 
+LDR worldlights         63/8192         6300/819200   ( 0.8%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            3/32768          36/393216   ( 0.0%) 
+waterstrips            775/32768        7750/327680   ( 2.4%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices         11790/65536       23580/131072   (18.0%) 
+cubemapsamples           1/1024           16/16384    ( 0.1%) 
+overlays                 5/1024         1760/360448   ( 0.5%) 
+LDR lightdata         [variable]    13098020/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]     1144794/16777216 ( 6.8%) 
+entdata               [variable]       98878/393216   (25.1%) 
+LDR ambient table     4748/65536       18992/262144   ( 7.2%) 
+HDR ambient table     4748/65536       18992/262144   ( 7.2%) 
+LDR leaf ambient     19384/65536      542752/1835008  (29.6%) 
+HDR leaf ambient      4748/65536      132944/1835008  ( 7.2%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/11866    ( 0.0%) 
+pakfile               [variable]     4676064/0        ( 0.0%) 
+physics               [variable]      198385/4194304  ( 4.7%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7d
+
+Total triangle count: 19560
+Writing g:\documents\github\csgomaps2\pracanaite2\de_prassanaite_remake.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'g:\documents\github\csgomaps2\pracanaite2\de_prassanaite_remake.bsp', but we don't own that location. Allowing...
+55 seconds elapsed
+
+
+
+materialPath: D:\Programas\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading g:\documents\github\csgomaps2\pracanaite2\de_prassanaite_remake.vmf
+Map revision 42
+Warning in .VMT file ($envmaptint): no ']' or '}' found in vector key "$envmaptint".
+Did you forget to surround the vector with "s?
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 42 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing g:\documents\github\csgomaps2\pracanaite2\de_prassanaite_remake.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (1) (203257 bytes)
+Encountered obsolete static prop option to do its fade in screen space @ -1829.00 161.00 334.25
+Encountered obsolete static prop option to do its fade in screen space @ -1572.66 540.09 189.25
+Encountered obsolete static prop option to do its fade in screen space @ -1862.00 609.02 189.25
+Encountered obsolete static prop option to do its fade in screen space @ -1843.27 389.02 334.25
+Encountered obsolete static prop option to do its fade in screen space @ -1649.00 596.00 334.25
+Encountered obsolete static prop option to do its fade in screen space @ 3917.00 1013.00 338.00
+Encountered obsolete static prop option to do its fade in screen space @ 3917.00 1022.37 309.15
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Water found with no water_lod_control entity, creating a default one.
+Compacting texture/material tables...
+Reduced 2421 texinfos to 1442
+Reduced 50 texdatas to 37 (1874 bytes to 1408)
+Writing g:\documents\github\csgomaps2\pracanaite2\de_prassanaite_remake.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'g:\documents\github\csgomaps2\pracanaite2\de_prassanaite_remake.bsp', but we don't own that location. Allowing...
+2 seconds elapsed
+
+
+
+16 threads
+reading g:\documents\github\csgomaps2\pracanaite2\de_prassanaite_remake.bsp
+reading g:\documents\github\csgomaps2\pracanaite2\de_prassanaite_remake.prt
+2151 portalclusters
+6917 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 214473 visible clusters (0.00%)
+Total clusters visible: 3402773
+Average clusters visible: 1581
+Building PAS...
+Average clusters audible: 2150
+visdatasize:1129736  compressed from 1170144
+writing g:\documents\github\csgomaps2\pracanaite2\de_prassanaite_remake.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'g:\documents\github\csgomaps2\pracanaite2\de_prassanaite_remake.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading g:\documents\github\csgomaps2\pracanaite2\de_prassanaite_remake.bsp
+7112 faces
+1 degenerate faces
+2345455 square feet [337745536.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+7111 patches before subdivision
+127789 patches after subdivision
+63 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 16860192, max 1650
+transfer lists: 128.6 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(107719, 125019, 173122)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(34054, 33671, 36732)
+Build Patch/Sample Hash Table(s).....Done<0.0379 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Computing static prop lighting : 00...1...2...3...4...5...6...7...8...9...10
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  44/1024         2112/49152    ( 4.3%) 
+brushes                497/8192         5964/98304    ( 6.1%) 
+brushsides            3577/81920       28616/655360   ( 4.4%) 
+planes                4680/65536       93600/1310720  ( 7.1%) 
+vertexes             11847/65536      142164/786432   (18.1%) 
+nodes                 4649/65536      148768/2097152  ( 7.1%) 
+texinfos              1442/12288      103824/884736   (11.7%) 
+texdata                 37/4096         1184/131072   ( 0.9%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 7112/65536      398272/3670016  (10.9%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             2111/65536      118216/3670016  ( 3.2%) 
+facebrushes              7/0              14/0        ( 0.0%) 
+facebrushlists        7112/0           28448/0        ( 0.0%) 
+leaves                4694/65536      150208/2097152  ( 7.2%) 
+leaffaces             8352/65536       16704/131072   (12.7%) 
+leafbrushes           3499/65536        6998/131072   ( 5.3%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges            42019/512000     168076/2048000  ( 8.2%) 
+edges                22939/256000      91756/1024000  ( 9.0%) 
+LDR worldlights         63/8192         6300/819200   ( 0.8%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            3/32768          36/393216   ( 0.0%) 
+waterstrips            762/32768        7620/327680   ( 2.3%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices         11526/65536       23052/131072   (17.6%) 
+cubemapsamples           1/1024           16/16384    ( 0.1%) 
+overlays                 5/1024         1760/360448   ( 0.5%) 
+LDR lightdata         [variable]    12991068/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]     1129736/16777216 ( 6.7%) 
+entdata               [variable]      106088/393216   (27.0%) 
+LDR ambient table     4694/65536       18776/262144   ( 7.2%) 
+HDR ambient table     4694/65536       18776/262144   ( 7.2%) 
+LDR leaf ambient     18966/65536      531048/1835008  (28.9%) 
+HDR leaf ambient      4694/65536      131432/1835008  ( 7.2%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12580    ( 0.0%) 
+pakfile               [variable]     4819072/0        ( 0.0%) 
+physics               [variable]      203257/4194304  ( 4.8%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7d
+
+Total triangle count: 19308
+Writing g:\documents\github\csgomaps2\pracanaite2\de_prassanaite_remake.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'g:\documents\github\csgomaps2\pracanaite2\de_prassanaite_remake.bsp', but we don't own that location. Allowing...
+58 seconds elapsed

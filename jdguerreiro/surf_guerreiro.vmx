@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8456"
-	"mapversion" "108"
+	"mapversion" "109"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -38,7 +38,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "108"
+	"mapversion" "109"
 	"classname" "worldspawn"
 	"comment" "Decompiled by BSPSource v1.3.24 from de_pok2018"
 	"detailmaterial" "detail/detailsprites"
@@ -13476,6 +13476,7 @@ world
 		editor
 		{
 			"color" "0 229 158"
+			"visgroupid" "19"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
@@ -80726,8 +80727,8 @@ cameras
 	"activecamera" "0"
 	camera
 	{
-		"position" "[-2338 5242.54 125.247]"
-		"look" "[-2528.48 5416.56 59.0035]"
+		"position" "[-4508.11 299.051 403.894]"
+		"look" "[-4562.02 120.655 213.583]"
 	}
 	camera
 	{
