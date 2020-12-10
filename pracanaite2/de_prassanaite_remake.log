@@ -1462,3 +1462,297 @@ Total triangle count: 19308
 Writing g:\documents\github\csgomaps2\pracanaite2\de_prassanaite_remake.bsp
 MSG_FILEWRITE - Filesystem was asked to write to 'g:\documents\github\csgomaps2\pracanaite2\de_prassanaite_remake.bsp', but we don't own that location. Allowing...
 58 seconds elapsed
+
+
+
+materialPath: D:\Programas\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading g:\documents\github\csgomaps2\pracanaite2\de_prassanaite_remake.vmf
+Map revision 49
+Warning in .VMT file ($envmaptint): no ']' or '}' found in vector key "$envmaptint".
+Did you forget to surround the vector with "s?
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 52 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing g:\documents\github\csgomaps2\pracanaite2\de_prassanaite_remake.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (1)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (221953 bytes)
+Encountered obsolete static prop option to do its fade in screen space @ 1046.62 3137.54 497.29
+Encountered obsolete static prop option to do its fade in screen space @ 1448.62 3133.54 497.29
+Encountered obsolete static prop option to do its fade in screen space @ 2515.77 3149.42 497.29
+Encountered obsolete static prop option to do its fade in screen space @ 2917.77 3145.42 497.29
+Encountered obsolete static prop option to do its fade in screen space @ 4044.77 3125.42 497.29
+Encountered obsolete static prop option to do its fade in screen space @ 4446.77 3121.42 497.29
+Encountered obsolete static prop option to do its fade in screen space @ -279.23 3137.42 497.29
+Encountered obsolete static prop option to do its fade in screen space @ 122.77 3133.42 497.29
+Encountered obsolete static prop option to do its fade in screen space @ -2011.23 3117.42 497.29
+Encountered obsolete static prop option to do its fade in screen space @ -1609.23 3113.42 497.29
+Encountered obsolete static prop option to do its fade in screen space @ 4619.25 -1677.42 292.29
+Encountered obsolete static prop option to do its fade in screen space @ 4217.25 -1673.42 292.29
+Encountered obsolete static prop option to do its fade in screen space @ 2649.25 -1648.42 292.29
+Encountered obsolete static prop option to do its fade in screen space @ 2247.25 -1644.42 292.29
+Encountered obsolete static prop option to do its fade in screen space @ 3605.23 -1648.42 292.29
+Encountered obsolete static prop option to do its fade in screen space @ 3203.23 -1644.42 292.29
+Encountered obsolete static prop option to do its fade in screen space @ 1102.00 1476.00 210.46
+Encountered obsolete static prop option to do its fade in screen space @ 1022.00 1157.00 210.46
+Encountered obsolete static prop option to do its fade in screen space @ 385.00 1157.00 210.46
+Encountered obsolete static prop option to do its fade in screen space @ -152.00 1157.00 210.46
+Encountered obsolete static prop option to do its fade in screen space @ 1520.00 1505.00 210.46
+Encountered obsolete static prop option to do its fade in screen space @ 1510.00 1923.00 210.46
+Encountered obsolete static prop option to do its fade in screen space @ 1142.00 1913.00 210.46
+Encountered obsolete static prop option to do its fade in screen space @ 356.00 1843.00 210.46
+Encountered obsolete static prop option to do its fade in screen space @ -162.00 1584.00 210.46
+Encountered obsolete static prop option to do its fade in screen space @ -43.00 1076.00 210.46
+Encountered obsolete static prop option to do its fade in screen space @ -66.00 1424.00 130.00
+Encountered obsolete static prop option to do its fade in screen space @ -239.00 598.00 118.00
+Encountered obsolete static prop option to do its fade in screen space @ -223.00 136.00 81.00
+Encountered obsolete static prop option to do its fade in screen space @ 305.00 218.00 41.00
+Encountered obsolete static prop option to do its fade in screen space @ -14.00 -122.00 25.00
+Encountered obsolete static prop option to do its fade in screen space @ 384.00 628.00 210.46
+Encountered obsolete static prop option to do its fade in screen space @ 1041.00 261.00 126.00
+Encountered obsolete static prop option to do its fade in screen space @ 1180.00 459.00 210.46
+Encountered obsolete static prop option to do its fade in screen space @ -1829.00 161.00 334.25
+Encountered obsolete static prop option to do its fade in screen space @ -1572.66 540.09 189.25
+Encountered obsolete static prop option to do its fade in screen space @ -1862.00 609.02 189.25
+Encountered obsolete static prop option to do its fade in screen space @ -1843.27 389.02 334.25
+Encountered obsolete static prop option to do its fade in screen space @ -1649.00 596.00 334.25
+Encountered obsolete static prop option to do its fade in screen space @ 3917.00 1013.00 338.00
+Encountered obsolete static prop option to do its fade in screen space @ 3917.00 1022.37 309.15
+Encountered obsolete static prop option to do its fade in screen space @ 1668.87 1097.69 210.46
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Water found with no water_lod_control entity, creating a default one.
+Compacting texture/material tables...
+Reduced 2687 texinfos to 1585
+Reduced 55 texdatas to 39 (2102 bytes to 1499)
+Writing g:\documents\github\csgomaps2\pracanaite2\de_prassanaite_remake.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'g:\documents\github\csgomaps2\pracanaite2\de_prassanaite_remake.bsp', but we don't own that location. Allowing...
+2 seconds elapsed
+
+
+
+16 threads
+reading g:\documents\github\csgomaps2\pracanaite2\de_prassanaite_remake.bsp
+reading g:\documents\github\csgomaps2\pracanaite2\de_prassanaite_remake.prt
+2402 portalclusters
+7552 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 279405 visible clusters (0.00%)
+Total clusters visible: 3753792
+Average clusters visible: 1562
+Building PAS...
+Average clusters audible: 2315
+visdatasize:1374304  compressed from 1460416
+writing g:\documents\github\csgomaps2\pracanaite2\de_prassanaite_remake.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'g:\documents\github\csgomaps2\pracanaite2\de_prassanaite_remake.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading g:\documents\github\csgomaps2\pracanaite2\de_prassanaite_remake.bsp
+7896 faces
+1 degenerate faces
+2450073 square feet [352810496.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+7895 patches before subdivision
+130415 patches after subdivision
+72 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 15224888, max 1849
+transfer lists: 116.2 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(118598, 137457, 191981)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(37879, 38194, 43478)
+Build Patch/Sample Hash Table(s).....Done<0.0371 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Computing static prop lighting : 00...1...2...3..
+
+
+materialPath: D:\Programas\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading g:\documents\github\csgomaps2\pracanaite2\de_prassanaite_remake.vmf
+Map revision 49
+Warning in .VMT file ($envmaptint): no ']' or '}' found in vector key "$envmaptint".
+Did you forget to surround the vector with "s?
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 52 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing g:\documents\github\csgomaps2\pracanaite2\de_prassanaite_remake.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (1) (221953 bytes)
+Encountered obsolete static prop option to do its fade in screen space @ 1046.62 3137.54 497.29
+Encountered obsolete static prop option to do its fade in screen space @ 1448.62 3133.54 497.29
+Encountered obsolete static prop option to do its fade in screen space @ 2515.77 3149.42 497.29
+Encountered obsolete static prop option to do its fade in screen space @ 2917.77 3145.42 497.29
+Encountered obsolete static prop option to do its fade in screen space @ 4044.77 3125.42 497.29
+Encountered obsolete static prop option to do its fade in screen space @ 4446.77 3121.42 497.29
+Encountered obsolete static prop option to do its fade in screen space @ -279.23 3137.42 497.29
+Encountered obsolete static prop option to do its fade in screen space @ 122.77 3133.42 497.29
+Encountered obsolete static prop option to do its fade in screen space @ -2011.23 3117.42 497.29
+Encountered obsolete static prop option to do its fade in screen space @ -1609.23 3113.42 497.29
+Encountered obsolete static prop option to do its fade in screen space @ 4619.25 -1677.42 292.29
+Encountered obsolete static prop option to do its fade in screen space @ 4217.25 -1673.42 292.29
+Encountered obsolete static prop option to do its fade in screen space @ 2649.25 -1648.42 292.29
+Encountered obsolete static prop option to do its fade in screen space @ 2247.25 -1644.42 292.29
+Encountered obsolete static prop option to do its fade in screen space @ 3605.23 -1648.42 292.29
+Encountered obsolete static prop option to do its fade in screen space @ 3203.23 -1644.42 292.29
+Encountered obsolete static prop option to do its fade in screen space @ 1102.00 1476.00 210.46
+Encountered obsolete static prop option to do its fade in screen space @ 1022.00 1157.00 210.46
+Encountered obsolete static prop option to do its fade in screen space @ 385.00 1157.00 210.46
+Encountered obsolete static prop option to do its fade in screen space @ -152.00 1157.00 210.46
+Encountered obsolete static prop option to do its fade in screen space @ 1520.00 1505.00 210.46
+Encountered obsolete static prop option to do its fade in screen space @ 1510.00 1923.00 210.46
+Encountered obsolete static prop option to do its fade in screen space @ 1142.00 1913.00 210.46
+Encountered obsolete static prop option to do its fade in screen space @ 356.00 1843.00 210.46
+Encountered obsolete static prop option to do its fade in screen space @ -162.00 1584.00 210.46
+Encountered obsolete static prop option to do its fade in screen space @ -43.00 1076.00 210.46
+Encountered obsolete static prop option to do its fade in screen space @ -66.00 1424.00 130.00
+Encountered obsolete static prop option to do its fade in screen space @ -239.00 598.00 118.00
+Encountered obsolete static prop option to do its fade in screen space @ -223.00 136.00 81.00
+Encountered obsolete static prop option to do its fade in screen space @ 305.00 218.00 41.00
+Encountered obsolete static prop option to do its fade in screen space @ -14.00 -122.00 25.00
+Encountered obsolete static prop option to do its fade in screen space @ 384.00 628.00 210.46
+Encountered obsolete static prop option to do its fade in screen space @ 1041.00 261.00 126.00
+Encountered obsolete static prop option to do its fade in screen space @ 1180.00 459.00 210.46
+Encountered obsolete static prop option to do its fade in screen space @ -1829.00 161.00 334.25
+Encountered obsolete static prop option to do its fade in screen space @ -1572.66 540.09 189.25
+Encountered obsolete static prop option to do its fade in screen space @ -1862.00 609.02 189.25
+Encountered obsolete static prop option to do its fade in screen space @ -1843.27 389.02 334.25
+Encountered obsolete static prop option to do its fade in screen space @ -1649.00 596.00 334.25
+Encountered obsolete static prop option to do its fade in screen space @ 3917.00 1013.00 338.00
+Encountered obsolete static prop option to do its fade in screen space @ 3917.00 1022.37 309.15
+Encountered obsolete static prop option to do its fade in screen space @ 1668.87 1097.69 210.46
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Water found with no water_lod_control entity, creating a default one.
+Compacting texture/material tables...
+Reduced 2687 texinfos to 1585
+Reduced 55 texdatas to 39 (2102 bytes to 1499)
+Writing g:\documents\github\csgomaps2\pracanaite2\de_prassanaite_remake.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'g:\documents\github\csgomaps2\pracanaite2\de_prassanaite_remake.bsp', but we don't own that location. Allowing...
+2 seconds elapsed
+
+
+
+16 threads
+reading g:\documents\github\csgomaps2\pracanaite2\de_prassanaite_remake.bsp
+reading g:\documents\github\csgomaps2\pracanaite2\de_prassanaite_remake.prt
+2402 portalclusters
+7552 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 279405 visible clusters (0.00%)
+Total clusters visible: 3753792
+Average clusters visible: 1562
+Building PAS...
+Average clusters audible: 2315
+visdatasize:1374304  compressed from 1460416
+writing g:\documents\github\csgomaps2\pracanaite2\de_prassanaite_remake.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'g:\documents\github\csgomaps2\pracanaite2\de_prassanaite_remake.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading g:\documents\github\csgomaps2\pracanaite2\de_prassanaite_remake.bsp
+7896 faces
+1 degenerate faces
+2450073 square feet [352810496.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+7895 patches before subdivision
+130415 patches after subdivision
+72 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 15224888, max 1849
+transfer lists: 116.2 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(118598, 137457, 191981)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(37879, 38194, 43478)
+Build Patch/Sample Hash Table(s).....Done<0.0368 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Computing static prop lighting : 00...1...2...3...4...5...6...7...8...9...10
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  44/1024         2112/49152    ( 4.3%) 
+brushes                546/8192         6552/98304    ( 6.7%) 
+brushsides            3987/81920       31896/655360   ( 4.9%) 
+planes                5310/65536      106200/1310720  ( 8.1%) 
+vertexes             13358/65536      160296/786432   (20.4%) 
+nodes                 5189/65536      166048/2097152  ( 7.9%) 
+texinfos              1585/12288      114120/884736   (12.9%) 
+texdata                 39/4096         1248/131072   ( 1.0%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 7896/65536      442176/3670016  (12.0%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             2298/65536      128688/3670016  ( 3.5%) 
+facebrushes              7/0              14/0        ( 0.0%) 
+facebrushlists        7896/0           31584/0        ( 0.0%) 
+leaves                5234/65536      167488/2097152  ( 8.0%) 
+leaffaces             9289/65536       18578/131072   (14.2%) 
+leafbrushes           4020/65536        8040/131072   ( 6.1%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges            46817/512000     187268/2048000  ( 9.1%) 
+edges                25601/256000     102404/1024000  (10.0%) 
+LDR worldlights         72/8192         7200/819200   ( 0.9%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            3/32768          36/393216   ( 0.0%) 
+waterstrips            914/32768        9140/327680   ( 2.8%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices         13803/65536       27606/131072   (21.1%) 
+cubemapsamples           1/1024           16/16384    ( 0.1%) 
+overlays                 5/1024         1760/360448   ( 0.5%) 
+LDR lightdata         [variable]    12790168/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]     1374304/16777216 ( 8.2%) 
+entdata               [variable]      107368/393216   (27.3%) 
+LDR ambient table     5234/65536       20936/262144   ( 8.0%) 
+HDR ambient table     5234/65536       20936/262144   ( 8.0%) 
+LDR leaf ambient     20940/65536      586320/1835008  (32.0%) 
+HDR leaf ambient      5234/65536      146552/1835008  ( 8.0%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/27000    ( 0.0%) 
+pakfile               [variable]     7061974/0        ( 0.0%) 
+physics               [variable]      221953/4194304  ( 5.3%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7d
+
+Total triangle count: 21798
+Writing g:\documents\github\csgomaps2\pracanaite2\de_prassanaite_remake.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'g:\documents\github\csgomaps2\pracanaite2\de_prassanaite_remake.bsp', but we don't own that location. Allowing...
+1 minute, 16 seconds elapsed
