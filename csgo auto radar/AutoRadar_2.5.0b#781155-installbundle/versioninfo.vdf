@@ -1,0 +1,51 @@
+versioninfo
+{
+	"version" "v2.5.0b"
+
+	folder
+	{
+		"path" "AutoRadar2.5.0b"
+		"target" "tar"
+	}
+	
+	folder
+	{
+		"path" "hammer_content"
+		"target" "..\csgo"
+	}
+	
+	folder
+	{
+		"path" "bin_content"
+		"target" "\"
+	}
+	
+	CommandSequenceFile
+	{
+		"target" "CmdSeq.wc"
+		
+		Sequence
+		{
+			"name" "[TAR] Generate Radar"
+			"mode" "appendOrReplace"
+			
+			Command
+			{
+				"is_enabled" 		"1"
+				"special" 			"0"
+				"is_long_filename" 	"0"
+				"ensure_check" 		"0"
+				"use_proc_win" 		"0"
+				"no_wait" 			"0"
+				
+				"executable" 	"$exedir/bin/tar/AutoRadar.exe"
+				"args" 			"-g $gamedir $path/$file"
+			}
+		}
+	}
+	
+	HammerVGDRegistry
+	{
+		"source" "tar_entities.fgd"
+	}
+}

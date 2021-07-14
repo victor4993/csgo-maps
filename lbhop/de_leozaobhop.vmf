@@ -1,8 +1,8 @@
 versioninfo
 {
 	"editorversion" "400"
-	"editorbuild" "8456"
-	"mapversion" "141"
+	"editorbuild" "9018"
+	"mapversion" "142"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -44,7 +44,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "141"
+	"mapversion" "142"
 	"classname" "worldspawn"
 	"comment" "Decompiled by BSPSource v1.3.24 from de_leozaobhop"
 	"detailmaterial" "detail/detailsprites"
@@ -14598,7 +14598,7 @@ world
 		side
 		{
 			"id" "1099"
-			"plane" "(-3908 -2752 128) (1542 -2752 128) (1542 -2752 200.727)"
+			"plane" "(-3908 -2700 128) (1542 -2700 128) (1542 -2700 200.727)"
 			"material" "CONCRETE/BAGGAGE_CONCRETEFLOORA"
 			"uaxis" "[1 0 0 -56] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -14609,7 +14609,7 @@ world
 		side
 		{
 			"id" "1100"
-			"plane" "(1542 -2752 128) (-3908 -2752 128) (-3908 -2880 128)"
+			"plane" "(1542 -2700 128) (-3908 -2700 128) (-3908 -2880 128)"
 			"material" "CONCRETE/BAGGAGE_CONCRETEFLOORA"
 			"uaxis" "[1 0 0 -56] 0.25"
 			"vaxis" "[0 -1 0 256] 0.25"
@@ -14620,7 +14620,7 @@ world
 		side
 		{
 			"id" "1101"
-			"plane" "(1542 -2880 200.727) (-3908 -2880 200.727) (-3908 -2752 200.727)"
+			"plane" "(1542 -2880 200.727) (-3908 -2880 200.727) (-3908 -2700 200.727)"
 			"material" "CONCRETE/BAGGAGE_CONCRETEFLOORA"
 			"uaxis" "[1 0 0 -56] 0.25"
 			"vaxis" "[0 -1 0 256] 0.25"
@@ -14631,7 +14631,7 @@ world
 		side
 		{
 			"id" "1102"
-			"plane" "(-3908 -2880 200.727) (-3908 -2880 128) (-3908 -2752 128)"
+			"plane" "(-3908 -2880 200.727) (-3908 -2880 128) (-3908 -2700 128)"
 			"material" "CONCRETE/BAGGAGE_CONCRETEFLOORA"
 			"uaxis" "[0 1 0 -256] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -14642,7 +14642,7 @@ world
 		side
 		{
 			"id" "1104"
-			"plane" "(1542 -2752 200.727) (1542 -2752 128) (1542 -2880 128)"
+			"plane" "(1542 -2700 200.727) (1542 -2700 128) (1542 -2880 128)"
 			"material" "CONCRETE/BAGGAGE_CONCRETEFLOORA"
 			"uaxis" "[0 1 0 -256] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -51221,8 +51221,8 @@ cameras
 	"activecamera" "0"
 	camera
 	{
-		"position" "[-3230.63 -2693.63 703.391]"
-		"look" "[-3063.83 -2821.05 539.394]"
+		"position" "[-4214.11 -2818.89 556.755]"
+		"look" "[-3964.9 -2770.34 476.209]"
 	}
 	camera
 	{

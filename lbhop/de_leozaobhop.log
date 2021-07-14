@@ -4808,3 +4808,140 @@ Total triangle count: 20835
 Writing g:\documents\github\csgomaps2\lbhop\de_leozaobhop.bsp
 MSG_FILEWRITE - Filesystem was asked to write to 'g:\documents\github\csgomaps2\lbhop\de_leozaobhop.bsp', but we don't own that location. Allowing...
 1 minute, 3 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading c:\users\victo\documents\github\csgo-maps\lbhop\de_leozaobhop.vmf
+Map revision 142
+Patching WVT material: maps/de_leozaobhop/de_dust/hr_dust/hr_dust_blend_plaster_white_01_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 54 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing c:\users\victo\documents\github\csgo-maps\lbhop\de_leozaobhop.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (183421 bytes)
+Error! prop_static using model "models/props_interiors/furniture_chair03a.mdl", which must be used on a dynamic entity (i.e. prop_physics). Deleted.
+Error loading studio model "models/props_interiors/furniture_chair03a.mdl"!
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 1540 texinfos to 1058
+Reduced 38 texdatas to 33 (1206 bytes to 1074)
+Writing c:\users\victo\documents\github\csgo-maps\lbhop\de_leozaobhop.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\users\victo\documents\github\csgo-maps\lbhop\de_leozaobhop.bsp', but we don't own that location. Allowing...
+2 seconds elapsed
+
+
+
+16 threads
+reading c:\users\victo\documents\github\csgo-maps\lbhop\de_leozaobhop.bsp
+reading c:\users\victo\documents\github\csgo-maps\lbhop\de_leozaobhop.prt
+1729 portalclusters
+6267 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 131984 visible clusters (0.00%)
+Total clusters visible: 2505171
+Average clusters visible: 1448
+Building PAS...
+Average clusters audible: 1729
+visdatasize:756099  compressed from 774592
+writing c:\users\victo\documents\github\csgo-maps\lbhop\de_leozaobhop.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\users\victo\documents\github\csgo-maps\lbhop\de_leozaobhop.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading c:\users\victo\documents\github\csgo-maps\lbhop\de_leozaobhop.bsp
+7416 faces
+35 degenerate faces
+4027150 square feet [579909632.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+7381 patches before subdivision
+zero area child patch
+zero area child patch
+184847 patches after subdivision
+31 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 32610112, max 2105
+transfer lists: 248.8 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(471792, 432306, 349905)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(96531, 83864, 58727)
+Build Patch/Sample Hash Table(s).....Done<0.0655 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Computing static prop lighting : 00...1...2...3...4...5...6...7...8...9...10
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  61/1024         2928/49152    ( 6.0%) 
+brushes                429/8192         5148/98304    ( 5.2%) 
+brushsides            3728/81920       29824/655360   ( 4.6%) 
+planes                5940/65536      118800/1310720  ( 9.1%) 
+vertexes             11609/65536      139308/786432   (17.7%) 
+nodes                 3876/65536      124032/2097152  ( 5.9%) 
+texinfos              1058/12288       76176/884736   ( 8.6%) 
+texdata                 33/4096         1056/131072   ( 0.8%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 7416/65536      415296/3670016  (11.3%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             2060/65536      115360/3670016  ( 3.1%) 
+facebrushes              6/0              12/0        ( 0.0%) 
+facebrushlists        7416/0           29664/0        ( 0.0%) 
+leaves                3938/65536      126016/2097152  ( 6.0%) 
+leaffaces             9016/65536       18032/131072   (13.8%) 
+leafbrushes           2683/65536        5366/131072   ( 4.1%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges            43957/512000     175828/2048000  ( 8.6%) 
+edges                22659/256000      90636/1024000  ( 8.9%) 
+LDR worldlights         31/8192         3100/819200   ( 0.4%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips           1229/32768       12290/327680   ( 3.8%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices         15981/65536       31962/131072   (24.4%) 
+cubemapsamples           2/1024           32/16384    ( 0.2%) 
+overlays                25/1024         8800/360448   ( 2.4%) 
+LDR lightdata         [variable]    17522220/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]      756099/16777216 ( 4.5%) 
+entdata               [variable]       85000/393216   (21.6%) 
+LDR ambient table     3938/65536       15752/262144   ( 6.0%) 
+HDR ambient table     3938/65536       15752/262144   ( 6.0%) 
+LDR leaf ambient     18453/65536      516684/1835008  (28.2%) 
+HDR leaf ambient      3938/65536      110264/1835008  ( 6.0%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/24238    ( 0.0%) 
+pakfile               [variable]     8992219/0        ( 0.0%) 
+physics               [variable]      183421/4194304  ( 4.4%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7d
+
+Total triangle count: 20867
+Writing c:\users\victo\documents\github\csgo-maps\lbhop\de_leozaobhop.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\users\victo\documents\github\csgo-maps\lbhop\de_leozaobhop.bsp', but we don't own that location. Allowing...
+1 minute, 2 seconds elapsed

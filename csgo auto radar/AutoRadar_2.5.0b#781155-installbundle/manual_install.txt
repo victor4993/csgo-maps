@@ -1,0 +1,21 @@
+Follow this text guide if AutoRadar_installer.exe fails to install everything correctly
+Try using install_override.bat first. You may need to edit the path to match your counter strike bin folder folder.
+
+# Copyfiles:
+	1) Copy everything in /bin_content/ to your csgo installation's /bin/ folder
+	2) Copy everything in /hammer_content/ to your csgo installation's /csgo/ folder
+	3) Create a directory in your csgo installation's global offensive/bin/ folder named 'tar'
+	4) Copy everything in /AutoRadar2.0.4/ to your csgo installation's global offensive/bin/tar/ folder
+
+# Command Sequences:
+	1) Add a new compile profile in the expert compile mode
+	2) Set its name to [TAR] Generate Radar
+	3) Set the executable to: $exedir/bin/tar/AutoRadar.exe
+	4) Set the args to: -g $gamedir $path/$file
+
+# FGD:
+	1) Go to Tools > Options in hammer
+	2) Next to 'Game Data files' click add
+	3) Find tar_entities.fgd and add it
+
+Done :)
