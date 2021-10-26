@@ -1,0 +1,306 @@
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading c:\users\victo\documents\github\csgo-maps\orangebox\ixterm_surf.vmf
+Map revision 184
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 442 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing c:\users\victo\documents\github\csgo-maps\orangebox\ixterm_surf.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (125281 bytes)
+Encountered obsolete static prop option to do its fade in screen space @ 738.00 -456.00 -80.70
+Encountered obsolete static prop option to do its fade in screen space @ 2124.00 -488.00 -80.70
+Encountered obsolete static prop option to do its fade in screen space @ 941.00 -958.00 -104.00
+Encountered obsolete static prop option to do its fade in screen space @ 941.00 -777.00 -104.00
+Encountered obsolete static prop option to do its fade in screen space @ 2520.00 -726.00 -187.00
+Encountered obsolete static prop option to do its fade in screen space @ 1923.00 -167.00 -99.82
+Encountered obsolete static prop option to do its fade in screen space @ 1923.00 14.00 -99.82
+Encountered obsolete static prop option to do its fade in screen space @ 352.05 -252.08 -79.94
+Encountered obsolete static prop option to do its fade in screen space @ 1491.82 -207.63 318.25
+Encountered obsolete static prop option to do its fade in screen space @ 1462.99 -462.00 -80.75
+Static prop models/props_downtown/sign_oneway.mdl outside the map (1731.00, -688.00, 17.00)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 758 texinfos to 579
+Reduced 10 texdatas to 9 (235 bytes to 219)
+Writing c:\users\victo\documents\github\csgo-maps\orangebox\ixterm_surf.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\users\victo\documents\github\csgo-maps\orangebox\ixterm_surf.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+16 threads
+reading c:\users\victo\documents\github\csgo-maps\orangebox\ixterm_surf.bsp
+reading c:\users\victo\documents\github\csgo-maps\orangebox\ixterm_surf.prt
+ 435 portalclusters
+1457 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 4980 visible clusters (0.00%)
+Total clusters visible: 170831
+Average clusters visible: 392
+Building PAS...
+Average clusters audible: 434
+visdatasize:50945  compressed from 48720
+writing c:\users\victo\documents\github\csgo-maps\orangebox\ixterm_surf.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\users\victo\documents\github\csgo-maps\orangebox\ixterm_surf.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[40 texlights parsed from 'lights.rad']
+
+Loading c:\users\victo\documents\github\csgo-maps\orangebox\ixterm_surf.bsp
+3365 faces
+22 degenerate faces
+4244918 square feet [611268224.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+3343 patches before subdivision
+zero area child patch
+zero area child patch
+zero area child patch
+zero area child patch
+zero area child patch
+zero area child patch
+zero area child patch
+zero area child patch
+zero area child patch
+zero area child patch
+104327 patches after subdivision
+37 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 14924417, max 953
+transfer lists: 113.9 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(154074, 117746, 40573)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(48938, 21742, 4881)
+Build Patch/Sample Hash Table(s).....Done<0.0242 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Computing static prop lighting : 00...1...2...3...4...5...6...7...8...9...10
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  18/1024          864/49152    ( 1.8%) 
+brushes                310/8192         3720/98304    ( 3.8%) 
+brushsides            4816/81920       38528/655360   ( 5.9%) 
+planes                8568/65536      171360/1310720  (13.1%) 
+vertexes              5674/65536       68088/786432   ( 8.7%) 
+nodes                 1067/65536       34144/2097152  ( 1.6%) 
+texinfos               579/12288       41688/884736   ( 4.7%) 
+texdata                  9/4096          288/131072   ( 0.2%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 3365/65536      188440/3670016  ( 5.1%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             1359/65536       76104/3670016  ( 2.1%) 
+facebrushes              4/0               8/0        ( 0.0%) 
+facebrushlists        3365/0           13460/0        ( 0.0%) 
+leaves                1086/65536       34752/2097152  ( 1.7%) 
+leaffaces             4975/65536        9950/131072   ( 7.6%) 
+leafbrushes           1371/65536        2742/131072   ( 2.1%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges            24004/512000      96016/2048000  ( 4.7%) 
+edges                13027/256000      52108/1024000  ( 5.1%) 
+LDR worldlights         37/8192         3700/819200   ( 0.5%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips           1218/32768       12180/327680   ( 3.7%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices         17979/65536       35958/131072   (27.4%) 
+cubemapsamples           1/1024           16/16384    ( 0.1%) 
+overlays                 8/1024         2816/360448   ( 0.8%) 
+LDR lightdata         [variable]     5337632/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       50945/16777216 ( 0.3%) 
+entdata               [variable]       44067/393216   (11.2%) 
+LDR ambient table     1086/65536        4344/262144   ( 1.7%) 
+HDR ambient table     1086/65536        4344/262144   ( 1.7%) 
+LDR leaf ambient      5814/65536      162792/1835008  ( 8.9%) 
+HDR leaf ambient      1086/65536       30408/1835008  ( 1.7%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/4766     ( 0.0%) 
+pakfile               [variable]     2321862/0        ( 0.0%) 
+physics               [variable]      125281/4194304  ( 3.0%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7d
+
+Total triangle count: 11769
+Writing c:\users\victo\documents\github\csgo-maps\orangebox\ixterm_surf.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\users\victo\documents\github\csgo-maps\orangebox\ixterm_surf.bsp', but we don't own that location. Allowing...
+28 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading c:\users\victo\documents\github\csgo-maps\orangebox\ixterm_surf.vmf
+Map revision 186
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 442 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing c:\users\victo\documents\github\csgo-maps\orangebox\ixterm_surf.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (125281 bytes)
+Encountered obsolete static prop option to do its fade in screen space @ 738.00 -456.00 -80.70
+Encountered obsolete static prop option to do its fade in screen space @ 2124.00 -488.00 -80.70
+Encountered obsolete static prop option to do its fade in screen space @ 941.00 -958.00 -104.00
+Encountered obsolete static prop option to do its fade in screen space @ 941.00 -777.00 -104.00
+Encountered obsolete static prop option to do its fade in screen space @ 2520.00 -726.00 -187.00
+Encountered obsolete static prop option to do its fade in screen space @ 1923.00 -167.00 -99.82
+Encountered obsolete static prop option to do its fade in screen space @ 1923.00 14.00 -99.82
+Encountered obsolete static prop option to do its fade in screen space @ 352.05 -252.08 -79.94
+Encountered obsolete static prop option to do its fade in screen space @ 1491.82 -207.63 318.25
+Encountered obsolete static prop option to do its fade in screen space @ 1462.99 -462.00 -80.75
+Static prop models/props_downtown/sign_oneway.mdl outside the map (1731.00, -688.00, 17.00)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 758 texinfos to 579
+Reduced 10 texdatas to 9 (235 bytes to 219)
+Writing c:\users\victo\documents\github\csgo-maps\orangebox\ixterm_surf.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\users\victo\documents\github\csgo-maps\orangebox\ixterm_surf.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+16 threads
+reading c:\users\victo\documents\github\csgo-maps\orangebox\ixterm_surf.bsp
+reading c:\users\victo\documents\github\csgo-maps\orangebox\ixterm_surf.prt
+ 437 portalclusters
+1449 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 4849 visible clusters (0.00%)
+Total clusters visible: 172824
+Average clusters visible: 395
+Building PAS...
+Average clusters audible: 436
+visdatasize:51049  compressed from 48944
+writing c:\users\victo\documents\github\csgo-maps\orangebox\ixterm_surf.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\users\victo\documents\github\csgo-maps\orangebox\ixterm_surf.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[40 texlights parsed from 'lights.rad']
+
+Loading c:\users\victo\documents\github\csgo-maps\orangebox\ixterm_surf.bsp
+3372 faces
+22 degenerate faces
+4488075 square feet [646282880.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+3350 patches before subdivision
+zero area child patch
+zero area child patch
+zero area child patch
+zero area child patch
+zero area child patch
+zero area child patch
+zero area child patch
+zero area child patch
+zero area child patch
+zero area child patch
+104328 patches after subdivision
+37 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 14924417, max 974
+transfer lists: 113.9 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(153384, 117444, 40367)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(48749, 21566, 4862)
+Build Patch/Sample Hash Table(s).....Done<0.0241 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Computing static prop lighting : 00...1...2...3...4...5...6...7...8...9...10
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  18/1024          864/49152    ( 1.8%) 
+brushes                310/8192         3720/98304    ( 3.8%) 
+brushsides            4816/81920       38528/655360   ( 5.9%) 
+planes                8568/65536      171360/1310720  (13.1%) 
+vertexes              5684/65536       68208/786432   ( 8.7%) 
+nodes                 1070/65536       34240/2097152  ( 1.6%) 
+texinfos               579/12288       41688/884736   ( 4.7%) 
+texdata                  9/4096          288/131072   ( 0.2%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 3372/65536      188832/3670016  ( 5.1%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             1359/65536       76104/3670016  ( 2.1%) 
+facebrushes              4/0               8/0        ( 0.0%) 
+facebrushlists        3372/0           13488/0        ( 0.0%) 
+leaves                1089/65536       34848/2097152  ( 1.7%) 
+leaffaces             5003/65536       10006/131072   ( 7.6%) 
+leafbrushes           1378/65536        2756/131072   ( 2.1%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges            24038/512000      96152/2048000  ( 4.7%) 
+edges                13052/256000      52208/1024000  ( 5.1%) 
+LDR worldlights         37/8192         3700/819200   ( 0.5%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips           1211/32768       12110/327680   ( 3.7%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices         17940/65536       35880/131072   (27.4%) 
+cubemapsamples           1/1024           16/16384    ( 0.1%) 
+overlays                 8/1024         2816/360448   ( 0.8%) 
+LDR lightdata         [variable]     5338952/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       51049/16777216 ( 0.3%) 
+entdata               [variable]       44067/393216   (11.2%) 
+LDR ambient table     1089/65536        4356/262144   ( 1.7%) 
+HDR ambient table     1089/65536        4356/262144   ( 1.7%) 
+LDR leaf ambient      5757/65536      161196/1835008  ( 8.8%) 
+HDR leaf ambient      1089/65536       30492/1835008  ( 1.7%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/4766     ( 0.0%) 
+pakfile               [variable]     2321862/0        ( 0.0%) 
+physics               [variable]      125281/4194304  ( 3.0%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7d
+
+Total triangle count: 11789
+Writing c:\users\victo\documents\github\csgo-maps\orangebox\ixterm_surf.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\users\victo\documents\github\csgo-maps\orangebox\ixterm_surf.bsp', but we don't own that location. Allowing...
+28 seconds elapsed
