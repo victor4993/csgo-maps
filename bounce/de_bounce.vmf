@@ -1,7 +1,7 @@
 versioninfo
 {
 	"editorversion" "400"
-	"editorbuild" "9018"
+	"editorbuild" "9324"
 	"mapversion" "27"
 	"formatversion" "100"
 	"prefab" "0"
@@ -39809,8 +39809,8 @@ cameras
 	"activecamera" "0"
 	camera
 	{
-		"position" "[-2065.06 -1110.39 349.632]"
-		"look" "[-1906.99 -1108.04 135.215]"
+		"position" "[-1848.53 -694.914 -5.92111]"
+		"look" "[-1597.6 -615.061 34.3802]"
 	}
 	camera
 	{

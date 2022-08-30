@@ -1,8 +1,8 @@
 versioninfo
 {
 	"editorversion" "400"
-	"editorbuild" "9018"
-	"mapversion" "26"
+	"editorbuild" "9324"
+	"mapversion" "27"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -32,7 +32,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "26"
+	"mapversion" "27"
 	"classname" "worldspawn"
 	"comment" "Decompiled by BSPSource v1.3.24 from de_bounce"
 	"detailmaterial" "detail/detailsprites"
@@ -34523,25 +34523,24 @@ entity
 	"id" "2551"
 	"classname" "prop_static"
 	"angles" "0.0438 24.563 -0.9602"
-	"disableselfshadowing" "1"
+	"disableselfshadowing" "0"
 	"disableshadows" "1"
-	"disablevertexlighting" "1"
+	"disablevertexlighting" "0"
+	"enablelightbounce" "0"
 	"fademaxdist" "0"
 	"fademindist" "-1"
 	"fadescale" "1"
-	"generatelightmaps" "0"
-	"ignorenormals" "1"
+	"ignorenormals" "0"
 	"lightingorigin" "sprp_lighting_0"
-	"maxdxlevel" "0"
-	"mindxlevel" "0"
 	"model" "models/props_vehicles/bus01_2.mdl"
+	"preventpropcombine" "0"
 	"renderamt" "255"
 	"rendercolor" "255 255 255"
-	"screenspacefade" "1"
+	"screenspacefade" "0"
 	"skin" "0"
 	"solid" "6"
 	"uniformscale" "1"
-	"origin" "-1569 -1116 -206"
+	"origin" "-1660 -1072 -206"
 	editor
 	{
 		"color" "255 255 0"
@@ -39810,8 +39809,8 @@ cameras
 	"activecamera" "0"
 	camera
 	{
-		"position" "[58.0771 -341.956 -78.456]"
-		"look" "[317.086 -383.657 -32.1977]"
+		"position" "[-1848.53 -694.914 -5.92111]"
+		"look" "[-1600.22 -615.896 -61.3034]"
 	}
 	camera
 	{
