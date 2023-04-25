@@ -123,3 +123,1835 @@ Total triangle count: 592
 Writing g:\documents\github\csgo-maps\rox\de_rox.bsp
 MSG_FILEWRITE - Filesystem was asked to write to 'g:\documents\github\csgo-maps\rox\de_rox.bsp', but we don't own that location. Allowing...
 1 second elapsed
+
+
+
+materialPath: F:\Programas\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading h:\documents\github\csgo-maps\rox\de_rox.vmf
+Map revision 5
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing h:\documents\github\csgo-maps\rox\de_rox.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (16653 bytes)
+Encountered obsolete static prop option to do its fade in screen space @ -185.00 1249.00 -953.00
+Encountered obsolete static prop option to do its fade in screen space @ -372.00 1072.00 -953.72
+Encountered obsolete static prop option to do its fade in screen space @ -370.00 983.00 -953.72
+Encountered obsolete static prop option to do its fade in screen space @ -450.00 980.00 -953.72
+Encountered obsolete static prop option to do its fade in screen space @ -446.00 1060.00 -953.72
+Encountered obsolete static prop option to do its fade in screen space @ -533.00 1060.00 -953.72
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 130 texinfos to 120
+Reduced 4 texdatas to 4 (87 bytes to 87)
+Writing h:\documents\github\csgo-maps\rox\de_rox.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'h:\documents\github\csgo-maps\rox\de_rox.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+12 threads
+reading h:\documents\github\csgo-maps\rox\de_rox.bsp
+reading h:\documents\github\csgo-maps\rox\de_rox.prt
+ 179 portalclusters
+ 503 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 389 visible clusters (0.00%)
+Total clusters visible: 27662
+Average clusters visible: 154
+Building PAS...
+Average clusters audible: 179
+visdatasize:9682  compressed from 8592
+writing h:\documents\github\csgo-maps\rox\de_rox.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'h:\documents\github\csgo-maps\rox\de_rox.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[40 texlights parsed from 'lights.rad']
+
+Loading h:\documents\github\csgo-maps\rox\de_rox.bsp
+555 faces
+1021627 square feet [147114384.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+555 patches before subdivision
+8923 patches after subdivision
+2 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 242157, max 260
+transfer lists:   1.8 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(43490, 14139, 2263)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(12652, 1402, 4)
+Build Patch/Sample Hash Table(s).....Done<0.0019 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/1024           48/49152    ( 0.1%) 
+brushes                 42/8192          504/98304    ( 0.5%) 
+brushsides             262/81920        2096/655360   ( 0.3%) 
+planes                 376/65536        7520/1310720  ( 0.6%) 
+vertexes               902/65536       10824/786432   ( 1.4%) 
+nodes                  400/65536       12800/2097152  ( 0.6%) 
+texinfos               120/12288        8640/884736   ( 1.0%) 
+texdata                  4/4096          128/131072   ( 0.1%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  555/65536       31080/3670016  ( 0.8%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              171/65536        9576/3670016  ( 0.3%) 
+facebrushes              0/0               0/0        ( 0.0%) 
+facebrushlists         555/0            2220/0        ( 0.0%) 
+leaves                 402/65536       12864/2097152  ( 0.6%) 
+leaffaces              603/65536        1206/131072   ( 0.9%) 
+leafbrushes            234/65536         468/131072   ( 0.4%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges             3226/512000      12904/2048000  ( 0.6%) 
+edges                 1714/256000       6856/1024000  ( 0.7%) 
+LDR worldlights          2/8192          200/819200   ( 0.0%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             42/32768         420/327680   ( 0.1%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices           690/65536        1380/131072   ( 1.1%) 
+cubemapsamples           1/1024           16/16384    ( 0.1%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]      369148/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]        9682/16777216 ( 0.1%) 
+entdata               [variable]        1539/393216   ( 0.4%) 
+LDR ambient table      402/65536        1608/262144   ( 0.6%) 
+HDR ambient table      402/65536        1608/262144   ( 0.6%) 
+LDR leaf ambient      1787/65536       50036/1835008  ( 2.7%) 
+HDR leaf ambient       402/65536       11256/1835008  ( 0.6%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/632      ( 0.2%) 
+pakfile               [variable]      148782/0        ( 0.0%) 
+physics               [variable]       16653/4194304  ( 0.4%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7c
+
+Total triangle count: 1432
+Writing h:\documents\github\csgo-maps\rox\de_rox.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'h:\documents\github\csgo-maps\rox\de_rox.bsp', but we don't own that location. Allowing...
+2 seconds elapsed
+
+
+
+materialPath: F:\Programas\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading h:\documents\github\csgo-maps\rox\de_rox.vmf
+Map revision 6
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing h:\documents\github\csgo-maps\rox\de_rox.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (16653 bytes)
+Encountered obsolete static prop option to do its fade in screen space @ -185.00 1249.00 -953.00
+Encountered obsolete static prop option to do its fade in screen space @ -372.00 1072.00 -953.72
+Encountered obsolete static prop option to do its fade in screen space @ -450.00 980.00 -953.72
+Encountered obsolete static prop option to do its fade in screen space @ -446.00 1060.00 -953.72
+Encountered obsolete static prop option to do its fade in screen space @ -533.00 1060.00 -953.72
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 132 texinfos to 121
+Reduced 4 texdatas to 4 (87 bytes to 87)
+Writing h:\documents\github\csgo-maps\rox\de_rox.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'h:\documents\github\csgo-maps\rox\de_rox.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+12 threads
+reading h:\documents\github\csgo-maps\rox\de_rox.bsp
+reading h:\documents\github\csgo-maps\rox\de_rox.prt
+ 179 portalclusters
+ 502 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 411 visible clusters (0.00%)
+Total clusters visible: 27732
+Average clusters visible: 154
+Building PAS...
+Average clusters audible: 179
+visdatasize:9684  compressed from 8592
+writing h:\documents\github\csgo-maps\rox\de_rox.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'h:\documents\github\csgo-maps\rox\de_rox.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[40 texlights parsed from 'lights.rad']
+
+Loading h:\documents\github\csgo-maps\rox\de_rox.bsp
+554 faces
+1021549 square feet [147103136.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+554 patches before subdivision
+8970 patches after subdivision
+2 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 245787, max 260
+transfer lists:   1.9 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(43954, 14277, 2278)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(12710, 1412, 4)
+Build Patch/Sample Hash Table(s).....Done<0.0027 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/1024           48/49152    ( 0.1%) 
+brushes                 42/8192          504/98304    ( 0.5%) 
+brushsides             262/81920        2096/655360   ( 0.3%) 
+planes                 372/65536        7440/1310720  ( 0.6%) 
+vertexes               897/65536       10764/786432   ( 1.4%) 
+nodes                  400/65536       12800/2097152  ( 0.6%) 
+texinfos               121/12288        8712/884736   ( 1.0%) 
+texdata                  4/4096          128/131072   ( 0.1%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  554/65536       31024/3670016  ( 0.8%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              171/65536        9576/3670016  ( 0.3%) 
+facebrushes              0/0               0/0        ( 0.0%) 
+facebrushlists         554/0            2216/0        ( 0.0%) 
+leaves                 402/65536       12864/2097152  ( 0.6%) 
+leaffaces              600/65536        1200/131072   ( 0.9%) 
+leafbrushes            233/65536         466/131072   ( 0.4%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges             3218/512000      12872/2048000  ( 0.6%) 
+edges                 1710/256000       6840/1024000  ( 0.7%) 
+LDR worldlights          2/8192          200/819200   ( 0.0%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             41/32768         410/327680   ( 0.1%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices           672/65536        1344/131072   ( 1.0%) 
+cubemapsamples           1/1024           16/16384    ( 0.1%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]      368216/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]        9684/16777216 ( 0.1%) 
+entdata               [variable]        2084/393216   ( 0.5%) 
+LDR ambient table      402/65536        1608/262144   ( 0.6%) 
+HDR ambient table      402/65536        1608/262144   ( 0.6%) 
+LDR leaf ambient      1774/65536       49672/1835008  ( 2.7%) 
+HDR leaf ambient       402/65536       11256/1835008  ( 0.6%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/550      ( 0.2%) 
+pakfile               [variable]      148782/0        ( 0.0%) 
+physics               [variable]       16653/4194304  ( 0.4%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7c
+
+Total triangle count: 1426
+Writing h:\documents\github\csgo-maps\rox\de_rox.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'h:\documents\github\csgo-maps\rox\de_rox.bsp', but we don't own that location. Allowing...
+2 seconds elapsed
+
+
+
+materialPath: F:\Programas\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading h:\documents\github\csgo-maps\rox\de_rox.vmf
+Map revision 8
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing h:\documents\github\csgo-maps\rox\de_rox.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (24691 bytes)
+Encountered obsolete static prop option to do its fade in screen space @ -822.00 815.41 -924.00
+Encountered obsolete static prop option to do its fade in screen space @ 456.00 450.00 -943.00
+Encountered obsolete static prop option to do its fade in screen space @ 545.27 772.94 -932.74
+Encountered obsolete static prop option to do its fade in screen space @ 143.79 414.21 -932.74
+Encountered obsolete static prop option to do its fade in screen space @ -1136.12 600.69 -932.74
+Encountered obsolete static prop option to do its fade in screen space @ -185.00 1249.00 -953.00
+Encountered obsolete static prop option to do its fade in screen space @ -372.00 1072.00 -953.72
+Encountered obsolete static prop option to do its fade in screen space @ -450.00 980.00 -953.72
+Encountered obsolete static prop option to do its fade in screen space @ -446.00 1060.00 -953.72
+Encountered obsolete static prop option to do its fade in screen space @ -533.00 1060.00 -953.72
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 198 texinfos to 159
+Reduced 7 texdatas to 6 (180 bytes to 154)
+Writing h:\documents\github\csgo-maps\rox\de_rox.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'h:\documents\github\csgo-maps\rox\de_rox.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+12 threads
+reading h:\documents\github\csgo-maps\rox\de_rox.bsp
+reading h:\documents\github\csgo-maps\rox\de_rox.prt
+ 196 portalclusters
+ 571 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 494 visible clusters (0.00%)
+Total clusters visible: 33928
+Average clusters visible: 173
+Building PAS...
+Average clusters audible: 196
+visdatasize:11360  compressed from 12544
+writing h:\documents\github\csgo-maps\rox\de_rox.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'h:\documents\github\csgo-maps\rox\de_rox.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[40 texlights parsed from 'lights.rad']
+
+Loading h:\documents\github\csgo-maps\rox\de_rox.bsp
+598 faces
+1022166 square feet [147192000.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+598 patches before subdivision
+9234 patches after subdivision
+2 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 262525, max 267
+transfer lists:   2.0 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(45120, 14813, 2456)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(12982, 1459, 9)
+Build Patch/Sample Hash Table(s).....Done<0.0015 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   7/1024          336/49152    ( 0.7%) 
+brushes                 60/8192          720/98304    ( 0.7%) 
+brushsides             399/81920        3192/655360   ( 0.5%) 
+planes                 484/65536        9680/1310720  ( 0.7%) 
+vertexes              1008/65536       12096/786432   ( 1.5%) 
+nodes                  458/65536       14656/2097152  ( 0.7%) 
+texinfos               159/12288       11448/884736   ( 1.3%) 
+texdata                  6/4096          192/131072   ( 0.1%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  598/65536       33488/3670016  ( 0.9%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              218/65536       12208/3670016  ( 0.3%) 
+facebrushes              0/0               0/0        ( 0.0%) 
+facebrushlists         598/0            2392/0        ( 0.0%) 
+leaves                 466/65536       14912/2097152  ( 0.7%) 
+leaffaces              699/65536        1398/131072   ( 1.1%) 
+leafbrushes            278/65536         556/131072   ( 0.4%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges             3610/512000      14440/2048000  ( 0.7%) 
+edges                 1977/256000       7908/1024000  ( 0.8%) 
+LDR worldlights          2/8192          200/819200   ( 0.0%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             43/32768         430/327680   ( 0.1%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices           753/65536        1506/131072   ( 1.1%) 
+cubemapsamples           1/1024           16/16384    ( 0.1%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]      378872/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       11360/16777216 ( 0.1%) 
+entdata               [variable]        6038/393216   ( 1.5%) 
+LDR ambient table      466/65536        1864/262144   ( 0.7%) 
+HDR ambient table      466/65536        1864/262144   ( 0.7%) 
+LDR leaf ambient      1812/65536       50736/1835008  ( 2.8%) 
+HDR leaf ambient       466/65536       13048/1835008  ( 0.7%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/1228     ( 0.1%) 
+pakfile               [variable]      149115/0        ( 0.0%) 
+physics               [variable]       24691/4194304  ( 0.6%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7c
+
+Total triangle count: 1542
+Writing h:\documents\github\csgo-maps\rox\de_rox.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'h:\documents\github\csgo-maps\rox\de_rox.bsp', but we don't own that location. Allowing...
+1 second elapsed
+
+
+
+materialPath: F:\Programas\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading h:\documents\github\csgo-maps\rox\de_rox.vmf
+Map revision 9
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing h:\documents\github\csgo-maps\rox\de_rox.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (44312 bytes)
+Encountered obsolete static prop option to do its fade in screen space @ -822.00 815.41 -924.00
+Encountered obsolete static prop option to do its fade in screen space @ 456.00 450.00 -943.00
+Encountered obsolete static prop option to do its fade in screen space @ 565.00 821.00 -932.74
+Encountered obsolete static prop option to do its fade in screen space @ 236.00 567.00 -933.02
+Encountered obsolete static prop option to do its fade in screen space @ -1091.00 627.00 -932.74
+Encountered obsolete static prop option to do its fade in screen space @ 139.00 567.00 -933.02
+Encountered obsolete static prop option to do its fade in screen space @ 401.00 655.04 -931.00
+Encountered obsolete static prop option to do its fade in screen space @ -323.87 381.62 -933.02
+Encountered obsolete static prop option to do its fade in screen space @ -185.00 1249.00 -953.00
+Encountered obsolete static prop option to do its fade in screen space @ -372.00 1072.00 -953.72
+Encountered obsolete static prop option to do its fade in screen space @ -450.00 980.00 -953.72
+Encountered obsolete static prop option to do its fade in screen space @ -446.00 1060.00 -953.72
+Encountered obsolete static prop option to do its fade in screen space @ -533.00 1060.00 -953.72
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 363 texinfos to 253
+Reduced 8 texdatas to 7 (217 bytes to 191)
+Writing h:\documents\github\csgo-maps\rox\de_rox.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'h:\documents\github\csgo-maps\rox\de_rox.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+12 threads
+reading h:\documents\github\csgo-maps\rox\de_rox.bsp
+reading h:\documents\github\csgo-maps\rox\de_rox.prt
+ 234 portalclusters
+ 754 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 958 visible clusters (0.00%)
+Total clusters visible: 50262
+Average clusters visible: 214
+Building PAS...
+Average clusters audible: 234
+visdatasize:15892  compressed from 14976
+writing h:\documents\github\csgo-maps\rox\de_rox.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'h:\documents\github\csgo-maps\rox\de_rox.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[40 texlights parsed from 'lights.rad']
+
+Loading h:\documents\github\csgo-maps\rox\de_rox.bsp
+722 faces
+1024842 square feet [147577280.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+722 patches before subdivision
+10278 patches after subdivision
+2 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 318300, max 307
+transfer lists:   2.4 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(48209, 16737, 3306)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(12714, 1540, 31)
+Build Patch/Sample Hash Table(s).....Done<0.0021 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Computing static prop lighting : 00...1...2...3...4...5...6...7...8...9...10
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  22/1024         1056/49152    ( 2.1%) 
+brushes                104/8192         1248/98304    ( 1.3%) 
+brushsides             731/81920        5848/655360   ( 0.9%) 
+planes                 702/65536       14040/1310720  ( 1.1%) 
+vertexes              1295/65536       15540/786432   ( 2.0%) 
+nodes                  596/65536       19072/2097152  ( 0.9%) 
+texinfos               253/12288       18216/884736   ( 2.1%) 
+texdata                  7/4096          224/131072   ( 0.2%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  722/65536       40432/3670016  ( 1.1%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              329/65536       18424/3670016  ( 0.5%) 
+facebrushes              0/0               0/0        ( 0.0%) 
+facebrushlists         722/0            2888/0        ( 0.0%) 
+leaves                 619/65536       19808/2097152  ( 0.9%) 
+leaffaces              964/65536        1928/131072   ( 1.5%) 
+leafbrushes            406/65536         812/131072   ( 0.6%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges             4662/512000      18648/2048000  ( 0.9%) 
+edges                 2687/256000      10748/1024000  ( 1.0%) 
+LDR worldlights          2/8192          200/819200   ( 0.0%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             72/32768         720/327680   ( 0.2%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          1266/65536        2532/131072   ( 1.9%) 
+cubemapsamples           1/1024           16/16384    ( 0.1%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]      414680/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       15892/16777216 ( 0.1%) 
+entdata               [variable]       15936/393216   ( 4.1%) 
+LDR ambient table      619/65536        2476/262144   ( 0.9%) 
+HDR ambient table      619/65536        2476/262144   ( 0.9%) 
+LDR leaf ambient      2178/65536       60984/1835008  ( 3.3%) 
+HDR leaf ambient       619/65536       17332/1835008  ( 0.9%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/1470     ( 0.1%) 
+pakfile               [variable]      256301/0        ( 0.0%) 
+physics               [variable]       44312/4194304  ( 1.1%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7d
+
+Total triangle count: 1902
+Writing h:\documents\github\csgo-maps\rox\de_rox.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'h:\documents\github\csgo-maps\rox\de_rox.bsp', but we don't own that location. Allowing...
+2 seconds elapsed
+
+
+
+materialPath: F:\Programas\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading h:\documents\github\csgo-maps\rox\de_rox.vmf
+Map revision 10
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing h:\documents\github\csgo-maps\rox\de_rox.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (44280 bytes)
+Encountered obsolete static prop option to do its fade in screen space @ -822.00 815.41 -924.00
+Encountered obsolete static prop option to do its fade in screen space @ 456.00 450.00 -943.00
+Encountered obsolete static prop option to do its fade in screen space @ 565.00 821.00 -932.74
+Encountered obsolete static prop option to do its fade in screen space @ 236.00 567.00 -933.02
+Encountered obsolete static prop option to do its fade in screen space @ -1091.00 627.00 -932.74
+Encountered obsolete static prop option to do its fade in screen space @ 139.00 567.00 -933.02
+Encountered obsolete static prop option to do its fade in screen space @ 401.00 655.04 -931.00
+Encountered obsolete static prop option to do its fade in screen space @ -323.87 381.62 -933.02
+Encountered obsolete static prop option to do its fade in screen space @ -185.00 1249.00 -953.00
+Encountered obsolete static prop option to do its fade in screen space @ -372.00 1072.00 -953.72
+Encountered obsolete static prop option to do its fade in screen space @ -450.00 980.00 -953.72
+Encountered obsolete static prop option to do its fade in screen space @ -446.00 1060.00 -953.72
+Encountered obsolete static prop option to do its fade in screen space @ -533.00 1060.00 -953.72
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 362 texinfos to 251
+Reduced 8 texdatas to 7 (217 bytes to 191)
+Writing h:\documents\github\csgo-maps\rox\de_rox.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'h:\documents\github\csgo-maps\rox\de_rox.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+12 threads
+reading h:\documents\github\csgo-maps\rox\de_rox.bsp
+reading h:\documents\github\csgo-maps\rox\de_rox.prt
+ 232 portalclusters
+ 747 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 995 visible clusters (0.00%)
+Total clusters visible: 48837
+Average clusters visible: 210
+Building PAS...
+Average clusters audible: 232
+visdatasize:15277  compressed from 14848
+writing h:\documents\github\csgo-maps\rox\de_rox.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'h:\documents\github\csgo-maps\rox\de_rox.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[40 texlights parsed from 'lights.rad']
+
+Loading h:\documents\github\csgo-maps\rox\de_rox.bsp
+716 faces
+1024780 square feet [147568336.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+716 patches before subdivision
+10284 patches after subdivision
+2 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 319618, max 307
+transfer lists:   2.4 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(48414, 16813, 3326)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(12881, 1557, 31)
+Build Patch/Sample Hash Table(s).....Done<0.0023 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Computing static prop lighting : 00...1...2...3...4...5...6...7...8...9...10
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  22/1024         1056/49152    ( 2.1%) 
+brushes                104/8192         1248/98304    ( 1.3%) 
+brushsides             731/81920        5848/655360   ( 0.9%) 
+planes                 698/65536       13960/1310720  ( 1.1%) 
+vertexes              1287/65536       15444/786432   ( 2.0%) 
+nodes                  594/65536       19008/2097152  ( 0.9%) 
+texinfos               251/12288       18072/884736   ( 2.0%) 
+texdata                  7/4096          224/131072   ( 0.2%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  716/65536       40096/3670016  ( 1.1%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              325/65536       18200/3670016  ( 0.5%) 
+facebrushes              0/0               0/0        ( 0.0%) 
+facebrushlists         716/0            2864/0        ( 0.0%) 
+leaves                 617/65536       19744/2097152  ( 0.9%) 
+leaffaces              957/65536        1914/131072   ( 1.5%) 
+leafbrushes            406/65536         812/131072   ( 0.6%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges             4618/512000      18472/2048000  ( 0.9%) 
+edges                 2664/256000      10656/1024000  ( 1.0%) 
+LDR worldlights          2/8192          200/819200   ( 0.0%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             71/32768         710/327680   ( 0.2%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          1254/65536        2508/131072   ( 1.9%) 
+cubemapsamples           1/1024           16/16384    ( 0.1%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]      412640/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       15277/16777216 ( 0.1%) 
+entdata               [variable]       15937/393216   ( 4.1%) 
+LDR ambient table      617/65536        2468/262144   ( 0.9%) 
+HDR ambient table      617/65536        2468/262144   ( 0.9%) 
+LDR leaf ambient      2178/65536       60984/1835008  ( 3.3%) 
+HDR leaf ambient       617/65536       17276/1835008  ( 0.9%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/1470     ( 0.1%) 
+pakfile               [variable]      256301/0        ( 0.0%) 
+physics               [variable]       44280/4194304  ( 1.1%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7d
+
+Total triangle count: 1886
+Writing h:\documents\github\csgo-maps\rox\de_rox.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'h:\documents\github\csgo-maps\rox\de_rox.bsp', but we don't own that location. Allowing...
+2 seconds elapsed
+
+
+
+materialPath: F:\Programas\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading h:\documents\github\csgo-maps\rox\de_rox.vmf
+Map revision 10
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing h:\documents\github\csgo-maps\rox\de_rox.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (44280 bytes)
+Encountered obsolete static prop option to do its fade in screen space @ -822.00 815.41 -924.00
+Encountered obsolete static prop option to do its fade in screen space @ 456.00 450.00 -943.00
+Encountered obsolete static prop option to do its fade in screen space @ 565.00 821.00 -932.74
+Encountered obsolete static prop option to do its fade in screen space @ 236.00 567.00 -933.02
+Encountered obsolete static prop option to do its fade in screen space @ -1091.00 627.00 -932.74
+Encountered obsolete static prop option to do its fade in screen space @ 139.00 567.00 -933.02
+Encountered obsolete static prop option to do its fade in screen space @ 401.00 655.04 -931.00
+Encountered obsolete static prop option to do its fade in screen space @ -323.87 381.62 -933.02
+Encountered obsolete static prop option to do its fade in screen space @ -185.00 1249.00 -953.00
+Encountered obsolete static prop option to do its fade in screen space @ -372.00 1072.00 -953.72
+Encountered obsolete static prop option to do its fade in screen space @ -450.00 980.00 -953.72
+Encountered obsolete static prop option to do its fade in screen space @ -446.00 1060.00 -953.72
+Encountered obsolete static prop option to do its fade in screen space @ -533.00 1060.00 -953.72
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 362 texinfos to 251
+Reduced 8 texdatas to 7 (217 bytes to 191)
+Writing h:\documents\github\csgo-maps\rox\de_rox.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'h:\documents\github\csgo-maps\rox\de_rox.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+12 threads
+reading h:\documents\github\csgo-maps\rox\de_rox.bsp
+reading h:\documents\github\csgo-maps\rox\de_rox.prt
+ 232 portalclusters
+ 747 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 995 visible clusters (0.00%)
+Total clusters visible: 48837
+Average clusters visible: 210
+Building PAS...
+Average clusters audible: 232
+visdatasize:15277  compressed from 14848
+writing h:\documents\github\csgo-maps\rox\de_rox.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'h:\documents\github\csgo-maps\rox\de_rox.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[40 texlights parsed from 'lights.rad']
+
+Loading h:\documents\github\csgo-maps\rox\de_rox.bsp
+716 faces
+1024780 square feet [147568336.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+716 patches before subdivision
+10284 patches after subdivision
+2 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 319618, max 307
+transfer lists:   2.4 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(48414, 16813, 3326)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(12881, 1557, 31)
+Build Patch/Sample Hash Table(s).....Done<0.0020 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Computing static prop lighting : 00...1...2...3...4...5...6...7...8...9...10
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  22/1024         1056/49152    ( 2.1%) 
+brushes                104/8192         1248/98304    ( 1.3%) 
+brushsides             731/81920        5848/655360   ( 0.9%) 
+planes                 698/65536       13960/1310720  ( 1.1%) 
+vertexes              1287/65536       15444/786432   ( 2.0%) 
+nodes                  594/65536       19008/2097152  ( 0.9%) 
+texinfos               251/12288       18072/884736   ( 2.0%) 
+texdata                  7/4096          224/131072   ( 0.2%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  716/65536       40096/3670016  ( 1.1%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              325/65536       18200/3670016  ( 0.5%) 
+facebrushes              0/0               0/0        ( 0.0%) 
+facebrushlists         716/0            2864/0        ( 0.0%) 
+leaves                 617/65536       19744/2097152  ( 0.9%) 
+leaffaces              957/65536        1914/131072   ( 1.5%) 
+leafbrushes            406/65536         812/131072   ( 0.6%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges             4618/512000      18472/2048000  ( 0.9%) 
+edges                 2664/256000      10656/1024000  ( 1.0%) 
+LDR worldlights          2/8192          200/819200   ( 0.0%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             71/32768         710/327680   ( 0.2%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          1254/65536        2508/131072   ( 1.9%) 
+cubemapsamples           1/1024           16/16384    ( 0.1%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]      412640/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       15277/16777216 ( 0.1%) 
+entdata               [variable]       15937/393216   ( 4.1%) 
+LDR ambient table      617/65536        2468/262144   ( 0.9%) 
+HDR ambient table      617/65536        2468/262144   ( 0.9%) 
+LDR leaf ambient      2178/65536       60984/1835008  ( 3.3%) 
+HDR leaf ambient       617/65536       17276/1835008  ( 0.9%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/1470     ( 0.1%) 
+pakfile               [variable]      256301/0        ( 0.0%) 
+physics               [variable]       44280/4194304  ( 1.1%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7d
+
+Total triangle count: 1886
+Writing h:\documents\github\csgo-maps\rox\de_rox.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'h:\documents\github\csgo-maps\rox\de_rox.bsp', but we don't own that location. Allowing...
+2 seconds elapsed
+
+
+
+materialPath: F:\Programas\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading h:\documents\github\csgo-maps\rox\de_rox.vmf
+Map revision 11
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing h:\documents\github\csgo-maps\rox\de_rox.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (43729 bytes)
+Encountered obsolete static prop option to do its fade in screen space @ -822.00 815.41 -924.00
+Encountered obsolete static prop option to do its fade in screen space @ 456.00 450.00 -943.00
+Encountered obsolete static prop option to do its fade in screen space @ 565.00 821.00 -932.74
+Encountered obsolete static prop option to do its fade in screen space @ 236.00 567.00 -933.02
+Encountered obsolete static prop option to do its fade in screen space @ -1091.00 627.00 -932.74
+Encountered obsolete static prop option to do its fade in screen space @ 139.00 567.00 -933.02
+Encountered obsolete static prop option to do its fade in screen space @ 401.00 655.04 -931.00
+Encountered obsolete static prop option to do its fade in screen space @ -323.87 381.62 -933.02
+Encountered obsolete static prop option to do its fade in screen space @ -185.00 1249.00 -953.00
+Encountered obsolete static prop option to do its fade in screen space @ -372.00 1072.00 -953.72
+Encountered obsolete static prop option to do its fade in screen space @ -450.00 980.00 -953.72
+Encountered obsolete static prop option to do its fade in screen space @ -446.00 1060.00 -953.72
+Encountered obsolete static prop option to do its fade in screen space @ -533.00 1060.00 -953.72
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 359 texinfos to 251
+Reduced 8 texdatas to 7 (217 bytes to 191)
+Writing h:\documents\github\csgo-maps\rox\de_rox.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'h:\documents\github\csgo-maps\rox\de_rox.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+12 threads
+reading h:\documents\github\csgo-maps\rox\de_rox.bsp
+reading h:\documents\github\csgo-maps\rox\de_rox.prt
+ 232 portalclusters
+ 747 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 995 visible clusters (0.00%)
+Total clusters visible: 48837
+Average clusters visible: 210
+Building PAS...
+Average clusters audible: 232
+visdatasize:15277  compressed from 14848
+writing h:\documents\github\csgo-maps\rox\de_rox.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'h:\documents\github\csgo-maps\rox\de_rox.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[40 texlights parsed from 'lights.rad']
+
+Loading h:\documents\github\csgo-maps\rox\de_rox.bsp
+716 faces
+1024780 square feet [147568336.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+716 patches before subdivision
+10284 patches after subdivision
+2 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 319618, max 307
+transfer lists:   2.4 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(48414, 16813, 3326)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(12881, 1557, 31)
+Build Patch/Sample Hash Table(s).....Done<0.0018 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Computing static prop lighting : 00...1...2...3...4...5...6...7...8...9...10
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  21/1024         1008/49152    ( 2.1%) 
+brushes                103/8192         1236/98304    ( 1.3%) 
+brushsides             725/81920        5800/655360   ( 0.9%) 
+planes                 698/65536       13960/1310720  ( 1.1%) 
+vertexes              1279/65536       15348/786432   ( 2.0%) 
+nodes                  588/65536       18816/2097152  ( 0.9%) 
+texinfos               251/12288       18072/884736   ( 2.0%) 
+texdata                  7/4096          224/131072   ( 0.2%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  716/65536       40096/3670016  ( 1.1%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              325/65536       18200/3670016  ( 0.5%) 
+facebrushes              0/0               0/0        ( 0.0%) 
+facebrushlists         716/0            2864/0        ( 0.0%) 
+leaves                 610/65536       19520/2097152  ( 0.9%) 
+leaffaces              957/65536        1914/131072   ( 1.5%) 
+leafbrushes            405/65536         810/131072   ( 0.6%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges             4618/512000      18472/2048000  ( 0.9%) 
+edges                 2664/256000      10656/1024000  ( 1.0%) 
+LDR worldlights          2/8192          200/819200   ( 0.0%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             71/32768         710/327680   ( 0.2%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          1254/65536        2508/131072   ( 1.9%) 
+cubemapsamples           1/1024           16/16384    ( 0.1%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]      412640/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       15277/16777216 ( 0.1%) 
+entdata               [variable]       15278/393216   ( 3.9%) 
+LDR ambient table      610/65536        2440/262144   ( 0.9%) 
+HDR ambient table      610/65536        2440/262144   ( 0.9%) 
+LDR leaf ambient      2172/65536       60816/1835008  ( 3.3%) 
+HDR leaf ambient       610/65536       17080/1835008  ( 0.9%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/1470     ( 0.1%) 
+pakfile               [variable]      256301/0        ( 0.0%) 
+physics               [variable]       43729/4194304  ( 1.0%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7d
+
+Total triangle count: 1886
+Writing h:\documents\github\csgo-maps\rox\de_rox.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'h:\documents\github\csgo-maps\rox\de_rox.bsp', but we don't own that location. Allowing...
+2 seconds elapsed
+
+
+
+materialPath: F:\Programas\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading h:\documents\github\csgo-maps\rox\de_rox.vmf
+Map revision 13
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing h:\documents\github\csgo-maps\rox\de_rox.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (43729 bytes)
+Encountered obsolete static prop option to do its fade in screen space @ -822.00 815.41 -924.00
+Encountered obsolete static prop option to do its fade in screen space @ 456.00 450.00 -943.00
+Encountered obsolete static prop option to do its fade in screen space @ 565.00 821.00 -932.74
+Encountered obsolete static prop option to do its fade in screen space @ 236.00 567.00 -933.02
+Encountered obsolete static prop option to do its fade in screen space @ -1091.00 627.00 -932.74
+Encountered obsolete static prop option to do its fade in screen space @ 139.00 567.00 -933.02
+Encountered obsolete static prop option to do its fade in screen space @ 401.00 655.04 -931.00
+Encountered obsolete static prop option to do its fade in screen space @ -323.87 381.62 -933.02
+Encountered obsolete static prop option to do its fade in screen space @ -185.00 1249.00 -953.00
+Encountered obsolete static prop option to do its fade in screen space @ -372.00 1072.00 -953.72
+Encountered obsolete static prop option to do its fade in screen space @ -450.00 980.00 -953.72
+Encountered obsolete static prop option to do its fade in screen space @ -446.00 1060.00 -953.72
+Encountered obsolete static prop option to do its fade in screen space @ -533.00 1060.00 -953.72
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 381 texinfos to 256
+Reduced 10 texdatas to 8 (283 bytes to 236)
+Writing h:\documents\github\csgo-maps\rox\de_rox.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'h:\documents\github\csgo-maps\rox\de_rox.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+12 threads
+reading h:\documents\github\csgo-maps\rox\de_rox.bsp
+reading h:\documents\github\csgo-maps\rox\de_rox.prt
+ 249 portalclusters
+ 807 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 1117 visible clusters (0.00%)
+Total clusters visible: 57060
+Average clusters visible: 229
+Building PAS...
+Average clusters audible: 249
+visdatasize:17860  compressed from 15936
+writing h:\documents\github\csgo-maps\rox\de_rox.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'h:\documents\github\csgo-maps\rox\de_rox.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[40 texlights parsed from 'lights.rad']
+
+Loading h:\documents\github\csgo-maps\rox\de_rox.bsp
+741 faces
+1025020 square feet [147602944.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+741 patches before subdivision
+10337 patches after subdivision
+2 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 355292, max 328
+transfer lists:   2.7 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(48961, 17651, 3849)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(12020, 1527, 45)
+Build Patch/Sample Hash Table(s).....Done<0.0024 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Computing static prop lighting : 00...1...2...3...4...5...6...7...8...9...10
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  21/1024         1008/49152    ( 2.1%) 
+brushes                103/8192         1236/98304    ( 1.3%) 
+brushsides             725/81920        5800/655360   ( 0.9%) 
+planes                 698/65536       13960/1310720  ( 1.1%) 
+vertexes              1282/65536       15384/786432   ( 2.0%) 
+nodes                  588/65536       18816/2097152  ( 0.9%) 
+texinfos               256/12288       18432/884736   ( 2.1%) 
+texdata                  8/4096          256/131072   ( 0.2%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  741/65536       41496/3670016  ( 1.1%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              330/65536       18480/3670016  ( 0.5%) 
+facebrushes              0/0               0/0        ( 0.0%) 
+facebrushlists         741/0            2964/0        ( 0.0%) 
+leaves                 610/65536       19520/2097152  ( 0.9%) 
+leaffaces              988/65536        1976/131072   ( 1.5%) 
+leafbrushes            403/65536         806/131072   ( 0.6%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges             4745/512000      18980/2048000  ( 0.9%) 
+edges                 2761/256000      11044/1024000  ( 1.1%) 
+LDR worldlights          2/8192          200/819200   ( 0.0%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             73/32768         730/327680   ( 0.2%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          1275/65536        2550/131072   ( 1.9%) 
+cubemapsamples           1/1024           16/16384    ( 0.1%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]      418468/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       17860/16777216 ( 0.1%) 
+entdata               [variable]       15278/393216   ( 3.9%) 
+LDR ambient table      610/65536        2440/262144   ( 0.9%) 
+HDR ambient table      610/65536        2440/262144   ( 0.9%) 
+LDR leaf ambient      2194/65536       61432/1835008  ( 3.3%) 
+HDR leaf ambient       610/65536       17080/1835008  ( 0.9%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/1470     ( 0.1%) 
+pakfile               [variable]      256619/0        ( 0.0%) 
+physics               [variable]       43729/4194304  ( 1.0%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7d
+
+Total triangle count: 1943
+Writing h:\documents\github\csgo-maps\rox\de_rox.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'h:\documents\github\csgo-maps\rox\de_rox.bsp', but we don't own that location. Allowing...
+2 seconds elapsed
+
+
+
+materialPath: F:\Programas\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading h:\documents\github\csgo-maps\rox\de_rox.vmf
+Map revision 14
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing h:\documents\github\csgo-maps\rox\de_rox.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (43729 bytes)
+Encountered obsolete static prop option to do its fade in screen space @ -822.00 815.41 -924.00
+Encountered obsolete static prop option to do its fade in screen space @ 456.00 450.00 -943.00
+Encountered obsolete static prop option to do its fade in screen space @ 565.00 821.00 -932.74
+Encountered obsolete static prop option to do its fade in screen space @ 236.00 567.00 -933.02
+Encountered obsolete static prop option to do its fade in screen space @ -1091.00 627.00 -932.74
+Encountered obsolete static prop option to do its fade in screen space @ 139.00 567.00 -933.02
+Encountered obsolete static prop option to do its fade in screen space @ 401.00 655.04 -931.00
+Encountered obsolete static prop option to do its fade in screen space @ -323.87 381.62 -933.02
+Encountered obsolete static prop option to do its fade in screen space @ -185.00 1249.00 -953.00
+Encountered obsolete static prop option to do its fade in screen space @ -372.00 1072.00 -953.72
+Encountered obsolete static prop option to do its fade in screen space @ -450.00 980.00 -953.72
+Encountered obsolete static prop option to do its fade in screen space @ -446.00 1060.00 -953.72
+Encountered obsolete static prop option to do its fade in screen space @ -533.00 1060.00 -953.72
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 385 texinfos to 256
+Reduced 10 texdatas to 8 (283 bytes to 236)
+Writing h:\documents\github\csgo-maps\rox\de_rox.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'h:\documents\github\csgo-maps\rox\de_rox.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+12 threads
+reading h:\documents\github\csgo-maps\rox\de_rox.bsp
+reading h:\documents\github\csgo-maps\rox\de_rox.prt
+ 250 portalclusters
+ 808 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 1082 visible clusters (0.00%)
+Total clusters visible: 57742
+Average clusters visible: 230
+Building PAS...
+Average clusters audible: 250
+visdatasize:17937  compressed from 16000
+writing h:\documents\github\csgo-maps\rox\de_rox.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'h:\documents\github\csgo-maps\rox\de_rox.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[40 texlights parsed from 'lights.rad']
+
+Loading h:\documents\github\csgo-maps\rox\de_rox.bsp
+741 faces
+1025020 square feet [147602960.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+741 patches before subdivision
+10349 patches after subdivision
+2 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 357150, max 327
+transfer lists:   2.7 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(49060, 17714, 3877)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(12032, 1530, 45)
+Build Patch/Sample Hash Table(s).....Done<0.0022 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Computing static prop lighting : 00...1...2...3...4...5...6...7...8...9...10
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  21/1024         1008/49152    ( 2.1%) 
+brushes                103/8192         1236/98304    ( 1.3%) 
+brushsides             725/81920        5800/655360   ( 0.9%) 
+planes                 708/65536       14160/1310720  ( 1.1%) 
+vertexes              1281/65536       15372/786432   ( 2.0%) 
+nodes                  589/65536       18848/2097152  ( 0.9%) 
+texinfos               256/12288       18432/884736   ( 2.1%) 
+texdata                  8/4096          256/131072   ( 0.2%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  741/65536       41496/3670016  ( 1.1%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              330/65536       18480/3670016  ( 0.5%) 
+facebrushes              0/0               0/0        ( 0.0%) 
+facebrushlists         741/0            2964/0        ( 0.0%) 
+leaves                 611/65536       19552/2097152  ( 0.9%) 
+leaffaces              990/65536        1980/131072   ( 1.5%) 
+leafbrushes            402/65536         804/131072   ( 0.6%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges             4747/512000      18988/2048000  ( 0.9%) 
+edges                 2762/256000      11048/1024000  ( 1.1%) 
+LDR worldlights          2/8192          200/819200   ( 0.0%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             75/32768         750/327680   ( 0.2%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          1302/65536        2604/131072   ( 2.0%) 
+cubemapsamples           1/1024           16/16384    ( 0.1%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]      418740/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       17937/16777216 ( 0.1%) 
+entdata               [variable]       15158/393216   ( 3.9%) 
+LDR ambient table      611/65536        2444/262144   ( 0.9%) 
+HDR ambient table      611/65536        2444/262144   ( 0.9%) 
+LDR leaf ambient      2192/65536       61376/1835008  ( 3.3%) 
+HDR leaf ambient       611/65536       17108/1835008  ( 0.9%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/1468     ( 0.1%) 
+pakfile               [variable]      256619/0        ( 0.0%) 
+physics               [variable]       43729/4194304  ( 1.0%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7d
+
+Total triangle count: 1945
+Writing h:\documents\github\csgo-maps\rox\de_rox.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'h:\documents\github\csgo-maps\rox\de_rox.bsp', but we don't own that location. Allowing...
+2 seconds elapsed
+
+
+
+materialPath: F:\Programas\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading h:\documents\github\csgo-maps\rox\de_rox.vmf
+Map revision 15
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing h:\documents\github\csgo-maps\rox\de_rox.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (43729 bytes)
+Encountered obsolete static prop option to do its fade in screen space @ -822.00 815.41 -924.00
+Encountered obsolete static prop option to do its fade in screen space @ 456.00 450.00 -943.00
+Encountered obsolete static prop option to do its fade in screen space @ 565.00 821.00 -932.74
+Encountered obsolete static prop option to do its fade in screen space @ 236.00 567.00 -933.02
+Encountered obsolete static prop option to do its fade in screen space @ -1091.00 627.00 -932.74
+Encountered obsolete static prop option to do its fade in screen space @ 139.00 567.00 -933.02
+Encountered obsolete static prop option to do its fade in screen space @ 401.00 655.04 -931.00
+Encountered obsolete static prop option to do its fade in screen space @ -323.87 381.62 -933.02
+Encountered obsolete static prop option to do its fade in screen space @ -185.00 1249.00 -953.00
+Encountered obsolete static prop option to do its fade in screen space @ -372.00 1072.00 -953.72
+Encountered obsolete static prop option to do its fade in screen space @ -450.00 980.00 -953.72
+Encountered obsolete static prop option to do its fade in screen space @ -446.00 1060.00 -953.72
+Encountered obsolete static prop option to do its fade in screen space @ -533.00 1060.00 -953.72
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 385 texinfos to 256
+Reduced 10 texdatas to 8 (283 bytes to 236)
+Writing h:\documents\github\csgo-maps\rox\de_rox.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'h:\documents\github\csgo-maps\rox\de_rox.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+12 threads
+reading h:\documents\github\csgo-maps\rox\de_rox.bsp
+reading h:\documents\github\csgo-maps\rox\de_rox.prt
+ 250 portalclusters
+ 808 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 1082 visible clusters (0.00%)
+Total clusters visible: 57742
+Average clusters visible: 230
+Building PAS...
+Average clusters audible: 250
+visdatasize:17937  compressed from 16000
+writing h:\documents\github\csgo-maps\rox\de_rox.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'h:\documents\github\csgo-maps\rox\de_rox.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[40 texlights parsed from 'lights.rad']
+
+Loading h:\documents\github\csgo-maps\rox\de_rox.bsp
+741 faces
+1025020 square feet [147602960.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+741 patches before subdivision
+10349 patches after subdivision
+2 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 357150, max 327
+transfer lists:   2.7 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(49060, 17714, 3877)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(12032, 1530, 45)
+Build Patch/Sample Hash Table(s).....Done<0.0020 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Computing static prop lighting : 00...1...2...3...4...5...6...7...8...9...10
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  21/1024         1008/49152    ( 2.1%) 
+brushes                103/8192         1236/98304    ( 1.3%) 
+brushsides             725/81920        5800/655360   ( 0.9%) 
+planes                 708/65536       14160/1310720  ( 1.1%) 
+vertexes              1281/65536       15372/786432   ( 2.0%) 
+nodes                  589/65536       18848/2097152  ( 0.9%) 
+texinfos               256/12288       18432/884736   ( 2.1%) 
+texdata                  8/4096          256/131072   ( 0.2%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  741/65536       41496/3670016  ( 1.1%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              330/65536       18480/3670016  ( 0.5%) 
+facebrushes              0/0               0/0        ( 0.0%) 
+facebrushlists         741/0            2964/0        ( 0.0%) 
+leaves                 611/65536       19552/2097152  ( 0.9%) 
+leaffaces              990/65536        1980/131072   ( 1.5%) 
+leafbrushes            402/65536         804/131072   ( 0.6%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges             4747/512000      18988/2048000  ( 0.9%) 
+edges                 2762/256000      11048/1024000  ( 1.1%) 
+LDR worldlights          2/8192          200/819200   ( 0.0%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             75/32768         750/327680   ( 0.2%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          1302/65536        2604/131072   ( 2.0%) 
+cubemapsamples           1/1024           16/16384    ( 0.1%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]      418740/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       17937/16777216 ( 0.1%) 
+entdata               [variable]       15159/393216   ( 3.9%) 
+LDR ambient table      611/65536        2444/262144   ( 0.9%) 
+HDR ambient table      611/65536        2444/262144   ( 0.9%) 
+LDR leaf ambient      2192/65536       61376/1835008  ( 3.3%) 
+HDR leaf ambient       611/65536       17108/1835008  ( 0.9%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/1468     ( 0.1%) 
+pakfile               [variable]      256619/0        ( 0.0%) 
+physics               [variable]       43729/4194304  ( 1.0%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7d
+
+Total triangle count: 1945
+Writing h:\documents\github\csgo-maps\rox\de_rox.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'h:\documents\github\csgo-maps\rox\de_rox.bsp', but we don't own that location. Allowing...
+2 seconds elapsed
+
+
+
+materialPath: F:\Programas\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading h:\documents\github\csgo-maps\rox\de_rox.vmf
+Map revision 16
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing h:\documents\github\csgo-maps\rox\de_rox.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (43729 bytes)
+Encountered obsolete static prop option to do its fade in screen space @ -822.00 815.41 -924.00
+Encountered obsolete static prop option to do its fade in screen space @ 456.00 450.00 -943.00
+Encountered obsolete static prop option to do its fade in screen space @ 565.00 821.00 -932.74
+Encountered obsolete static prop option to do its fade in screen space @ 236.00 567.00 -933.02
+Encountered obsolete static prop option to do its fade in screen space @ -1091.00 627.00 -932.74
+Encountered obsolete static prop option to do its fade in screen space @ 139.00 567.00 -933.02
+Encountered obsolete static prop option to do its fade in screen space @ 401.00 655.04 -931.00
+Encountered obsolete static prop option to do its fade in screen space @ -323.87 381.62 -933.02
+Encountered obsolete static prop option to do its fade in screen space @ -185.00 1249.00 -953.00
+Encountered obsolete static prop option to do its fade in screen space @ -372.00 1072.00 -953.72
+Encountered obsolete static prop option to do its fade in screen space @ -450.00 980.00 -953.72
+Encountered obsolete static prop option to do its fade in screen space @ -446.00 1060.00 -953.72
+Encountered obsolete static prop option to do its fade in screen space @ -533.00 1060.00 -953.72
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 385 texinfos to 256
+Reduced 10 texdatas to 8 (283 bytes to 236)
+Writing h:\documents\github\csgo-maps\rox\de_rox.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'h:\documents\github\csgo-maps\rox\de_rox.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+12 threads
+reading h:\documents\github\csgo-maps\rox\de_rox.bsp
+reading h:\documents\github\csgo-maps\rox\de_rox.prt
+ 250 portalclusters
+ 808 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 1082 visible clusters (0.00%)
+Total clusters visible: 57742
+Average clusters visible: 230
+Building PAS...
+Average clusters audible: 250
+visdatasize:17937  compressed from 16000
+writing h:\documents\github\csgo-maps\rox\de_rox.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'h:\documents\github\csgo-maps\rox\de_rox.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[40 texlights parsed from 'lights.rad']
+
+Loading h:\documents\github\csgo-maps\rox\de_rox.bsp
+741 faces
+1025020 square feet [147602960.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+741 patches before subdivision
+10349 patches after subdivision
+2 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 357150, max 327
+transfer lists:   2.7 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(49060, 17714, 3877)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(12032, 1530, 45)
+Build Patch/Sample Hash Table(s).....Done<0.0018 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Computing static prop lighting : 00...1...2...3...4...5...6...7...8...9...10
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  21/1024         1008/49152    ( 2.1%) 
+brushes                103/8192         1236/98304    ( 1.3%) 
+brushsides             725/81920        5800/655360   ( 0.9%) 
+planes                 708/65536       14160/1310720  ( 1.1%) 
+vertexes              1281/65536       15372/786432   ( 2.0%) 
+nodes                  589/65536       18848/2097152  ( 0.9%) 
+texinfos               256/12288       18432/884736   ( 2.1%) 
+texdata                  8/4096          256/131072   ( 0.2%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  741/65536       41496/3670016  ( 1.1%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              330/65536       18480/3670016  ( 0.5%) 
+facebrushes              0/0               0/0        ( 0.0%) 
+facebrushlists         741/0            2964/0        ( 0.0%) 
+leaves                 611/65536       19552/2097152  ( 0.9%) 
+leaffaces              990/65536        1980/131072   ( 1.5%) 
+leafbrushes            402/65536         804/131072   ( 0.6%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges             4747/512000      18988/2048000  ( 0.9%) 
+edges                 2762/256000      11048/1024000  ( 1.1%) 
+LDR worldlights          2/8192          200/819200   ( 0.0%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             75/32768         750/327680   ( 0.2%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          1302/65536        2604/131072   ( 2.0%) 
+cubemapsamples           1/1024           16/16384    ( 0.1%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]      418740/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       17937/16777216 ( 0.1%) 
+entdata               [variable]       15156/393216   ( 3.9%) 
+LDR ambient table      611/65536        2444/262144   ( 0.9%) 
+HDR ambient table      611/65536        2444/262144   ( 0.9%) 
+LDR leaf ambient      2192/65536       61376/1835008  ( 3.3%) 
+HDR leaf ambient       611/65536       17108/1835008  ( 0.9%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/1468     ( 0.1%) 
+pakfile               [variable]      256619/0        ( 0.0%) 
+physics               [variable]       43729/4194304  ( 1.0%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7d
+
+Total triangle count: 1945
+Writing h:\documents\github\csgo-maps\rox\de_rox.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'h:\documents\github\csgo-maps\rox\de_rox.bsp', but we don't own that location. Allowing...
+2 seconds elapsed
+
+
+
+materialPath: F:\Programas\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading h:\documents\github\csgo-maps\rox\de_rox.vmf
+Map revision 17
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing h:\documents\github\csgo-maps\rox\de_rox.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (43729 bytes)
+Encountered obsolete static prop option to do its fade in screen space @ -822.00 815.41 -924.00
+Encountered obsolete static prop option to do its fade in screen space @ 456.00 450.00 -943.00
+Encountered obsolete static prop option to do its fade in screen space @ 565.00 821.00 -932.74
+Encountered obsolete static prop option to do its fade in screen space @ 236.00 567.00 -933.02
+Encountered obsolete static prop option to do its fade in screen space @ -1091.00 627.00 -932.74
+Encountered obsolete static prop option to do its fade in screen space @ 139.00 567.00 -933.02
+Encountered obsolete static prop option to do its fade in screen space @ 401.00 655.04 -931.00
+Encountered obsolete static prop option to do its fade in screen space @ -323.87 381.62 -933.02
+Encountered obsolete static prop option to do its fade in screen space @ -185.00 1249.00 -953.00
+Encountered obsolete static prop option to do its fade in screen space @ -372.00 1072.00 -953.72
+Encountered obsolete static prop option to do its fade in screen space @ -450.00 980.00 -953.72
+Encountered obsolete static prop option to do its fade in screen space @ -446.00 1060.00 -953.72
+Encountered obsolete static prop option to do its fade in screen space @ -533.00 1060.00 -953.72
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 385 texinfos to 256
+Reduced 10 texdatas to 8 (283 bytes to 236)
+Writing h:\documents\github\csgo-maps\rox\de_rox.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'h:\documents\github\csgo-maps\rox\de_rox.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+12 threads
+reading h:\documents\github\csgo-maps\rox\de_rox.bsp
+reading h:\documents\github\csgo-maps\rox\de_rox.prt
+ 250 portalclusters
+ 808 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 1082 visible clusters (0.00%)
+Total clusters visible: 57742
+Average clusters visible: 230
+Building PAS...
+Average clusters audible: 250
+visdatasize:17937  compressed from 16000
+writing h:\documents\github\csgo-maps\rox\de_rox.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'h:\documents\github\csgo-maps\rox\de_rox.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[40 texlights parsed from 'lights.rad']
+
+Loading h:\documents\github\csgo-maps\rox\de_rox.bsp
+741 faces
+1025020 square feet [147602960.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+741 patches before subdivision
+10349 patches after subdivision
+2 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 357150, max 327
+transfer lists:   2.7 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(49060, 17714, 3877)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(12032, 1530, 45)
+Build Patch/Sample Hash Table(s).....Done<0.0020 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Computing static prop lighting : 00...1...2...3...4...5...6...7...8...9...10
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  21/1024         1008/49152    ( 2.1%) 
+brushes                103/8192         1236/98304    ( 1.3%) 
+brushsides             725/81920        5800/655360   ( 0.9%) 
+planes                 708/65536       14160/1310720  ( 1.1%) 
+vertexes              1281/65536       15372/786432   ( 2.0%) 
+nodes                  589/65536       18848/2097152  ( 0.9%) 
+texinfos               256/12288       18432/884736   ( 2.1%) 
+texdata                  8/4096          256/131072   ( 0.2%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  741/65536       41496/3670016  ( 1.1%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              330/65536       18480/3670016  ( 0.5%) 
+facebrushes              0/0               0/0        ( 0.0%) 
+facebrushlists         741/0            2964/0        ( 0.0%) 
+leaves                 611/65536       19552/2097152  ( 0.9%) 
+leaffaces              990/65536        1980/131072   ( 1.5%) 
+leafbrushes            402/65536         804/131072   ( 0.6%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges             4747/512000      18988/2048000  ( 0.9%) 
+edges                 2762/256000      11048/1024000  ( 1.1%) 
+LDR worldlights          2/8192          200/819200   ( 0.0%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             75/32768         750/327680   ( 0.2%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          1302/65536        2604/131072   ( 2.0%) 
+cubemapsamples           1/1024           16/16384    ( 0.1%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]      418740/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       17937/16777216 ( 0.1%) 
+entdata               [variable]       15157/393216   ( 3.9%) 
+LDR ambient table      611/65536        2444/262144   ( 0.9%) 
+HDR ambient table      611/65536        2444/262144   ( 0.9%) 
+LDR leaf ambient      2192/65536       61376/1835008  ( 3.3%) 
+HDR leaf ambient       611/65536       17108/1835008  ( 0.9%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/1468     ( 0.1%) 
+pakfile               [variable]      256619/0        ( 0.0%) 
+physics               [variable]       43729/4194304  ( 1.0%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7d
+
+Total triangle count: 1945
+Writing h:\documents\github\csgo-maps\rox\de_rox.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'h:\documents\github\csgo-maps\rox\de_rox.bsp', but we don't own that location. Allowing...
+2 seconds elapsed
+
+
+
+materialPath: F:\Programas\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading h:\documents\github\csgo-maps\rox\de_rox.vmf
+Map revision 18
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing h:\documents\github\csgo-maps\rox\de_rox.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (43729 bytes)
+Encountered obsolete static prop option to do its fade in screen space @ -822.00 815.41 -924.00
+Encountered obsolete static prop option to do its fade in screen space @ 456.00 450.00 -943.00
+Encountered obsolete static prop option to do its fade in screen space @ 565.00 821.00 -932.74
+Encountered obsolete static prop option to do its fade in screen space @ 236.00 567.00 -933.02
+Encountered obsolete static prop option to do its fade in screen space @ -1091.00 627.00 -932.74
+Encountered obsolete static prop option to do its fade in screen space @ 139.00 567.00 -933.02
+Encountered obsolete static prop option to do its fade in screen space @ 401.00 655.04 -931.00
+Encountered obsolete static prop option to do its fade in screen space @ -323.87 381.62 -933.02
+Encountered obsolete static prop option to do its fade in screen space @ -185.00 1249.00 -953.00
+Encountered obsolete static prop option to do its fade in screen space @ -372.00 1072.00 -953.72
+Encountered obsolete static prop option to do its fade in screen space @ -450.00 980.00 -953.72
+Encountered obsolete static prop option to do its fade in screen space @ -446.00 1060.00 -953.72
+Encountered obsolete static prop option to do its fade in screen space @ -533.00 1060.00 -953.72
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 386 texinfos to 256
+Reduced 10 texdatas to 8 (283 bytes to 236)
+Writing h:\documents\github\csgo-maps\rox\de_rox.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'h:\documents\github\csgo-maps\rox\de_rox.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+12 threads
+reading h:\documents\github\csgo-maps\rox\de_rox.bsp
+reading h:\documents\github\csgo-maps\rox\de_rox.prt
+ 220 portalclusters
+ 735 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 916 visible clusters (0.00%)
+Total clusters visible: 44218
+Average clusters visible: 200
+Building PAS...
+Average clusters audible: 220
+visdatasize:13996  compressed from 14080
+writing h:\documents\github\csgo-maps\rox\de_rox.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'h:\documents\github\csgo-maps\rox\de_rox.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[40 texlights parsed from 'lights.rad']
+
+Loading h:\documents\github\csgo-maps\rox\de_rox.bsp
+675 faces
+851043 square feet [122550272.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+675 patches before subdivision
+10287 patches after subdivision
+2 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 339968, max 321
+transfer lists:   2.6 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(49058, 17721, 3883)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(12032, 1530, 45)
+Build Patch/Sample Hash Table(s).....Done<0.0028 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Computing static prop lighting : 00...1...2...3...4...5...6...7...8...9...10
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  21/1024         1008/49152    ( 2.1%) 
+brushes                103/8192         1236/98304    ( 1.3%) 
+brushsides             725/81920        5800/655360   ( 0.9%) 
+planes                 696/65536       13920/1310720  ( 1.1%) 
+vertexes              1214/65536       14568/786432   ( 1.9%) 
+nodes                  486/65536       15552/2097152  ( 0.7%) 
+texinfos               256/12288       18432/884736   ( 2.1%) 
+texdata                  8/4096          256/131072   ( 0.2%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  675/65536       37800/3670016  ( 1.0%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              330/65536       18480/3670016  ( 0.5%) 
+facebrushes              0/0               0/0        ( 0.0%) 
+facebrushlists         675/0            2700/0        ( 0.0%) 
+leaves                 508/65536       16256/2097152  ( 0.8%) 
+leaffaces              938/65536        1876/131072   ( 1.4%) 
+leafbrushes            333/65536         666/131072   ( 0.5%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges             4481/512000      17924/2048000  ( 0.9%) 
+edges                 2629/256000      10516/1024000  ( 1.0%) 
+LDR worldlights          2/8192          200/819200   ( 0.0%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             73/32768         730/327680   ( 0.2%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          1269/65536        2538/131072   ( 1.9%) 
+cubemapsamples           1/1024           16/16384    ( 0.1%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]      418324/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       13996/16777216 ( 0.1%) 
+entdata               [variable]       15157/393216   ( 3.9%) 
+LDR ambient table      508/65536        2032/262144   ( 0.8%) 
+HDR ambient table      508/65536        2032/262144   ( 0.8%) 
+LDR leaf ambient      2511/65536       70308/1835008  ( 3.8%) 
+HDR leaf ambient       508/65536       14224/1835008  ( 0.8%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/1468     ( 0.1%) 
+pakfile               [variable]      256619/0        ( 0.0%) 
+physics               [variable]       43729/4194304  ( 1.0%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7d
+
+Total triangle count: 1811
+Writing h:\documents\github\csgo-maps\rox\de_rox.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'h:\documents\github\csgo-maps\rox\de_rox.bsp', but we don't own that location. Allowing...
+2 seconds elapsed
